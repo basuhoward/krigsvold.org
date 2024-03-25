@@ -1,3 +1,15 @@
-.bg-gradient-primary {
-    background-image: linear-gradient(195deg, #404010 0%, #101040 100%);
+.bg-gradient-primary, .bg-gradient-dark {
+    background-image: linear-gradient(195deg, #5f76b0 0%, #263e7c 100%);
+}
+
+p a {
+    font-weight: bold;
+}
+
+.rotating-card-container .card .back::after, .rotating-card-container .card .front::after {
+    background-image: linear-gradient(195deg, #5f76b0 0%, #263e7c 100%);
+}
+
+.text-gradient.text-primary {
+    background-image: linear-gradient(195deg, #5f76b0 0%, #263e7c 100%);
 }

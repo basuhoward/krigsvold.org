@@ -3,16 +3,21 @@ primaryLogo: /assets/img/identity/primary-logo-light.svg
 
 main_menu_settings:
   menu_items:
-    - title: About
+    - title: About the Count
       url: /about
-    - title: History
-      url: /history
-    - title: Archives
-      url: /archives
+      icon: person
+    - title: Krigsvold & Matikonis
+      url: /krigsvold-matikonis
+      icon: landscape
     - title: FAQ
       url: /faq
-    - title: Award
-      url: /award
+      icon: quiz
+    - title: Get Involved
+      url: /get-involved
+      icon: groups
+    - title: The Fellowship
+      url: /fellowship
+      icon: school
 
 footer_menu_settings:
   menu_items:
