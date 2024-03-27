@@ -19,11 +19,13 @@
     {% if page.featured_image != nil %}
     <header class="header-2">
       <div class="page-header min-vh-75 relative" style="background-image: url('{{ page.featured_image | relative_url }}')">
-        <span class="mask bg-gradient-primary opacity-4"></span>
+        <span class="mask bg-gradient-primary opacity-7"></span>
         <div class="container">
           <div class="row">
-            <div class="col-lg-7 text-center mx-auto">
-              <h1 class="text-white pt-3 mt-n5">The Count of Krigsvold</h1>
+            <div class="col-lg-12 text-center mx-auto">
+              <h1 class="text-white pt-3 mt-n5">
+                <img src="{{ '/assets/img/identity/primary-logo-light.svg' | relative_url }}" />
+              </h1>
               <p class="lead text-white mt-3">This we must protect.</p>
             </div>
           </div>
@@ -43,17 +45,17 @@
               <div class="row">
                 <div class="col-md-4 position-relative">
                   <div class="p-3 text-center">
-                    <h1 class="text-gradient text-primary"><span id="state1" countTo="411">0</span> million</h1>
-                    <h5 class="mt-3">Metric Tons</h5>
-                    <p class="text-sm font-weight-normal">Antarctic ice mass lost per <i>day</i> due to climate change since 2003</p>
+                    <h1 class="text-gradient text-primary"> <span id="state2" countTo="77">0</span>%</h1>
+                    <h5 class="mt-3">Antarctic Penguin</h5>
+                    <p class="text-sm font-weight-normal">Population loss since 1970</p>
                   </div>
                   <hr class="vertical dark">
                 </div>
                 <div class="col-md-4 position-relative">
                   <div class="p-3 text-center">
-                    <h1 class="text-gradient text-primary"> <span id="state2" countTo="77">0</span>%</h1>
-                    <h5 class="mt-3">Antarctic Penguin</h5>
-                    <p class="text-sm font-weight-normal">Population loss since 1970</p>
+                    <h1 class="text-gradient text-primary"><span id="state1" countTo="411">0</span> million</h1>
+                    <h5 class="mt-3">Metric Tons</h5>
+                    <p class="text-sm font-weight-normal">Antarctic ice mass lost per <i>day</i> due to climate change since 2003</p>
                   </div>
                   <hr class="vertical dark">
                 </div>
@@ -130,7 +132,7 @@
       </section>
     </div>
     {% include footer.html %}
-    {% include jscode.html %}
   </body>
-
+  {% include jscode.html %}
+  {% include ga.html %}
 </html>

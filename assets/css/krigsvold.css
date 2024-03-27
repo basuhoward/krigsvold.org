@@ -1,5 +1,5 @@
 .bg-gradient-primary, .bg-gradient-dark {
-    background-image: linear-gradient(195deg, #5f76b0 0%, #263e7c 100%);
+    background: radial-gradient(#000000, #263e7c);
 }
 
 p a {

@@ -14,19 +14,55 @@ main_menu_settings:
       icon: quiz
     - title: Get Involved
       url: /get-involved
-      icon: groups
+      icon: hail
     - title: The Fellowship
       url: /fellowship
       icon: school
 
 footer_menu_settings:
   menu_items:
-    - title: Privacy Policy
-      url: /privacy-policy
-    - title: Terms of Use
-      url: /terms-of-use
-    - title: Copyright
-      url: /copyright
+    - title: The House
+      submenu_items:
+      - title: House of Basu-Howard
+        url: https://basuhoward.org
+        target: _blank
+      - title: Manor of Dungeon in Kent
+        url: https://dungeonmanor.uk
+        target: _blank
+      - title: Dr James P. Howard, II
+        url: https://jameshoward.us
+        target: _blank
+    - title: Westarctica
+      submenu_items:
+      - title: Grand Duchy of Westarctica
+        url: https://www.westarctica.info
+        target: _blank
+      - title: Encyclopedia Westarctica
+        url: https://www.westarctica.wiki
+        target: _blank
+      - title: Westarctica, Inc.
+        url: https://www.westarctica.org
+        target: _blank
+    - title: Resources
+      submenu_items:
+      - title: NOAA
+        url: https://www.climate.gov
+        target: _blank
+      - title: United Nations
+        url: https://www.un.org/en/climatechange
+        target: _blank
+      - title: EPA
+        url: https://www.epa.gov/climate-change
+        target: _blank
+    - title: Legal
+      submenu_items:
+      - title: Privacy
+        url: /privacy-policy
+      - title: Terms of Use
+        url: /terms-of-use
+      - title: Copyright
+        url: /copyright
+
 
 footer_settings:
   footer_tagline: A website of the House of Basu-Howard

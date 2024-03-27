@@ -2,7 +2,7 @@
 layout: page
 title: About Krigsvold and Matikonis
 subtitle: Learn about the Krigsvold Nunataks and Matikonis Peak
-featured_image: /assets/img/identity/krigsvold-banner.jpg
+featured_image: /assets/img/krigsvold-banner.jpg
 ---
   
 <div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
