@@ -1,233 +1,70 @@
 ---
 layout: page
 title: Frequently Asked Questions
-subtitle: Learn about the Krigsvold Nunataks and Matikonis Peak
+subtitle: Answer your questions here
 featured_image: /assets/img/faq-banner.jpg
 ---
-
-<div class="card card-body shadow-xl mx-3 mx-md-4 mt-n6">
-  <section class="py-7">
-    <div class="container mt-sm-5 mt-3">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-            <h3>Climate Change and Antarctica</h3>
-            <h6 class="text-secondary font-weight-normal pe-3">Learn about the effects of climate change on Antarcica</h6>
+<section class="pt-3 pt-md-5 pb-md-5 pb-lg-7">
+  <div class="container">
+    <div class="col-12 mx-auto">
+      <div class="card shadow-lg">
+        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+          <div class="bg-gradient-info shadow-info border-radius-lg p-4">
+            <h3 class="text-white mb-0">Frequently Asked Questions</h3>
           </div>
         </div>
-        <div class="col-lg-9">
-          <div class="row mt-3">
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-12 me-auto">
-                      <h3 class="mt-0 mb-0">How is climate change affecting Antarctica?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Climate change impacts Antarctica in several significant ways, including increasing temperatures, melting glaciers and ice sheets, decreasing sea ice extent, and changing ecosystems. These changes not only affect the continent's ice and wildlife but also have global implications, such as rising sea levels. For more information, visit <a href="https://www.ipcc.ch/">the Intergovernmental Panel on Climate Change (IPCC)</a> and <a href="https://nsidc.org/">the National Snow and Ice Data Center (NSIDC)</a>.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">Why is Antarctic ice melting important?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        The melting of Antarctic ice is critical because it contributes to global sea level rise, which can lead to flooding of coastal areas around the world. Additionally, the loss of ice affects global climate patterns and marine ecosystems, disrupting food chains and biodiversity. Explore <a href="https://www.nature.com/collections/ybtrhscfct/icesheetdynamics">Nature's resources on ice sheet dynamics</a> for more insights.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">What causes the melting of Antarctic ice?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        The melting of Antarctic ice is primarily caused by rising global temperatures due to increased greenhouse gas emissions. Additionally, ocean warming contributes to the melting of ice shelves from below, further accelerating ice loss. The <a href="https://climate.nasa.gov/">NASA Climate Change website</a> provides detailed information on these processes.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">Are Antarctic animals at risk due to climate change?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Yes, Antarctic wildlife, including penguins, seals, and whales, face significant threats from climate change. These threats include habitat loss, reduced food availability, and shifting ecosystem dynamics, which can affect breeding success and survival rates. The <a href="https://www.wwf.org.uk/learn/effects-of/climate-change">World Wildlife Fund</a> discusses impacts on wildlife in more detail.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How do we know climate change is happening?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Evidence of climate change includes direct temperature measurements, melting ice sheets and glaciers, rising sea levels, and changes in weather patterns. Scientists use a variety of tools and data, including satellites, weather stations, and ice cores, to track these changes over time. The <a href="https://climate.nasa.gov/evidence/">NASA Evidence page</a> provides an overview of the evidence for climate change.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How do we know that human activities are causing climate change?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        The link between human activities and climate change is well-established through extensive research. The primary evidence includes the increase in atmospheric concentrations of carbon dioxide (CO2) and other greenhouse gases resulting from burning fossil fuels, deforestation, and industrial activities. These gases trap heat in the atmosphere, leading to global warming. The <a href="https://www.ipcc.ch/report/ar6/wg1/">IPCC's Sixth Assessment Report</a> provides detailed scientific information on human influence on the climate.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">What can I do to help combat climate change and its effects on Antarctica?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Individuals can help by reducing their carbon footprint, supporting renewable energy, advocating for climate action, and raising awareness about the importance of preserving Antarctica. Supporting scientific research and conservation initiatives is also crucial. For practical tips, visit <a href="https://www.earthday.org/actions/">Earth Day's climate action suggestions</a>.
-                      </p>
-                    </div>
-                  </div>
+        <div class="card-body p-sm-5 pt-4">
+          {% for group in site.data.faq.groups %}
+          <h5 class="my-4">{{ group.name }}</h5>
+          <div class="accordion" id="accordionFaq">
+            {% for question in group.questions %}
+            <div class="accordion-item mb-3">
+              <h6 class="accordion-header" id="{{ question.question | slugify }}">
+                <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ question.question | slugify }}" aria-expanded="false" aria-controls="collapse-{{ question.question | slugify }}">
+                  {{ question.question }}
+                  <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
+                  <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
+                </button>
+              </h6>
+              <div id="collapse-{{ question.question | slugify }}" class="accordion-collapse collapse" aria-labelledby="{{ question.question | slugify }}" data-bs-parent="#accordionFaq">
+                <div class="accordion-body">
+                  {{ question.answer }}
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-            <h3>The West Antarctic Ice Sheet</h3>
-            <h6 class="text-secondary font-weight-normal pe-3">Understanding the Ice Fragile Giant</h6>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="row mt-3">
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-12 me-auto">
-                      <h3 class="mt-0 mb-0">What is the West Antarctic Ice Sheet (WAIS)?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        The West Antarctic Ice Sheet is a massive ice sheet that covers West Antarctica. It is one of the two main ice sheets in Antarctica, the other being the East Antarctic Ice Sheet. The WAIS is particularly notable for its potential to significantly contribute to global sea level rise if it were to melt or collapse due to its substantial volume of ice.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">Why is the WAIS considered unstable?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        The WAIS is considered unstable because it rests on land that is below sea level, making it vulnerable to a process known as marine ice sheet instability. This means that increases in ocean temperatures can lead to the melting of the ice sheet from below, potentially triggering a self-sustaining collapse.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How much could global sea levels rise if the WAIS collapsed?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        If the WAIS were to collapse entirely, it is estimated that global sea levels could rise by about 3.3 meters (approximately 10.8 feet). Such a rise would have catastrophic implications for coastal communities worldwide, leading to increased flooding, erosion, and displacement of populations.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">What are the current trends in ice loss for the WAIS?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Recent observations indicate that the WAIS is losing ice at an accelerating rate. Studies have shown that there has been a 75% increase in ice loss over the past two decades, with the ice sheet losing approximately 121 billion tons of ice per year.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">What actions are being taken to monitor and preserve the WAIS?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Efforts to monitor and preserve the WAIS include extensive scientific research to better understand its dynamics and vulnerabilities, international collaborations to address climate change, and advocacy for reducing greenhouse gas emissions. Organizations like Westarctica are also working to raise public awareness and promote conservation efforts specifically targeted at the WAIS.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How can individuals contribute to the conservation of the WAIS?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Individuals can contribute to the conservation of the WAIS by supporting policies and practices that reduce greenhouse gas emissions, such as using renewable energy sources, reducing waste, and advocating for climate action. Public support for scientific research and conservation organizations focused on Antarctica is also vital.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-            <h3>The Count</h3>
-            <h6 class="text-secondary font-weight-normal pe-3">Questions about the Count</h6>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="row mt-3">
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-12 me-auto">
-                      <h3 class="mt-0 mb-0">Who is the Count of Krigsvold?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        The Count of Krigsvold is Dr James P. Howard, II, a distinguished data scientist, mathematician, and environmental advocate. With a rich background in scientific research and environmental policy, the Count plays a pivotal role in advocating for the conservation of Western Antarctica and addressing global climate change issues.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">What responsibilities does the Count have?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        As the Count of Krigsvold, Dr. Howard is actively involved in raising awareness about the environmental challenges facing Western Antarctica, promoting conservation efforts, and engaging in educational initiatives to inform the public about climate change and its impacts. The Count also supports Westarctica's mission through strategic planning and collaboration with environmental organizations.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How does the Count contribute to Westarctica's environmental goals?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        The Count contributes to Westarctica's environmental goals by leveraging his expertise in environmental science and policy to advocate for sustainable practices, participate in research projects aimed at preserving the West Antarctic Ice Sheet, and support campaigns against ecocide. His efforts underscore the importance of scientific knowledge in guiding conservation actions.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">Can the public collaborate with the Count on environmental initiatives?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Yes, the public is encouraged to collaborate with the Count on environmental initiatives. By joining Westarctica's campaigns, participating in educational programs, and supporting conservation efforts, individuals can make a significant contribution to the fight against climate change and the preservation of Western Antarctica's unique ecosystem.
-                      </p>
-                      <h3 class="mt-3 mb-0">Where can I learn more about the Count's work and Westarctica?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        To learn more about the Count's work, please visit <a href="https://jameshoward.us">Dr Howard's website</a>.  To learn more about Westarctica, please visit the <a href="https://westarctica.info">the Grand Duchy of Westarctica's website</a>.
-                      </p>
-                      <h3 class="mt-3 mb-0">How can I reach the Count?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        For correspondence with James Howard, kindly proceed to <a href="https://jameshoward.us/contact-me/">his contact us page</a>.
-                      </p>
-                      <h3 class="mt-3 mb-0">Should you be addressed as "Count" because of your title?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        While the title itself might suggest such formal address, there are <a href="https://www.heraldica.org/topics/britain/Arundell.htm">more substantive grounds</a> that merit the use of "Count" beyond the title alone.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="position-sticky pb-lg-5 pb-3 mt-lg-0 mt-5 ps-2" style="top: 100px">
-            <h3>Westarctica</h3>
-            <h6 class="text-secondary font-weight-normal pe-3">How Westarctica Works</h6>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="row mt-3">
-            <div class="col-12">
-              <div class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7">
-                <div class="container border-bottom">
-                  <div class="row justify-space-between py-2">
-                    <div class="col-lg-12 me-auto">
-                      <h3 class="mt-0 mb-0">What is Westarctica?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Westarctica is a unique nonprofit organization and self-declared independent nation dedicated entirely to the conservation and advocacy for Western Antarctica. It focuses on protecting one of the planet's most fragile ecosystems, which lacks a formal voice in international affairs due to its absence of government sovereignty.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">Why is Westarctica important?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Western Antarctica's ecosystem is under threat from climate change, leading to increased ice loss and global sea level rise. Westarctica's mission is to act as an advocate for this region, working towards global ecocide prevention, preservation of the West Antarctic Ice Sheet (WAIS), and increased scientific research and international cooperation for sustainable development.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How is Westarctica combating climate change?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Westarctica combats climate change through various campaigns such as public shaming of ecocide perpetrators, advocating for sustainable practices, and participating in global movements like the Rise for Climate protests. It also aims to preserve and monitor the WAIS by educating the public on actions to prevent rising sea levels.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">Can I contribute to Westarctica's efforts?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Yes, individuals can support Westarctica's conservation efforts through simple actions like recycling, reducing meat consumption, reusing materials, using public transportation or hybrid vehicles, conserving water, and participating in climate rallies. Every effort counts in the fight against rising sea levels and climate change.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How does Westarctica operate?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Westarctica is managed by a government structure headed by Grand Duke Travis, alongside the Prime Minister, the Royal Council, and the Grand Ducal Court. This leadership team, including noble Peers, works towards fulfilling Westarctica's mission and goals through strategic initiatives and partnerships.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">Is Westarctica recognized internationally?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        Westarctica holds non-consultative status with the United Nations Department of Economic and Social Affairs - NGO Branch, showcasing its commitment to engaging with the international community on environmental and conservation issues concerning Western Antarctica.
-                      </p>
-
-                      <h3 class="mt-3 mb-0">How is Westarctica funded?</h3>
-                      <p class="lead text-dark pt-1 mb-0">
-                        As a 501(c)(3) tax-exempt charitable organization, Westarctica is funded through donations, grants, and fundraising activities. It is dedicated to transparency, publishing annual financial reports to demonstrate how funds are raised and utilized towards its conservation efforts.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {% endfor %}
+              {% endfor %}
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>
+
+<script type="text/javascript">
+
+  if (document.getElementById('state1')) {
+      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+      if (!countUp.error) {
+          countUp.start();
+      } else {
+          console.error(countUp.error);
+      }
+  }
+  if (document.getElementById('state2')) {
+      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+      if (!countUp1.error) {
+          countUp1.start();
+      } else {
+          console.error(countUp1.error);
+      }
+  }
+  if (document.getElementById('state3')) {
+      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+      if (!countUp2.error) {
+          countUp2.start();
+      } else {
+          console.error(countUp2.error);
+      };
+  }
+</script>
