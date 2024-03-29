@@ -2,6 +2,20 @@
     background: radial-gradient(#000000, #263e7c);
 }
 
+.accordion {
+    --bs-accordion-color: #303030;
+}
+
+body {
+    font-weight: initial;
+    color: #303030;
+}
+
+p {
+    font-weight: initial;
+    color: #303030;
+}
+
 p a {
     font-weight: bold;
 }
