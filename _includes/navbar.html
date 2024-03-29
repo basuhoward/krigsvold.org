@@ -4,7 +4,7 @@
     <div class="col-12">
       <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
         <div class="container-fluid">
-          <a class="navbar-brand font-weight-bolder ms-sm-3" href="{{ site.url | relative_url }}" rel="tooltip" title="Home page">
+          <a class="navbar-brand font-weight-bolder ms-sm-2" href="{{ site.url | relative_url }}" rel="tooltip" title="Home page">
             {{ site.title }}
           </a>
           <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,13 +15,20 @@
             </span>
           </button>
           <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0" id="navigation">
-            <ul class="navbar-nav navbar-nav-hover ms-lg-12 ps-lg-5 w-100">
+            <ul class="navbar-nav navbar-nav-hover ms-lg-10 ps-lg-5 w-100">
               {% for item in site.data.settings.main_menu_settings.menu_items %}
               <li class="nav-item dropdown dropdown-hover mx-2">
                 <a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                    href="{{ item.url | relative_url }}" class="nav-link">
                   <i class="material-icons opacity-6 me-2 text-md">{{ item.icon }}</i>
                   {{ item.title }}
+                </a>
+              </li>
+              {% endfor %}
+              {% for item in site.data.settings.social_media %}
+              <li class="nav-item ms-lg-2">
+                <a class="nav-link nav-link-icon mx-0 px-1" href="{{ item.url }}" target="_blank">
+                  <i class="fa fa-{{ item.icon }} me-1"></i>
                 </a>
               </li>
               {% endfor %}

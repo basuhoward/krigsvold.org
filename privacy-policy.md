@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: The privacy policy for the  website
-layout: text
+layout: page
 featured_image: /assets/img/privacy-policy-banner.jpg
 ---
 

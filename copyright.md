@@ -1,11 +1,11 @@
 ---
 title: Copyright
 description: The copyright for the Count of Krigsvold website
-layout: text
+layout: page
 featured_image: /assets/img/copyright-banner.jpg
 ---
 
-Copyright &copy; 2024-{{ 'now' | date: "%Y" }} the House of 
+Copyright &copy; 2023-{{ 'now' | date: "%Y" }} the House of 
 Basu-Howard.  All rights reserved.
 
 All content on this website, including text, graphics,

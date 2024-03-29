@@ -1,7 +1,7 @@
 ---
 title: Terms of Use
 description: The terms of use for the Count of Krigsvold website
-layout: text
+layout: page
 featured_image: /assets/img/terms-of-use-banner.jpg
 ---
 

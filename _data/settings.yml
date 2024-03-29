@@ -19,6 +19,7 @@ main_menu_settings:
       url: /fellowship
       icon: school
 
+
 footer_menu_settings:
   menu_items:
     - title: The House
@@ -63,6 +64,11 @@ footer_menu_settings:
       - title: Copyright
         url: /copyright
 
+social_media:
+  - icon: twitter
+    url: https://twitter.com/countkrigsvold
+  - icon: facebook
+    url: https://www.facebook.com/CountKrigsvoldWestarctica
 
 footer_settings:
   footer_tagline: A website of the House of Basu-Howard
