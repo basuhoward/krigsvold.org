@@ -17,13 +17,33 @@
           <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0" id="navigation">
             <ul class="navbar-nav navbar-nav-hover ms-lg-10 ps-lg-5 w-100">
               {% for item in site.data.settings.main_menu_settings.menu_items %}
-              <li class="nav-item dropdown dropdown-hover mx-2">
+              {% unless item.submenu_items %}
+              <li class="nav-item mx-2">
                 <a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                    href="{{ item.url | relative_url }}" class="nav-link">
                   <i class="material-icons opacity-6 me-2 text-md">{{ item.icon }}</i>
                   {{ item.title }}
                 </a>
               </li>
+              {% else %}
+              <li class="nav-item dropdown dropdown-hover mx-2">
+                <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuAbout" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="material-icons opacity-6 me-2 text-md">{{ item.icon }}</i>
+                  {{ item.title }} &nbsp;
+                  <img src="/assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-animation dropdown-lg dropdown-lg-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuAbout">
+                  <div class="d-none d-lg-block">
+                    {% for subitem in item.submenu_items %}
+                    <a href="{{ subitem.url | relative_url }}" class="dropdown-item border-radius-md">
+                      <i class="material-icons opacity-6 me-2 text-md">{{ subitem.icon }}</i>
+                      {{ subitem.title }}
+                    </a>
+                    {% endfor %}
+                  </div>
+                </ul>
+              </li>
+              {% endunless %}
               {% endfor %}
               {% for item in site.data.settings.social_media %}
               <li class="nav-item ms-lg-2">

@@ -24,7 +24,7 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
                   <div class="d-none d-lg-block">
-                    <a href="javascript:;" class="dropdown-item border-radius-md">
+                    <a href="{{ item.url | relative_url }} class="dropdown-item border-radius-md">
                       About Us
                     </a>
                     <a href="javascript:;" class="dropdown-item border-radius-md">

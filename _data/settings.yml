@@ -3,12 +3,30 @@ primaryLogo: /assets/img/identity/primary-logo-light.svg
 
 main_menu_settings:
   menu_items:
-    - title: About the Count
-      url: /about
-      icon: person
-    - title: Krigsvold & Matikonis
-      url: /krigsvold-matikonis
-      icon: landscape
+    - title: About
+      icon: info
+      submenu_items:
+        - title: The Count
+          url: /about
+          icon: person
+        - title: Krigsvold & Matikonis
+          url: /krigsvold-matikonis
+          icon: landscape
+    - title: Impacts
+      icon: layers
+      submenu_items:
+        - title: Rapid Ice Melt
+          url: /rapid-ice-melt
+          icon: ac_unit
+        - title: Warming Continents
+          url: /warming-continents
+          icon: thermostat
+        - title: Endangered Ecosystems
+          url: /endangered-ecosystems
+          icon: pets
+        - title: Research and Response
+          url: /research-response
+          icon: science
     - title: FAQ
       url: /faq
       icon: quiz
