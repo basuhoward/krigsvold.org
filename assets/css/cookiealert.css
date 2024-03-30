@@ -24,16 +24,3 @@
     transform: translateY(0%);
     transition-delay: 1000ms;
 }
-
-.cookiealert a {
-    text-decoration: underline;
-    font-weight: bold;
-    color: inherit;
-}
-
-.cookiealert a:hover {
-    color: inherit;
-}
-
-.cookiealert .acceptcookies {
-}
