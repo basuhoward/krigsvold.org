@@ -8,6 +8,9 @@
 
     var cookieAlert = document.querySelector(".cookiealert");
     var acceptCookies = document.querySelector(".acceptcookies");
+    var rejectCookies = document.querySelector(".rejectcookies");
+
+    window['ga-disable-G-13CWX5EBQG'] = true;
 
     if (!cookieAlert) {
        return;
@@ -18,6 +21,9 @@
     // Show the alert if we cant find the "acceptCookies" cookie
     if (!getCookie("acceptCookies")) {
         cookieAlert.classList.add("show");
+    } else {
+        window['ga-disable-G-13CWX5EBQG'] = false;
+        startGoogleAnalytics("G-13CWX5EBQG")
     }
 
     // When clicking on the agree button, create a 1 year
@@ -26,9 +32,27 @@
         setCookie("acceptCookies", true, 365);
         cookieAlert.classList.remove("show");
 
+        startGoogleAnalytics("G-13CWX5EBQG")
+
         // dispatch the accept event
         window.dispatchEvent(new Event("cookieAlertAccept"))
     });
+
+    // When clicking on the reject button, close the banner
+    rejectCookies.addEventListener("click", function () {
+        cookieAlert.classList.remove("show");
+
+        // dispatch the accept event
+        window.dispatchEvent(new Event("cookieAlertReject"))
+    });
+
+    function startGoogleAnalytics(gaID) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', gaID);
+    }
 
     // Cookie functions from w3schools
     function setCookie(cname, cvalue, exdays) {
