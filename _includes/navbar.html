@@ -5,7 +5,7 @@
       <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
         <div class="container-fluid">
           <a class="navbar-brand font-weight-bolder ms-sm-2" href="{{ site.url | relative_url }}" rel="tooltip" title="Home page">
-            {{ site.title }}
+            <span class="font-weight-bold opacity-10">{{ site.title }}</span>
           </a>
           <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon mt-2">
@@ -22,15 +22,15 @@
                 <a class="nav-link ps-2 d-flex cursor-pointer align-items-center"
                    href="{{ item.url | relative_url }}" class="nav-link">
                   <i class="material-icons opacity-8 me-2 text-md">{{ item.icon }}</i>
-                  {{ item.title }}
+                  <span class="font-weight-bold">{{ item.title }}</span>
                 </a>
               </li>
               {% else %}
               <li class="nav-item dropdown dropdown-hover mx-2">
                 <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenu{{ item.icon }}" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="material-icons opacity-8 me-2 text-md">{{ item.icon }}</i>
-                  {{ item.title }}
-                  <img src=" ./assets/img/down-arrow-dark.svg  " alt="down-arrow" class="arrow ms-2 d-lg-block d-none">
+                  <span class="font-weight-bold">{{ item.title }}</span>
+                  <span class="material-icons">expand_more</span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenu{{ item.icon }}">
                   <div class="d-none d-lg-block">
@@ -38,8 +38,8 @@
                       {% for subitem in item.submenu_items %}
                       <li class="nav-item list-group-item border-0 p-0">
                         <a class="dropdown-item py-2 ps-3 border-radius-md" href="{{ subitem.url | relative_url }}">
-                          <i class="material-icons opacity-6 me-2 text-md">{{ subitem.icon }}</i>
-                          {{ subitem.title }}
+                          <i class="material-icons opacity-10 me-2 text-md align-middle">{{ subitem.icon }}</i>
+                          <span class="font-weight-bold opacity-10">{{ subitem.title }}</span>
                         </a>
                       </li>
                       {% endfor %}
@@ -49,9 +49,9 @@
                     <div class="col-md-12 g-0">
                       {% for subitem in item.submenu_items %}
                       <a class="dropdown-item py-2 ps-3 border-radius-md" href="{{ subitem.url | relative_url }}">
-                        <span class="opacity-8">
-                          <i class="material-icons opacity-8 me-2 text-md">{{ subitem.icon }}</i>
-                          {{ subitem.title }}
+                        <span class="opacity-10">
+                          <i class="material-icons me-2 text-md align-middle">{{ subitem.icon }}</i>
+                          <span class="font-weight-bold opacity-10">{{ subitem.title }}</span>
                         </span>
                       </a>
                       {% endfor %}
@@ -66,7 +66,7 @@
               <li class="nav-item ms-lg-2">
                 <a class="nav-link nav-link-icon mx-0 px-1" href="{{ item.url }}" target="_blank">
                   <i class="fa fa-{{ item.icon }} me-1"></i>
-                  {{ item.name }}
+                  <span class="font-weight-bold">{{ item.name }}</span>
                 </a>
               </li>
               {% endfor %}
@@ -77,5 +77,3 @@
     </div>
   </div>
 </div>
-
-{% include cookiewarning.html %}
