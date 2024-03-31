@@ -36,7 +36,7 @@ climate change. By removing CO2 from the atmosphere, Antarctica
 helps to offset the impacts of anthropogenic CO2 emissions, which
 are primarily responsible for the ongoing rise in global temperatures.
 
-### Consequences of Ice Melt
+## Consequences of Ice Melt
 
 However, the ongoing warming of Antarctica due to climate change
 poses significant risks to its ice sheets and the carbon sequestration
@@ -46,7 +46,7 @@ atmosphere. This process could lead to a positive feedback loop,
 where rising temperatures cause more ice melt, releasing more CO2,
 further exacerbating climate change.
 
-### Impacts on Global Sea Levels
+## Impacts on Global Sea Levels
 
 Furthermore, the melting of Antarctica's ice sheets contributes to
 rising global sea levels, with potentially catastrophic consequences
