@@ -24,3 +24,12 @@
     transform: translateY(0%);
     transition-delay: 1000ms;
 }
+
+.text-black {
+    color: #000000 !important;
+}
+
+.text-black a {
+    color: #000000 !important;
+    text-decoration: underline;
+}
