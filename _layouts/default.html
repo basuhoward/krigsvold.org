@@ -23,7 +23,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center mx-auto">
-                <img src="{{ '/assets/img/identity/primary-logo-light.svg' | relative_url }}" class="w-100 col-sm-4" />
+              <img src="{{ '/assets/img/identity/primary-logo-light.svg' | relative_url }}" class="w-100 col-sm-4" />
               <p class="lead text-white mt-3">This we must protect.</p>
             </div>
           </div>
@@ -73,26 +73,6 @@
       <section class="my-5 py-5">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
-              <div class="rotating-card-container">
-                <div class="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
-                  <div class="front front-background" style="background-image: url({{ '/assets/img/card-front.jpg' | relative_url }}); background-size: cover;">
-                    <div class="card-body py-7 text-center">
-                      <i class="material-icons text-white text-4xl my-3">public</i>
-                      <h3 class="text-white">Explore Antarctica's <br /> Climate Challenge</h3>
-                      <p class="text-white text-bold opacity-8">Discover how Antarctica's fragile ecosystem is at the forefront of climate change.</p>
-                    </div>
-                  </div>
-                  <div class="back back-background" style="background-image: url({{ '/assets/img/card-back.jpg' | relative_url }}); background-size: cover;">
-                    <div class="card-body pt-7 text-center">
-                      <h3 class="text-white">Join the Cause</h3>
-                      <p class="text-white text-bold opacity-8">Be part of a global effort to safeguard Antarctica. Every action counts towards a healthier planet.</p>
-                      <a href="{{ '/get-involved' | relative_url }}" class="btn btn-white btn-sm w-50 mx-auto mt-3">Learn How to Help</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="col-lg-6 ms-auto">
               <div class="row justify-content-start">
                 <div class="col-md-6">
@@ -135,9 +115,65 @@
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">
+              <div class="rotating-card-container">
+                <div class="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
+                  <div class="front front-background" style="background-image: url({{ '/assets/img/card-front.jpg' | relative_url }}); background-size: cover;">
+                    <div class="card-body py-7 text-center">
+                      <i class="material-icons text-white text-4xl my-3">public</i>
+                      <h3 class="text-white">Explore Antarctica's <br /> Climate Challenge</h3>
+                      <p class="text-white text-bold opacity-8">Discover how Antarctica's fragile ecosystem is at the forefront of climate change.</p>
+                    </div>
+                  </div>
+                  <div class="back back-background" style="background-image: url({{ '/assets/img/card-back.jpg' | relative_url }}); background-size: cover;">
+                    <div class="card-body pt-7 text-center">
+                      <h3 class="text-white">Join the Cause</h3>
+                      <p class="text-white text-bold opacity-8">Be part of a global effort to safeguard Antarctica. Every action counts towards a healthier planet.</p>
+                      <a href="{{ '/get-involved' | relative_url }}" class="btn btn-white btn-sm w-50 mx-auto mt-3">Learn How to Help</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+      <section class="py-4 position-relative">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-10 mx-auto bg-gradient-dark border-radius-lg">
+              <div class="row py-5">
+                <div class="col-xl-4 col-md-6 px-5 position-relative">
+                  <img class="img border-radius-md max-width-300 w-100 position-relative z-index-2 mt-n7" src="{{ '/assets/img/apollo-4.jpg' | relative_url }}" loading="lazy" alt="card image">
+                </div>
+                <div class="col-xl-4 col-md-5 z-index-2 position-relative px-md-3 px-5 my-md-auto mt-4">
+                  <i class="material-icons text-white text-5xl">format_quote</i>
+                  <p class="text-lg text-white">
+                    The thing that is most beautiful about Antarctica
+                    for me is the light. It's like no other light on
+                    Earth, because the air is so free of impurities.
+                    You get drugged by it, like when you listen to one
+                    of your favorite songs. The light there is a
+                    mood-enhancing substance.
+                  </p>
+                  <p class="text-white font-weight-bold text-sm">Jon Krakauer - <span class="text-xs font-weight-normal">Author</span></p>
+                  <hr class="vertical start-100 ms-n5 d-xl-block d-none">
+                </div>
+                <div class="col-1"></div>
+                <div class="col-xl-2 col-12 px-xl-0 px-5 my-xl-auto">
+                  <h3 class="text-white mt-xl-0 mt-5">49 billion tons</h3>
+                  <p class="text-sm text-white opacity-8">Amount of carbon-dioxide absorbed by the Antarctic ice sheets per year</p>
+                  <a href="{{ '/carbon-sequestration' | relative_url }}" class="text-white icon-move-right text-sm">Learn more
+                    <i class="fas fa-arrow-right text-xs ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
     {% include footer.html %}
   </body>

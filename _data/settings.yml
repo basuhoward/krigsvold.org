@@ -27,6 +27,9 @@ main_menu_settings:
         - title: Research and Response
           url: /research-response
           icon: science
+        - title: Carbon Sequestration
+          url: /carbon-sequestration
+          icon: lock
     - title: FAQ
       url: /faq
       icon: quiz
