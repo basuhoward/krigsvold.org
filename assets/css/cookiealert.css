@@ -16,6 +16,7 @@
     border-radius: 0;
     transform: translateY(100%);
     transition: all 500ms ease-out;
+    line-height: inital;
 }
 
 .cookiealert.show {
@@ -27,6 +28,7 @@
 
 .text-black {
     color: #000000 !important;
+    line-height: inital;
 }
 
 .text-black a {
