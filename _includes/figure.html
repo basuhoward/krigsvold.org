@@ -1,0 +1,32 @@
+{% if include.placement == "right"          %}
+{%   assign pull = "pull-right"             %}
+{% else                                     %}
+{%   assign pull = ""                       %}
+{% endif                                    %}
+
+{% assign w = include.width | to_integer    %}
+{%   assign colwidth="col-md-" | append: w  %}
+
+{% assign img_class = "featured-img"        %}
+{% if include.border == true                %}
+{%   assign img_class = img_class | append: " border border-primary" %}
+{% endif                                    %}
+
+<div class="item {{ colwidth }} {{ pull }} p-3">
+    {% if include.link != null %}
+    <a href="{{ include.link | relative_url }}" class="header">
+    {% endif %}
+        <div class="card p-3 figure-img">
+            <figure class="m-0">
+                <img class="{{ img_class }}" src="{{ '/assets/img/' | append: include.image | relative_url }}"
+                     alt="{{ include.alt | default: 'no description' }}"
+                     {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
+                <div class="content">
+                    {% if include.cap != null %}
+                    <figcaption class="images-caption">{{ include.cap | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
+                    {% endif %}
+                </div>
+            </figure>
+        </div>
+    {% if include.link != null %}</a>{% endif %}
+</div>

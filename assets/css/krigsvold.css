@@ -16,7 +16,7 @@ p {
     color: #303030;
 }
 
-p a {
+a {
     font-weight: bold;
 }
 
@@ -32,4 +32,26 @@ p a {
     .dropdown.nav-item .dropdown-menu-animation.show {
         height: auto;
     }
+}
+
+article figure {
+  padding: 1em;
+  margin: 0em;
+}
+
+.images-caption {
+  margin-top: 0.5em;
+  font-size: 85%;
+  font-weight: bold;
+  color: #404040;
+  letter-spacing: 0;
+}
+
+.featured-img {
+  max-width: 100%;
+}
+
+.figure-img {
+  border-radius: 0rem;
+  background-color: #263e7c20;
 }
