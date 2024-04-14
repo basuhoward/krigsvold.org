@@ -55,3 +55,9 @@ article figure {
   border-radius: 0rem;
   background-color: #263e7c20;
 }
+
+.search-box {
+  width: 7em;
+  height: 1.5em;
+  color: black;
+}
