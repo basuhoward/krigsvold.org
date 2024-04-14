@@ -1,5 +1,6 @@
 ---
 layout: page
+date: 2024-04-14
 title: Carbon Sequestration
 subtitle: The Role of Antarctica in Locking Up Carbon
 featured_image: /assets/img/carbon-sequestration.jpg

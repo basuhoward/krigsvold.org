@@ -1,5 +1,6 @@
 ---
 title: Rapid Ice Melt
+date: 2024-04-14
 subtitle: The West Antarctic Ice Sheet's accelerated melting contributes to global sea level rise
 layout: page
 featured_image: /assets/img/rapid-ice-melt-banner.jpg

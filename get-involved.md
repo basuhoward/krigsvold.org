@@ -1,5 +1,6 @@
 ---
 layout: page
+date: 2024-04-14
 title: Get Involved
 subtitle: Join Us in Preserving Western Antarctica
 featured_image: /assets/img/get-involved-banner.jpg

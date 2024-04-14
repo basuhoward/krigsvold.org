@@ -1,5 +1,6 @@
 ---
 layout: page
+date: 2024-04-14
 title: About the Count
 subtitle: Learn about the Count of Krigsvold and Baron of Matikonis
 featured_image: /assets/img/about-banner.jpg

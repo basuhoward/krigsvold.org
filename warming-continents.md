@@ -1,5 +1,6 @@
 ---
 title: Warming Continents
+date: 2024-04-14
 subtitle: Antarctica's temperature rises, affecting ecosystems and ice stability
 layout: page
 featured_image: /assets/img/warming-continents-banner.jpg

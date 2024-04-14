@@ -4,4 +4,5 @@
 layout: default
 featured_image: /assets/img/home-banner.jpg
 title: The Count of Krigsvold
+date: 2024-04-14
 ---

@@ -1,5 +1,6 @@
 ---
 title: Terms of Use
+date: 2024-04-14
 description: The terms of use for the Count of Krigsvold website
 layout: page
 featured_image: /assets/img/terms-of-use-banner.jpg

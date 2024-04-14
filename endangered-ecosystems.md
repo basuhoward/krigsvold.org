@@ -2,6 +2,7 @@
 title: Endangered Ecosystems
 subtitle: Climate change disrupts food webs, threatening penguins, seals, and krill
 layout: page
+date: 2024-04-14
 featured_image: /assets/img/endangered-ecosystems-banner.jpg
 ---
 

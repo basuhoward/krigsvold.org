@@ -1,5 +1,6 @@
 ---
 title: Copyright
+date: 2024-04-14
 description: The copyright for the Count of Krigsvold website
 layout: page
 featured_image: /assets/img/copyright-banner.jpg

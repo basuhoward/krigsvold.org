@@ -1,5 +1,6 @@
 ---
 title: Research and Response
+date: 2024-04-14
 subtitle: Scientific research drives efforts to mitigate Antarctica's climate impacts
 layout: page
 featured_image: /assets/img/research-response-banner.jpg
