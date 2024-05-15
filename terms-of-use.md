@@ -3,7 +3,7 @@ title: Terms of Use
 date: 2024-04-14
 description: The terms of use for the Count of Krigsvold website
 layout: page
-featured_image: /assets/img/terms-of-use-banner.jpg
+featured_image: /assets/img/terms-of-use-banner.webp
 ---
 
 Welcome to the Count of Krigsvold ("we," "us," "our"). By accessing and using our website (https://krigsvold.org), you ("you," "your," "user") agree to comply with and be bound by the following terms and conditions of use. Please review these terms carefully. If you do not agree to these terms, you should not use this site.

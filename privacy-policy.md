@@ -3,7 +3,7 @@ title: Privacy Policy
 date: 2024-04-14
 description: The privacy policy for the  website
 layout: page
-featured_image: /assets/img/privacy-policy-banner.jpg
+featured_image: /assets/img/privacy-policy-banner.webp
 ---
 
 Welcome to the Count of Krigsvold ("we," "us," "our"). We are

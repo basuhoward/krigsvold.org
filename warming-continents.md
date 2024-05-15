@@ -3,7 +3,7 @@ title: Warming Continents
 date: 2024-04-14
 subtitle: Antarctica's temperature rises, affecting ecosystems and ice stability
 layout: page
-featured_image: /assets/img/warming-continents-banner.jpg
+featured_image: /assets/img/warming-continents-banner.webp
 ---
 
 Antarctica, the coldest continent on Earth, is experiencing unprecedented

@@ -2,7 +2,7 @@
 layout: page
 title: Search
 subtitle: Search the Count of Krigvold's site here
-featured_image: /assets/img/search-banner.jpg
+featured_image: /assets/img/search-banner.webp
 ---
 
 <div id="powered-by" style="float: right;"></div>

@@ -3,7 +3,7 @@ title: Copyright
 date: 2024-04-14
 description: The copyright for the Count of Krigsvold website
 layout: page
-featured_image: /assets/img/copyright-banner.jpg
+featured_image: /assets/img/copyright-banner.webp
 ---
 
 Copyright &copy; 2023-{{ 'now' | date: "%Y" }} the House of 
