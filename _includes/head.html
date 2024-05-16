@@ -4,24 +4,50 @@
 
   <link rel="icon" type="image/png" href="/assets/img/identity/favicon.svg">
 
+  {% assign keywords = "" %}
+  {% if page.keywords %}
+    {% for keyword in page.keywords %}
+      {% assign keywords = keywords | append: keyword | append: ", " %}
+    {% endfor %}
+  {% else %}
+    {% for keyword in site.keywords %}
+      {% assign keywords = keywords | append: keyword | append: ", " %}
+    {% endfor %}
+  {% endif %}
+  {% assign keywords = keywords | append: site.title %}
+
+  {% assign desc = page.content | markdownify | strip_html | strip_newlines | truncatewords: 30 %}
+  {% if page.subtitle %}
+    {% assign desc = page.subtitle | markdownify | strip_html | strip_newlines %}
+  {% endif %}
+
   <title>{{ page.title }}</title>
 
-  <link rel="canonical" href="{{ page.url }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-  <meta name="title" content="{{ page.title }}" />
+  <meta name="title" content="{{ page.title }} - {{ site.title }}" />
   <meta name="author" content="James" />
-  <meta name="description" content="{{ page.subtitle }}" />
+  <meta name="description" content="{{ desc }}" />
+  <meta name="keywords" content="{{ keywords }}">
 
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:description" content="{{ page.subtitle }}" />
-  <meta property="og:url" content="{{ page.url }}" />
-  <meta property="og:site_name" content="The Count of Krigsvold" />
+  <meta property="og:description" content="{{ desc }}" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="og:site_name" content="The Manor of Dungeon in Kent" />
   <meta property="og:image" content="{{ page.featured_image | relative_url }}" />
   <meta property="og:type" content="article" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:image" content="{{ page.featured_image | relative_url }}" />
+  {% if page.heroImage %}
+    <meta property="twitter:image" content="{{ page.heroImage | relative_url }}" />
+    <meta property="og:image" content="{{ page.heroImage | relative_url }}" />
+  {% endif %}
+  {% if page.featured_image %}
+    <meta property="twitter:image" content="{{ page.featured_image | relative_url }}" />
+    <meta property="og:image" content="{{ page.featured_image | relative_url }}" />
+  {% endif %}
+
   <meta property="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:site" content="@k3jph" />
   <meta name="twitter:creator" content="@k3jph" />
