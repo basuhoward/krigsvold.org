@@ -21,8 +21,13 @@ a {
 }
 
 .basu-howard-flag {
-  max-width: 3em;
+  max-width: 3rem;
+  max-height: 3rem;
   border: 1px solid #303030;
+}
+
+.basu-howard-banner {
+  line-height: 1.6em;
 }
 
 .rotating-card-container .card .back::after, .rotating-card-container .card .front::after {

@@ -161,7 +161,7 @@ desc "Serve and watch the site (with post limit or drafts)"
 task :watch, :option do |t, args|
   option = args[:option]
   if option.nil? or option.empty?
-    execute("jekyll serve --watch")
+    execute("jekyll serve --watch --config _config.yml,_config_dev.yml")
   else
     if option == "drafts"
       execute("jekyll serve --watch --drafts")

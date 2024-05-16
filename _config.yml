@@ -50,6 +50,10 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-algolia
+  - jekyll-inline-svg
+
+svg:
+  optimize: true
 
 exclude:
   - .sass-cache/
