@@ -1,10 +1,12 @@
+name: Reindex the site in Algolia
+
 on:
   push:
     branches:
       - master
       - main
   schedule:
-      - cron: '01 59 * * *'
+    - cron: "01 59 * * *"
 
 name: algolia-search
 jobs:
