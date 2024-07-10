@@ -6,7 +6,7 @@ on:
       - master
       - main
   schedule:
-    - cron: "01 59 * * *"
+    - cron: "59 01 * * *"
 
 jobs:
   algolia-search:
