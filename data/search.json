@@ -1,0 +1,38 @@
+---
+layout: null
+sitemap: false
+---
+[
+{% assign first = true %}
+{% for post in site.posts %}
+    {% unless post.published == false or post.sitemap == false %}
+        {% if first %}
+            {% assign first = false %}
+        {% else %}
+            ,
+        {% endif %}
+    {
+        "title":   {{ post.title | markdownify | strip_html | normalize_whitespace | jsonify }},
+        "uri":     "{{ post.url }}",
+        "date":    "{{ post.date | date: '%b %d, %Y' }}",
+        "content": {{ post.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+    }
+    {% endunless %}
+{% endfor %}
+
+{% for page in site.pages %}
+    {% unless page.published == false or page.sitemap == false %}
+        {% if first %}
+            {% assign first = false %}
+        {% else %}
+            ,
+        {% endif %}
+    {
+        "title":   {{ page.title | markdownify | strip_html | normalize_whitespace | jsonify }},
+        "uri":     "{{ page.url }}",
+        "date":    "{{ page.date | date: '%b %d, %Y' }}",
+        "content": {{ page.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+    }
+    {% endunless %}
+{% endfor %}
+]
