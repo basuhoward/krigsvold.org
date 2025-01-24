@@ -21,7 +21,6 @@ group :jekyll_plugins do
   gem "jekyll", "~> 4.3.3"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-redirect-from"
-  gem "jekyll-algolia"
   gem "jekyll-seo-tag"
   gem 'jekyll-sass-converter'
   gem "jekyll-paginate"

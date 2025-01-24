@@ -49,7 +49,6 @@ sass:
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-algolia
   - jekyll-inline-svg
 
 svg:
