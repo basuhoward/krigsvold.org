@@ -62,11 +62,29 @@ article figure {
 
 .figure-img {
   border-radius: 0rem;
-  background-color: #263e7c20;
+  background-color: #FCFCFF;
 }
+
+.img-border {
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #003262;
+}
+
 
 .search-box {
   width: 7em;
   height: 1.5em;
   color: black;
+}
+
+blockquote p {
+  background-color: #26619C;
+  color: #f8f8f8;
+  margin-left: 5%;
+  padding: 1em;
+}
+
+div.pull-right {
+  float: right;
 }

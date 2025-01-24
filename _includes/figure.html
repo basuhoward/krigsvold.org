@@ -4,29 +4,36 @@
 {%   assign pull = ""                       %}
 {% endif                                    %}
 
-{% assign w = include.width | to_integer    %}
-{%   assign colwidth="col-md-" | append: w  %}
-
-{% assign img_class = "featured-img"        %}
 {% if include.border == true                %}
-{%   assign img_class = img_class | append: " border border-primary" %}
+{%   assign img_border = "img-border p-5 mb-3"   %}
+{% else                                     %}
+{%   assign img_border = ""                 %}
 {% endif                                    %}
 
-<div class="item {{ colwidth }} {{ pull }} p-3">
-    {% if include.link != null %}
-    <a href="{{ include.link | relative_url }}" class="header">
-    {% endif %}
-        <div class="card p-3 figure-img">
-            <figure class="m-0">
-                <img class="{{ img_class }}" src="{{ '/assets/img/' | append: include.image | relative_url }}"
-                     alt="{{ include.alt | default: 'no description' }}"
-                     {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
-                <div class="content">
-                    {% if include.cap != null %}
-                    <figcaption class="images-caption">{{ include.cap | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
-                    {% endif %}
-                </div>
-            </figure>
-        </div>
-    {% if include.link != null %}</a>{% endif %}
+{% assign w = include.width | to_integer    %}
+{% if w <= 12                               %}
+{%   assign colwidth="col-md-" | append: w  %}
+{% else                                     %}
+{%   if w < 40                              %}
+{%     assign colwidth="col-md-4"           %}
+{%   else                                   %}
+{%     if w < 65                            %}
+{%       assign colwidth="col-md-6"         %}
+{%     else                                 %}
+{%       assign colwidth="col-md-12"        %}
+{%     endif                                %}                        
+{%   endif                                  %}
+{% endif                                    %}
+
+<div class="item {{ colwidth }} {{ pull }} px-4">
+    <div class="card p-3 figure-img">
+        <figure class="m-0">
+            {% if include.link != null %}<a href="{{ include.link | relative_url }}" class="header">{% endif %}
+            <img class="featured-img mx-auto {{ img_border }}" src="{{ '/assets/img/' | append: include.image | relative_url }}" alt="{{ include.alt | default: 'no description' }}" {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
+            {% if include.link != null %}</a>{% endif %}
+            <div class="content">
+                {% if include.cap != null %}<figcaption class="images-caption">{{ include.cap | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
+            </div>
+        </figure>
+   </div>
 </div>
