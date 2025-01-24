@@ -12,6 +12,9 @@ main_menu_settings:
         - title: Krigsvold & Matikonis
           url: /krigsvold-matikonis
           icon: landscape
+        - title: Heraldry
+          url: /heraldry
+          icon: shield
     - title: Impacts
       icon: layers
       submenu_items:

@@ -2,9 +2,24 @@
 layout: page
 date: 2025-01-24
 title: Heraldry of Krigsvold and Matikons
-subtitle: Learn about the Krigsvold Nunataks and Matikonis Peak
-featured_image: /assets/img/krigsvold-banner.webp
+featured_image: /assets/img/heraldry.webp
 ---
+
+Welcome to the heraldry page for the Count of Krigsvold. This page presents a
+comprehensive examination of the arms of dominion that symbolize the nobility
+and responsibility bestowed upon Dr. Howard in his capacity as a protector and
+steward of these territories. Each component of the heraldry has been
+meticulously designed to reflect the heritage, duties, and personal commitments
+of the Count, intertwining ancient symbols with modern values to represent a
+legacy of conservation, leadership, and dedication.
+
+Here, we explore the rich symbolism and historical context behind the creation
+of these arms. From the icy fields of the Antarctic, represented by the Countdom
+of Krigsvold, to the verdant symbolism of the Lithuanian heritage in the Barony
+of Matikonis, these arms narrate a story of exploration, endurance, and the
+unyielding duty to guard and cherish the natural world. Each element has been
+carefully chosen to honor past achievements and inspire ongoing commitment to
+the responsibilities these noble titles carry.
 
 ## Arms of James Howard
 
@@ -35,7 +50,7 @@ it is crucial to adhere to specific protocols to maintain the integrity
 and respect due to such symbols.  Here, a significant consideration
 involves the external ornaments or additaments:
 
-* Respect for Jurisdictional Boundaries: Heraldic traditions vary
+* Respect for Jurisdictional Boundaries--Heraldic traditions vary
   significantly across different cultures and legal frameworks. It is
   generally inappropriate to mix external ornaments, such as supporters
   or crowns, from one jurisdiction (e.g., Malta) with those from another
@@ -43,7 +58,7 @@ involves the external ornaments or additaments:
   and symbols as granted and be used distinctly to respect the heraldic
   authority and cultural heritage they represent.
 
-* Avoiding Misrepresentation: Mixing elements from different grants can
+* Avoiding Misrepresentation--Mixing elements from different grants can
   lead to confusion or misinterpretation of the status or entitlements
   represented by the arms. For example, using Maltese-specific symbols
   or additaments on a Westarctican coat of arms might falsely imply
@@ -86,11 +101,11 @@ protective and enduring spirit of its namesake, infused with elements
 that reflect both the Antarctic environment and the historical
 narrative:
 
-> Azure, a snowflake Argent, on a chief engrailed of the same. Crest: A
-castle Eisenfarb. Supporters: On either side, a penguin Proper, each
+> Azure, a snowflake Argent, on a chief engrailed of the same. Crest--A
+castle Eisenfarb. Supporters--On either side, a penguin Proper, each
 with the inner wing extended supporting the shield, and crowned with an
 eastern crown Or, standing upon a compartment of snow-covered rocks.
-Motto: _Dies müssen wir schützen_, German for "This we must protect."
+Motto--_Dies müssen wir schützen_, German for "This we must protect."
 
 The arms of the Countdom of Krigsvold are a contemporary creation that
 draws deeply from historical and environmental themes. By incorporating
@@ -125,10 +140,10 @@ namesake:
 
 > Per pale Gules and Vert, an oak tree Counterchanged fructed Or. Crest:
 > Arising from an eastern crown, an oak sprig Proper fructed Or.
-> Supporters: At dexter, a sea-unicorn Gules; at sinister, a sea-unicorn
+> Supporters--At dexter, a sea-unicorn Gules; at sinister, a sea-unicorn
 > Vert; both rampant, scaled and armed Argent, horned and crined Or,
 > gorged with an eastern crown Or, standing upon a compartment of
-> snow-covered rocks. Motto: _Amžinai budėkime_, Lithuanian for "Let us
+> snow-covered rocks. Motto--_Amžinai budėkime_, Lithuanian for "Let us
 > stand guard forever."
 
 The heraldic elements chosen for the Barony of Matikonis intertwine the
@@ -161,11 +176,11 @@ and his commitment to their ideals and protection.
 The official arms are described as follows:
 
 > Quarterly; 1st and 4th, KRIGSVOLD; 2nd and 3rd MATIKONIS; overall, an
-> inescutcheon of HOWARD. Crest: A castle Eisenfarb. Supporters: On
+> inescutcheon of HOWARD. Crest--A castle Eisenfarb. Supporters--On
 > either side, a penguin Proper, each with the inner wing extended
 > supporting the shield, and crowned with an eastern crown Or, standing
-> upon a compartment of snow-covered rocks. Motto: Dies müssen wir
-> schützen, German for "This we must protect." Orders: Knight of the
+> upon a compartment of snow-covered rocks. Motto--Dies müssen wir
+> schützen, German for "This we must protect." Orders--Knight of the
 > Snowflake.
 
 The inclusion of the Order of the Snowflake acknowledges Dr. Howard's
@@ -174,7 +189,7 @@ further aligning the arms with his environmental advocacy and leadership
 in the region.
 
 As arms of dominion, this heraldic composition does more than symbolize
-personal achievement; it officially denotes Dr. Howard’s authority and
+personal achievement; it officially denotes Dr. Howard's authority and
 responsibilities as the Count of Krigsvold and Baron of Matikonis. This
 layered heraldic identity blends historical symbolism with modern
 environmental values, encapsulating a noble commitment to governance,
