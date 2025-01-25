@@ -5,14 +5,15 @@ title: About the Count
 featured_image: /assets/img/about-banner.webp
 ---
 
-Dr. James P. Howard, II, is a distinguished mathematician, statistician, and an
-advocate for environmental conservation. His work spans various government
-agencies, including the Securities and Exchange Commission, the Executive Office
-of the President, and the United States Department of Homeland Security, where
-he has applied his expertise in data science and public policy to address
-complex challenges. Before these roles, he served as an internal consultant on
-scientific computing, enhancing the capabilities of national economic and
-security systems and contributing to a range of high-stakes initiatives.
+[Dr. James P. Howard, II](https://jameshoward.us), is a distinguished
+mathematician, statistician, and an advocate for environmental conservation. His
+work spans various government agencies, including the Securities and Exchange
+Commission, the Executive Office of the President, and the United States
+Department of Homeland Security, where he has applied his expertise in data
+science and public policy to address complex challenges. Before these roles, he
+served as an internal consultant on scientific computing, enhancing the
+capabilities of national economic and security systems and contributing to a
+range of high-stakes initiatives.
 
 ## Biography
 
@@ -24,8 +25,6 @@ pursuit of interdisciplinary knowledge culminated in a doctorate in public
 policy from the University of Maryland, Baltimore County, where his research
 focused on the economic implications of the National Flood Insurance Program.
 This academic foundation has profoundly shaped his multifaceted career.
-
-## Career Highlights
 
 Throughout his career, Dr. Howard has remained at the dynamic intersection of
 technology, policy, and education. He has spearheaded groundbreaking research
@@ -53,8 +52,6 @@ taught public affairs. These experiences reflect his broad expertise and
 enduring commitment to fostering informed and engaged citizens. Dr. Howard’s
 innovative approaches to education have made him a respected figure among both
 students and peers.
-
-## Publications and Awards
 
 Dr. Howard is a prolific author, with notable works including *Teaching and
 Learning Mathematics Online*, *Handbook of Military and Defense Operations
