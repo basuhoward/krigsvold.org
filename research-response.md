@@ -44,7 +44,7 @@ challenges.
   diminishing sea ice are altering food webs and affecting species such as
   krill, a keystone organism in the Antarctic ecosystem.
 
-- **Atmospheric and Oceanic Interactions**: Antarctica’s atmosphere holds
+- **Atmospheric and Oceanic Interactions**: Antarctica's atmosphere holds
   records of past climate in its ice cores, which trap bubbles of ancient air.
   These records allow scientists to study how greenhouse gases have changed
 over millennia. Additionally, research on ocean currents, such as the
@@ -92,7 +92,7 @@ policy, conservation, and education:
   The [Commission for the Conservation of Antarctic Marine Living Resources](https://www.ccamlr.org/) (CCAMLR) plays a pivotal role in these efforts.
 - **Public Awareness and Education**: Sharing Antarctic research findings
   raises awareness about the critical role the continent plays in regulating
-  the planet’s climate. Educational programs and media campaigns engage global
+  the planet's climate. Educational programs and media campaigns engage global
 audiences in the importance of protecting this fragile environment.
 
 ## How You Can Support Antarctic Research
@@ -120,7 +120,7 @@ continuation of vital research:
 
 ## The Road Ahead
 
-Antarctica’s rapidly changing environment is a stark reminder of the urgency
+Antarctica's rapidly changing environment is a stark reminder of the urgency
 of global climate action. The research conducted on this icy continent is not
 just about understanding the changes happening at the poles; it is about
 preparing humanity to face the challenges of a warming world. Through

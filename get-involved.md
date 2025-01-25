@@ -8,7 +8,7 @@ featured_image: /assets/img/get-involved-banner.webp
 
 Climate change poses a significant threat to Western Antarctica, impacting its
 ice sheets, wildlife, and global sea levels. But there's hope, and it starts
-with you. Here’s how you can make a difference:
+with you. Here's how you can make a difference:
 
 ## Reduce Your Carbon Footprint
 

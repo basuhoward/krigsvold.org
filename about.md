@@ -49,7 +49,7 @@ mathematics and statistics at the University of Maryland Global Campus
 since 2010. His teaching portfolio spans institutions such as the City
 University of New York and the University of New Mexico, where he has also
 taught public affairs. These experiences reflect his broad expertise and
-enduring commitment to fostering informed and engaged citizens. Dr. Howard’s
+enduring commitment to fostering informed and engaged citizens. Dr. Howard's
 innovative approaches to education have made him a respected figure among both
 students and peers.
 
@@ -67,7 +67,7 @@ Electrical and Electronics Engineers.
 Married to Nina Basu, Dr. Howard is deeply integrated into his community in
 Maryland, where he actively participates in local governance and conservation
 efforts. His interests span a wide range of areas, including environmental
-advocacy, community development, and public service. Dr. Howard’s remarkable
+advocacy, community development, and public service. Dr. Howard's remarkable
 career and dedication to public service, education, and environmental
 conservation reflect his enduring commitment to making a positive impact on
 society and the planet. As the Count of Krigsvold and Baron of Matikonis, he
