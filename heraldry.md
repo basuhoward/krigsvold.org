@@ -118,7 +118,7 @@ conservation and memory demonstrates the dynamic nature of heraldry as a
 form of cultural expression that honors heritage while addressing
 contemporary concerns.
 
-## Arms of the Barony of Matikons
+## Arms of the Barony of Matikonis
 
 The Barony of Matikonis is named in honor of [William P.
 Matikonis](https://en.m.wikipedia.org/wiki/Coulter_Heights#Matikonis_Peak),
