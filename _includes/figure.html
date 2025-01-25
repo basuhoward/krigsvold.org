@@ -5,7 +5,7 @@
 {% endif                                    %}
 
 {% if include.border == true                %}
-{%   assign img_border = "img-border p-5 mb-3"   %}
+{%   assign img_border = "img-border p-3 mb-3"   %}
 {% else                                     %}
 {%   assign img_border = ""                 %}
 {% endif                                    %}
@@ -25,8 +25,9 @@
 {%   endif                                  %}
 {% endif                                    %}
 
-<div class="item {{ colwidth }} {{ pull }} px-4">
-    <div class="card p-3 figure-img">
+<div class="mx-3 ">
+<div class="item {{ colwidth }} {{ pull }} px-4 py-2">
+    <div class="card p-2 figure-img">
         <figure class="m-0">
             {% if include.link != null %}<a href="{{ include.link | relative_url }}" class="header">{% endif %}
             <img class="featured-img mx-auto {{ img_border }}" src="{{ '/assets/img/' | append: include.image | relative_url }}" alt="{{ include.alt | default: 'no description' }}" {% if include.load != null %}loading="lazy"{% else %}loading="{{ include.loading }}"{% endif %}/>
@@ -36,4 +37,5 @@
             </div>
         </figure>
    </div>
+</div>
 </div>

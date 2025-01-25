@@ -81,7 +81,8 @@ article figure {
 blockquote p {
   background-color: #26619C;
   color: #f8f8f8;
-  margin-left: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   padding: 1em;
 }
 
