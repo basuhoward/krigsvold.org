@@ -5,7 +5,7 @@ title: The Count of Krigsvold Fellowship
 featured_image: /assets/img/fellowship-banner.webp
 ---
   
-The **Count of Krigsvold Fellowship** is a prestigious annual award established
+The **Count of Krigsvold Fellowship** is a new annual award established
 to support graduate-level research in climate change and global conservation.
 This $1,000 grant reflects the Grand Duchy of Westarctica's commitment to
 promoting scientific *research* and addressing the urgent challenges posed by a
