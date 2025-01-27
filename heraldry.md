@@ -23,7 +23,7 @@ the responsibilities these noble titles carry.
 
 ## Arms of James Howard
 
-{% include figure.html placement="right" border=true width="6"
+{% include figure.html placement="right" width="6"
    image="armorial/jph2.svg"
    alt="Arms of Dr. Howard" cap="Arms of Dr. Howard" %}
    
@@ -85,7 +85,7 @@ to [Byrd Station](https://en.wikipedia.org/wiki/Byrd_Station), a feat of
 endurance and bravery that facilitated subsequent scientific and
 exploratory work in Antarctica.
 
-{% include figure.html placement="right" border=true width="6"
+{% include figure.html placement="right" width="6"
    image="armorial/krigsvold.svg"
    alt="Arms of the Countdom of Krigsvold" cap="Arms of the Countdom of Krigsvold" %}
 
@@ -130,7 +130,7 @@ facilitated extensive research and exploration in Antarctica. This
 connection to Antarctic exploration and support staff underpins the
 heraldic symbols of the Barony of Matikonis.
 
-{% include figure.html placement="right" border=true width="6"
+{% include figure.html placement="right" width="6"
    image="armorial/matikonis.svg"
    alt="Arms of the Barony of Matikonis" cap="Arms of the Barony of Matikonis" %}
 
@@ -168,7 +168,7 @@ integration of his territorial responsibilities and noble titles. These
 arms of dominion symbolically narrate his stewardship over these regions
 and his commitment to their ideals and protection.
 
-{% include figure.html placement="right" border=true width="6"
+{% include figure.html placement="right" width="6"
    image="armorial/krigsvold-jph2.svg"
    alt="Arms of Dr. Howard as Count of Krigsvold" 
    cap="Arms of Dr. Howard as Count of Krigsvold" %}
