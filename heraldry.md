@@ -1,7 +1,7 @@
 ---
 layout: page
 date: 2025-01-24
-title: Heraldry of Krigsvold and Matikons
+title: Heraldry of Krigsvold and Matikonis
 featured_image: /assets/img/heraldry.webp
 ---
 
@@ -179,8 +179,8 @@ The official arms are described as follows:
 > inescutcheon of HOWARD. Crest--A castle Eisenfarb. Supporters--On
 > either side, a penguin Proper, each with the inner wing extended
 > supporting the shield, and crowned with an eastern crown Or, standing
-> upon a compartment of snow-covered rocks. Motto--Dies müssen wir
-> schützen, German for "This we must protect." Orders--Knight of the
+> upon a compartment of snow-covered rocks. Motto--_Dies müssen wir
+> schützen_, German for "This we must protect." Orders--Knight of the
 > Snowflake.
 
 The inclusion of the Order of the Snowflake acknowledges Dr. Howard's
