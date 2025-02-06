@@ -14,7 +14,7 @@ of the Count, intertwining ancient symbols with modern values to represent a
 legacy of conservation, leadership, and dedication.
 
 Here, we explore the rich symbolism and historical context behind the creation
-of these arms. From the icy fields of the Antarctic, represented by the Countdom
+of these arms. From the icy fields of the Antarctic, represented by the County
 of Krigsvold, to the verdant symbolism of the Lithuanian heritage in the Barony
 of Matikonis, these arms narrate a story of exploration, endurance, and the
 unyielding duty to guard and cherish the natural world. Each element has been
@@ -70,9 +70,9 @@ intended significance and honor. Dr. Howard's approach to maintaining
 separate heraldic identities for his titles and honors upholds these
 principles, ensuring clarity and propriety in their display and usage.
 
-## Arms of the Countdom of Krigsvold
+## Arms of the County of Krigsvold
 
-The Countdom of Krigsvold draws its name and heraldic inspiration from a
+The County of Krigsvold draws its name and heraldic inspiration from a
 poignant figure in Antarctic exploration history. The Krigsvold Nunataks
 were named in honor of [Sgt. Alvin I.
 Krigsvold](https://en.wikipedia.org/wiki/Strauss_Glacier#Krigsvold_Nunataks),
@@ -87,7 +87,7 @@ exploratory work in Antarctica.
 
 {% include figure.html placement="right" width="6"
    image="armorial/krigsvold.svg"
-   alt="Arms of the Countdom of Krigsvold" cap="Arms of the Countdom of Krigsvold" %}
+   alt="Arms of the County of Krigsvold" cap="Arms of the County of Krigsvold" %}
 
 The name "Krigsvold," which can be interpreted from German or Norwegian
 as "war violence" or more poetically as "bastion of war," reflects the
@@ -96,7 +96,7 @@ his team had to overcome. This historical backdrop informs the symbolic
 elements of the Krigsvold coat of arms, emphasizing themes of
 protection, resilience, and vigilance. 
 
-The arms of the Countdom of Krigsvold are designed to symbolize the
+The arms of the County of Krigsvold are designed to symbolize the
 protective and enduring spirit of its namesake, infused with elements
 that reflect both the Antarctic environment and the historical
 narrative:
@@ -107,7 +107,7 @@ with the inner wing extended supporting the shield, and crowned with an
 eastern crown Or, standing upon a compartment of snow-covered rocks.
 Motto--_Dies müssen wir schützen_, German for "This we must protect."
 
-The arms of the Countdom of Krigsvold are a contemporary creation that
+The arms of the County of Krigsvold are a contemporary creation that
 draws deeply from historical and environmental themes. By incorporating
 elements like the snowflake, castle, and penguins, the coat of arms
 creates a bridge between the past deeds of explorers like Sgt. Krigsvold
