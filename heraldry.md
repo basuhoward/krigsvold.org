@@ -31,11 +31,11 @@ Dr. James P. Howard, II, holds a distinctive [grant of
 arms](https://jameshoward.us/malta) provided by the Chief Herald of
 Malta, reflective of his personal virtues and scholarly pursuits:
 
-> Argent in pale a tetrahedron Azure pierced in bend by a sword Or with
-pommel and cross piece of the Second. Crest--Upon a helm befitting his
-degree with mantling Azure and doubled Or is set for crest, upon a
-wreath of the liveries a martlet Sable.  Motto--_Ir-rieda biss tmexxi
-l-qalb_, Maltese for "Only the will leads the heart."
+> Argent in pale a tetrahedron Azure pierced in bend by a sword Or with pommel
+> and cross piece of the Second. Crest--Upon a helm befitting his degree with
+> mantling Azure and doubled Or is set for crest, upon a wreath of the liveries
+> a martlet Sable.  Motto--_Ir-rieda biss tmexxi l-qalb_, Maltese for "Only the
+> will leads the heart."
 
 These arms are emblematic of Dr. Howard's dedication to knowledge and
 leadership, symbolized by the sword piercing through the tetrahedron,
@@ -101,11 +101,11 @@ protective and enduring spirit of its namesake, infused with elements
 that reflect both the Antarctic environment and the historical
 narrative:
 
-> Azure, a snowflake Argent, on a chief engrailed of the same. Crest--A
-castle Eisenfarb. Supporters--On either side, a penguin Proper, each
-with the inner wing extended supporting the shield, and crowned with an
-eastern crown Or, standing upon a compartment of snow-covered rocks.
-Motto--_Dies müssen wir schützen_, German for "This we must protect."
+> Azure, a snowflake Argent, a chief engrailed of the same. Crest--A castle
+> Eisenfarb. Supporters--On either side, a penguin Proper, each with the inner
+> wing extended supporting the shield, and crowned with an eastern crown Or,
+> standing upon a compartment of snow-covered rocks.  Motto--_Dies müssen wir
+> schützen_, German for "This we must protect."
 
 The arms of the County of Krigsvold are a contemporary creation that
 draws deeply from historical and environmental themes. By incorporating
@@ -138,13 +138,12 @@ The coat of arms of the Barony of Matikonis incorporates elements that
 reflect both the Antarctic legacy and the Lithuanian heritage of the
 namesake:
 
-> Per pale Gules and Vert, an oak tree Counterchanged fructed Or. Crest:
-> Arising from an eastern crown, an oak sprig Proper fructed Or.
-> Supporters--At dexter, a sea-unicorn Gules; at sinister, a sea-unicorn
-> Vert; both rampant, scaled and armed Argent, horned and crined Or,
-> gorged with an eastern crown Or, standing upon a compartment of
-> snow-covered rocks. Motto--_Amžinai budėkime_, Lithuanian for "Let us
-> stand guard forever."
+> Per pale Gules and Vert, an oak tree Counterchanged fructed Or. Crest--
+> Arising from an eastern crown, an oak sprig Proper fructed Or.  Supporters--At
+> dexter, a sea-unicorn Gules; at sinister, a sea-unicorn Vert; both rampant,
+> scaled and armed Argent, horned and crined Or, gorged with an eastern crown
+> Or, standing upon a compartment of snow-covered rocks. Motto--_Amžinai
+> budėkime_, Lithuanian for "Let us stand guard forever."
 
 The heraldic elements chosen for the Barony of Matikonis intertwine the
 personal history of William P. Matikonis with broader themes of heritage
