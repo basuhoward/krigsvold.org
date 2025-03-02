@@ -138,12 +138,12 @@ The coat of arms of the Barony of Matikonis incorporates elements that
 reflect both the Antarctic legacy and the Lithuanian heritage of the
 namesake:
 
-> Per pale Gules and Vert, an oak tree Counterchanged fructed Or. Crest--
-> Arising from an eastern crown, an oak sprig Proper fructed Or.  Supporters--At
-> dexter, a sea-unicorn Gules; at sinister, a sea-unicorn Vert; both rampant,
-> scaled and armed Argent, horned and crined Or, gorged with an eastern crown
-> Or, standing upon a compartment of snow-covered rocks. Motto--_Amžinai
-> budėkime_, Lithuanian for "Let us stand guard forever."
+> Per pale Gules and Vert, an oak tree Counterchanged fructed Or. Crest--Arising
+> from an eastern crown, an oak sprig Proper fructed Or.  Supporters--At dexter,
+> a sea-unicorn Gules; at sinister, a sea-unicorn Vert; both rampant, scaled and
+> armed Argent, horned and crined Or, gorged with an eastern crown Or, standing
+> upon a compartment of snow-covered rocks. Motto--_Amžinai budėkime_,
+> Lithuanian for "Let us stand guard forever."
 
 The heraldic elements chosen for the Barony of Matikonis intertwine the
 personal history of William P. Matikonis with broader themes of heritage
