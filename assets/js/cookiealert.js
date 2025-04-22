@@ -23,7 +23,7 @@
         cookieAlert.classList.add("show");
     } else {
         window['ga-disable-G-13CWX5EBQG'] = false;
-        startEmailOctopus("f8604900-ec85-11ee-b446-37d7c053d593")
+        // startEmailOctopus("f8604900-ec85-11ee-b446-37d7c053d593")
         startGoogleAnalytics("G-13CWX5EBQG")
     }
 
@@ -34,7 +34,7 @@
         cookieAlert.classList.remove("show");
 
         startGoogleAnalytics("G-13CWX5EBQG")
-        startEmailOctopus("f8604900-ec85-11ee-b446-37d7c053d593")
+        // startEmailOctopus("f8604900-ec85-11ee-b446-37d7c053d593")
         // dispatch the accept event
         window.dispatchEvent(new Event("cookieAlertAccept"))
     });
