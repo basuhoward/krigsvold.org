@@ -11,7 +11,7 @@ layout: news-post
                 {% for tag in page.tags %}
                 {% capture tag_name %}{{ tag }}{% endcapture %}
                 {% assign tag_slug = tag_name | slugify %}
-                <a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="card-category text-danger" style="display: inline;">{{ tag_name }}</a>
+                {{ tag_name }}
                 {% unless forloop.last %}&nbsp;&middot;&nbsp;{% endunless %}
                 {% endfor %}
                 </h6>
