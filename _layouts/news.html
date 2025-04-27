@@ -37,7 +37,7 @@ sitemap:
         {{ post.content | markdownify | strip_html | truncatewords: 30 }}
         <a href="{{ post.permalink | relative_url }}" class="text-darker icon-move-right text-sm">Read More<i class="fas fa-arrow-right text-xs ms-1"></i></a>
       </p>
-      <p class="author">2 days ago</p>
+      <p class="author">{{ post.date | timeago }}</p>
     </div>
   </div>
 </div>

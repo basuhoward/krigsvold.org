@@ -59,6 +59,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-inline-svg
+  - jekyll-timeago
 
 svg:
   optimize: true
@@ -74,6 +75,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+jekyll_timeago:
+  depth: 1
 
 algolia:
   application_id:       F2YSZQ2KZ4

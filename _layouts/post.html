@@ -6,17 +6,15 @@ layout: news-post
     <div class="parallax filter filter-color-black">
         <div class="container">
             <div class="content">
-                <h3 class="subtitle">{{ page.date | date: "%A %B %d, %Y" }}</h3>
-                <div class="card-blog">
-                    <h6 class="card-category text-danger">
-                        {% for tag in page.tags %}
-                        {% capture tag_name %}{{ tag }}{% endcapture %}
-                        {% assign tag_slug = tag_name | slugify %}
-                        <a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="card-category text-danger" style="display: inline;">{{ tag_name }}</a>
-                        {% unless forloop.last %}&nbsp;&middot;&nbsp;{% endunless %}
-                        {% endfor %}
-                    </h6>
-                </div>
+                <h6 class="subtitle">{{ page.date | date: "%B %e, %Y" }}</h6>
+                <h6 class="card-category text-danger">
+                {% for tag in page.tags %}
+                {% capture tag_name %}{{ tag }}{% endcapture %}
+                {% assign tag_slug = tag_name | slugify %}
+                <a href="{{ '/tag/' | append: tag_slug | relative_url }}" class="card-category text-danger" style="display: inline;">{{ tag_name }}</a>
+                {% unless forloop.last %}&nbsp;&middot;&nbsp;{% endunless %}
+                {% endfor %}
+                </h6>
             </div>
         </div>
     </div>
