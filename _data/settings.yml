@@ -42,6 +42,9 @@ main_menu_settings:
     - title: The Fellowship
       url: /fellowship
       icon: school
+    - title: News
+      url: /news
+      icon: newspaper
 
 
 footer_menu_settings:

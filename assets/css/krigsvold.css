@@ -89,3 +89,14 @@ blockquote p {
 div.pull-right {
   float: right;
 }
+
+
+.title-area {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.title-area h2 {
+  display: inline;
+}

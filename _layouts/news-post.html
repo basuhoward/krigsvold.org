@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  {% include head.html %}
+  <body class="index-page bg-gray-200">
+    {% include navbar.html %}
+
+    <header class="bg-gradient-dark">
+    {% if page.featured_image %}
+      <div class="page-header min-vh-25" style="background-image: url('{{ page.featured_image | relative_url }}');">
+    {% else %}
+      <div class="page-header min-vh-25" style="background-image: url('{{ "/assets/img/news.webp" | relative_url }}');">
+    {% endif %}
+        <span class="mask bg-gradient-dark opacity-7"></span>
+        <div class="container">
+          <div class="row justify-content-center pt-5 mt-5">
+            <div class="col-lg-8 text-center mx-auto my-auto">
+              <h1 class="text-white">{{ page.title }}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="pt-3 pt-md-5">
+      <div class="container">
+        <div class="col-12 mx-auto">
+          <div class="card shadow-lg">
+            {% if page.subtitle %}
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+              <div class="bg-gradient-info shadow-info border-radius-lg p-4">
+                <h3 class="text-white mb-0">{{ page.subtitle }}</h3>
+              </div>
+            </div>
+            {% endif %}
+            <div class="card-body p-sm-5 pt-4">
+              {{ content | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% include footer.html %}
+  </body>
+  {% include jscode.html %}
+</html>
