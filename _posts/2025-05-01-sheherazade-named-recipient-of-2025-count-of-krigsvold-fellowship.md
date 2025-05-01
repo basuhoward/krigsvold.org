@@ -17,8 +17,8 @@ tags:
 
 **Sheherazade Named Recipient of 2025 Count of Krigsvold Fellowship**
 
-Peter I Island, Westarctica &emdash; The Count of Krigsvold, in partnership with
-the Grand Duchy of Westarctica, is pleased to announce that
+Peter I Island, Westarctica--The Count of Krigsvold, in partnership with the
+Grand Duchy of Westarctica, is pleased to announce that
 [Sheherazade](https://ourenvironment.berkeley.edu/users/1808368), a doctoral
 candidate in Environmental Sciences, Policy, and Management at the **University
 of California, Berkeley**, has been selected as the recipient of the **2025

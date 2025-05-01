@@ -17,9 +17,9 @@ tags:
 
 **Count of Krigsvold Fellowship Supports Conservation Research**
 
-Peter I Island, Westarctica &emdash; The Count of Krigsvold, in partnership with
-the Grand Duchy of Westarctica, proudly announces the establishment of the Count
-of Krigsvold Fellowship. This annual award provides a \$1,000 grant to support
+Peter I Island, Westarctica--The Count of Krigsvold, in partnership with the
+Grand Duchy of Westarctica, proudly announces the establishment of the Count of
+Krigsvold Fellowship. This annual award provides a \$1,000 grant to support
 graduate students conducting research in climate change and global conservation.
 
 Open to Master's and PhD students worldwide, the Fellowship reflects
