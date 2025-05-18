@@ -23,7 +23,7 @@ the responsibilities these noble titles carry.
 
 ## Arms of James Howard
 
-{% include figure.html placement="right" width="6"
+{% include figure.html placement="right" width="4"
    image="armorial/jph2.svg"
    alt="Arms of Dr. Howard" cap="Arms of Dr. Howard" %}
    
@@ -118,6 +118,10 @@ conservation and memory demonstrates the dynamic nature of heraldry as a
 form of cultural expression that honors heritage while addressing
 contemporary concerns.
 
+{% include figure.html placement="right" width="4"
+   image="armorial/matikonis.svg"
+   alt="Arms of the Barony of Matikonis" cap="Arms of the Barony of Matikonis" %}
+
 ## Arms of the Barony of Matikonis
 
 The Barony of Matikonis is named in honor of [William P.
@@ -130,31 +134,20 @@ facilitated extensive research and exploration in Antarctica. This
 connection to Antarctic exploration and support staff underpins the
 heraldic symbols of the Barony of Matikonis.
 
-{% include figure.html placement="right" width="6"
-   image="armorial/matikonis.svg"
-   alt="Arms of the Barony of Matikonis" cap="Arms of the Barony of Matikonis" %}
-
 The coat of arms of the Barony of Matikonis incorporates elements that
 reflect both the Antarctic legacy and the Lithuanian heritage of the
 namesake:
 
 > Per pale Gules and Vert, an oak tree Counterchanged fructed Or. Crest--Arising
-> from an eastern crown, an oak sprig Proper fructed Or.  Supporters--At dexter,
-> a sea-unicorn Gules; at sinister, a sea-unicorn Vert; both rampant, scaled and
-> armed Argent, horned and crined Or, gorged with an eastern crown Or, standing
-> upon a compartment of snow-covered rocks. Motto--_Amžinai budėkime_,
-> Lithuanian for "Let us stand guard forever."
+> from an eastern crown, an oak sprig Proper fructed Or. Motto--_Amžinai
+> budėkime_, Lithuanian for "Let us stand guard forever."
 
 The heraldic elements chosen for the Barony of Matikonis intertwine the
 personal history of William P. Matikonis with broader themes of heritage
 and duty. The oak tree, a national symbol of strength in Lithuania,
 underscores the resilience required in Antarctic conditions and serves
 as a metaphor for the steadfast support staff who enable exploration and
-scientific achievements.
-
-The use of mythical sea-unicorns as supporters adds a layer of narrative
-about the mysteries and wonders of the Antarctic, often perceived as a
-remote and mythical place itself. These elements together create a coat
+scientific achievements.  These elements together create a coat
 of arms that is rich in symbolism and narrative depth, celebrating the
 spirit of exploration and the cultural heritage of the barony's
 namesake.
