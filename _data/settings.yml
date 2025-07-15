@@ -71,16 +71,16 @@ footer_menu_settings:
       - title: Westarctica, Inc.
         url: https://www.westarctica.org
         target: _blank
-    - title: Resources
+    - title: Social Media
       submenu_items:
-      - title: NOAA
-        url: https://www.climate.gov
+      - title: Facebook
+        url: https://www.facebook.com/CountKrigsvoldWestarctica
         target: _blank
-      - title: United Nations
-        url: https://www.un.org/en/climatechange
+      - title: Bluesky
+        url: https://bsky.app/profile/jameshoward.us
         target: _blank
-      - title: EPA
-        url: https://www.epa.gov/climate-change
+      - title: Mastodon
+        url: https://mastodon.social/@krigsvold
         target: _blank
     - title: Legal
       submenu_items:
