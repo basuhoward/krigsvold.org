@@ -27,7 +27,10 @@
           <ul class="flex-column ms-n3 nav">
             {% for subitem in item.submenu_items %}
             <li class="nav-item">
-              <a class="nav-link" href="{{ subitem.url | relative_url }}" {% if subitem.target %} target="{{ subitem.target }}" {% endif %} >
+              <a class="nav-link" href="{{ subitem.url | relative_url }}"
+                 {% if subitem.target %} target="{{ subitem.target }}" {% endif %}
+                 {% if subitem.relationship %} rel="{{ subitem.relationship }}" {% endif %}
+                 >
                 {{ subitem.title }}
               </a>
             </li>

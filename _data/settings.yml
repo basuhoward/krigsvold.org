@@ -76,16 +76,20 @@ footer_menu_settings:
       - title: Facebook
         url: https://www.facebook.com/CountKrigsvoldWestarctica
         target: _blank
+        relationship: me
       - title: Bluesky
-        url: https://bsky.app/profile/jameshoward.us
+        url: https://bsky.app/profile/krigsvold.org
         target: _blank
+        relationship: me
       - title: Mastodon
         url: https://mastodon.social/@krigsvold
         target: _blank
+        relationship: me
     - title: Legal
       submenu_items:
       - title: Privacy
         url: /privacy-policy
+        relationship: privacy-policy
       - title: Terms of Use
         url: /terms-of-use
       - title: Copyright
