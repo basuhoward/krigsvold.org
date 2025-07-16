@@ -21,6 +21,11 @@
     {% assign desc = page.subtitle | markdownify | strip_html | strip_newlines %}
   {% endif %}
 
+  {% assign featured_image = "/assets/img/home-banner.webp" | relative_url %}
+  {% if page.featured_image %}
+    {% assign featured_image = page.featured_image %}
+  {% endif %}
+
   <title>{{ page.title }}</title>
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
