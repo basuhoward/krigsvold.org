@@ -10,6 +10,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: main
+  schedule:
+    - cron: '0 9 * * *'   # ~2am ET in winter, ~3am in summer
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
