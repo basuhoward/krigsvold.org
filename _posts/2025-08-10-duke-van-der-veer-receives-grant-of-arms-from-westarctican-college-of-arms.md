@@ -8,6 +8,7 @@ permalink: /2025/08/10/duke-van-der-veer-receives-grant-of-arms-from-westarctica
 featured_image: /assets/img/ellsworth/2025-08-10-vanderveer.webp
 categories:
  - Blog
+ - Ellsworth
 tags:
  - heraldry
  - grant of arms

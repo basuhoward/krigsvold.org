@@ -8,6 +8,7 @@ permalink: /2025/08/11/baron-of-richmond-receives-grant-of-arms-from-westarctica
 featured_image: /assets/img/ellsworth/2025-08-11-richmond.webp
 categories:
  - Blog
+ - Ellsworth
 tags:
  - heraldry
  - grant of arms

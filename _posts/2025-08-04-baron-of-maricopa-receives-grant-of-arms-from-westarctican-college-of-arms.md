@@ -8,6 +8,7 @@ permalink: /2025/08/04/baron-of-maricopa-receives-grant-of-arms-from-westarctica
 featured_image: /assets/img/ellsworth/2025-08-04-maricopa.webp
 categories:
  - Blog
+ - Ellsworth
 tags:
  - heraldry
  - grant of arms

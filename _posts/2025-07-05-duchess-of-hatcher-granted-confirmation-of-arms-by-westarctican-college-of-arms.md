@@ -7,7 +7,8 @@ layout: post
 permalink: /2025/07/05/duchess-of-hatcher-granted-confirmation-of-arms-by-westarctican-college-of-arms
 featured_image: /assets/img/ellsworth/2025-07-05-hatcher.webp
 categories:
- - Blog 
+ - Blog
+ - Ellsworth
 tags:
  - heraldry
  - confirmation of arms

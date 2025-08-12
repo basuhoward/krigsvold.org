@@ -8,6 +8,7 @@ permalink: /2025/08/05/duke-of-haines-receives-grant-of-arms-from-westarctican-c
 featured_image: /assets/img/ellsworth/2025-08-05-haines.webp
 categories:
  - Blog
+ - Ellsworth
 tags:
  - heraldry
  - grant of arms
