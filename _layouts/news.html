@@ -22,6 +22,7 @@ sitemap:
       </div>
     </div>
     <div class="col-lg-6 justify-content-center d-flex flex-column pl-lg-5 pt-lg-0 pt-3">
+      <h6 class="subtitle">{{ post.date | date: "%B %e, %Y" }}</h6>
       <h6 class="card-category text-danger">
         {% for tag in post.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -37,7 +38,6 @@ sitemap:
         {{ post.content | markdownify | strip_html | truncatewords: 30 }}
         <a href="{{ post.permalink | relative_url }}" class="text-darker icon-move-right text-sm">Read More<i class="fas fa-arrow-right text-xs ms-1"></i></a>
       </p>
-      <p class="author">{{ post.date | timeago }}</p>
     </div>
   </div>
 </div>

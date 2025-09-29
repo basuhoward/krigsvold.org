@@ -59,7 +59,6 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-inline-svg
-  - jekyll-timeago
 
 svg:
   optimize: true
