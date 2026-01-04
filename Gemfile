@@ -12,6 +12,7 @@ gem 'csv'
 gem 'logger'
 gem 'base64'
 gem 'mutex_m'
+gem 'bigdecimal'
 gem 'ostruct'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

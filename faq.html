@@ -5,52 +5,67 @@ featured_image: /assets/img/faq-banner.webp
 date: 2024-04-14
 ---
 
+<style>
+  /* FAQ accordion icon toggle */
+
+  /* Default (collapsed) state */
+  .accordion-button .collapse-open {
+    display: none;
+  }
+
+  .accordion-button .collapse-close {
+    display: inline-block;
+  }
+
+  /* Expanded state */
+  .accordion-button[aria-expanded="true"] .collapse-open {
+    display: inline-block;
+  }
+
+  .accordion-button[aria-expanded="true"] .collapse-close {
+    display: none;
+  }
+</style>
+
 {% for group in site.data.faq.groups %}
-<h5 class="my-4">{{ group.name }}</h5>
-<div class="accordion" id="accordionFaq">
-  {% for question in group.questions %}
-  <div class="accordion-item mb-3">
-    <h6 class="accordion-header" id="{{ question.question | slugify }}">
-      <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ question.question | slugify }}" aria-expanded="false" aria-controls="collapse-{{ question.question | slugify }}">
-        {{ question.question }}
-        <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0"></i>
-        <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0"></i>
-      </button>
-    </h6>
-    <div id="collapse-{{ question.question | slugify }}" class="accordion-collapse collapse" aria-labelledby="{{ question.question | slugify }}" data-bs-parent="#accordionFaq">
-      <div class="accordion-body">
-        {{ question.answer }}
+  <h5 class="my-4">{{ group.name }}</h5>
+
+  <div class="accordion" id="accordionFaq-{{ forloop.index }}">
+    {% for question in group.questions %}
+      {% assign qid = question.question | slugify %}
+
+      <div class="accordion-item mb-3">
+        <h6 class="accordion-header" id="heading-{{ qid }}">
+          <button
+            class="accordion-button collapsed border-bottom font-weight-bold text-start position-relative"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse-{{ qid }}"
+            aria-expanded="false"
+            aria-controls="collapse-{{ qid }}"
+          >
+            {{ question.question }}
+
+            <i class="collapse-close material-icons me-2 text-lg align-middle pt-1 position-absolute end-0">
+              expand_more
+            </i>
+            <i class="collapse-open material-icons me-2 text-lg align-middle pt-1 position-absolute end-0">
+              expand_less
+            </i>
+          </button>
+        </h6>
+
+        <div
+          id="collapse-{{ qid }}"
+          class="accordion-collapse collapse"
+          aria-labelledby="heading-{{ qid }}"
+          data-bs-parent="#accordionFaq-{{ forloop.parentloop.index }}"
+        >
+          <div class="accordion-body">
+            {{ question.answer | markdownify }}
+          </div>
+        </div>
       </div>
-    </div>
-    {% endfor %}
     {% endfor %}
   </div>
-</div>
-
-<script type="text/javascript">
-
-  if (document.getElementById('state1')) {
-      const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
-      if (!countUp.error) {
-          countUp.start();
-      } else {
-          console.error(countUp.error);
-      }
-  }
-  if (document.getElementById('state2')) {
-      const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
-      if (!countUp1.error) {
-          countUp1.start();
-      } else {
-          console.error(countUp1.error);
-      }
-  }
-  if (document.getElementById('state3')) {
-      const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
-      if (!countUp2.error) {
-          countUp2.start();
-      } else {
-          console.error(countUp2.error);
-      };
-  }
-</script>
+{% endfor %}

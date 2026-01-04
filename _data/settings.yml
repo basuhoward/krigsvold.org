@@ -9,13 +9,19 @@ main_menu_settings:
         - title: The Count
           url: /about
           icon: person
-        - title: Krigsvold & Matikonis
+        - title: Krigsvold, Borbolla, and Matikonis
           url: /krigsvold-matikonis
           icon: landscape
+        - title: Mission and Method
+          url: /mission-and-method
+          icon: explore
         - title: Heraldry
           url: /heraldry
           icon: shield
-    - title: Impacts
+        - title: Frequently Asked Questions
+          url: /faq
+          icon: quiz
+    - title: Climate Impacts
       icon: layers
       submenu_items:
         - title: Rapid Ice Melt
@@ -27,21 +33,24 @@ main_menu_settings:
         - title: Endangered Ecosystems
           url: /endangered-ecosystems
           icon: pets
+        - title: Carbon Sequestration
+          url: /carbon-sequestration
+          icon: co2
         - title: Research and Response
           url: /research-response
           icon: science
-        - title: Carbon Sequestration
-          url: /carbon-sequestration
-          icon: lock
-    - title: FAQ
-      url: /faq
-      icon: quiz
-    - title: Get Involved
-      url: /get-involved
-      icon: hail
-    - title: The Fellowship
-      url: /fellowship
-      icon: school
+    - title: Support and Participation
+      icon: handshake
+      submenu_items:
+        - title: The Fellowship
+          url: /fellowship
+          icon: school
+        - title: Research Support
+          url: /research-support
+          icon: analytics
+        - title: Get Involved
+          url: /get-involved
+          icon: groups
     - title: News
       url: /news
       icon: newspaper

@@ -1,45 +1,69 @@
 ---
 layout: page
-date: 2024-04-14
-title: The Count of Krigsvold Fellowship
+title: Fellowship
 featured_image: /assets/img/fellowship-banner.webp
 ---
-  
-The **Count of Krigsvold Fellowship** is a new annual award established
-to support graduate-level research in climate change and global conservation.
-This $1,000 grant reflects the Grand Duchy of Westarctica's commitment to
-promoting scientific *research* and addressing the urgent challenges posed by a
-changing climate.
 
-## About the Fellowship
+The Fellowship of the Count of Krigsvold is intended to recognize and support
+individuals whose work contributes to improved understanding of climate change,
+with particular emphasis on Antarctica and related polar systems. It functions
+as one mechanism through which the Count advances its educational mission and
+supports research aligned with that purpose.
 
-This fellowship empowers early-career researchers by providing financial
-assistance for innovative studies that contribute to the understanding and
-mitigation of climate change. The Count of Krigsvold Fellowship is open to
-graduate students worldwide who meet the following criteria:
+Fellowships are awarded to individuals whose work demonstrates rigor, relevance,
+and a clear connection to the study or interpretation of polar environments.
+This may include, but is not limited to, research in glaciology, climatology,
+polar ecology, environmental science, or interdisciplinary fields that engage
+directly with Antarctic or subpolar systems.
 
-- Enrollment in a Master's or PhD program at a nationally accredited university
-  or research organization (e.g., zoos, field stations)
-- Research aligned with climate change or global conservation issues
-- Planned research activities for the upcoming academic year
+The Fellowship is not an academic credential, degree, or professional
+certification. It does not confer scientific authority, institutional
+affiliation, or decision-making power. Rather, it serves as a form of
+recognition and support, intended to encourage sustained inquiry and to
+highlight work that contributes meaningfully to public understanding of climate
+science.
 
-## Historical Background
+## Purpose and scope
 
-The fellowship honors the legacy of the Krigsvold Nunataks, named after Sgt.
-Alvin I. Krigsvold, whose contributions to Antarctic exploration embody the
-spirit of discovery and perseverance. Located in Marie Byrd Land, these nunataks
-stand as a symbol of ongoing dedication to scientific exploration in
-Antarctica's remote areas.
+The purpose of the Fellowship is to support work that strengthens the
+informational foundations of climate education. Fellows may be engaged in
+original research, synthesis of existing research, or communication efforts that
+translate complex scientific findings into accessible forms without sacrificing
+accuracy.
 
-For more about the Krigsvold Nunataks, visit [Krigsvold and
-Matikonis](https://www.krigsvold.org/krigsvold-matikonis).
+Fellowship support is framed by the territorial constructs associated with the
+Count's titles, which serve as organizing references rather than assertions of
+jurisdiction. These frameworks provide geographic and conceptual focus while
+remaining fully consistent with established scientific and institutional
+practice.
 
-## More Information and How to Apply
+## Relationship to research support
 
-Ready to make an impact? Applications open on Februrary 1! Submit your materials
-before March 1 to be considered for the upcoming academic year on [the
-submission website](https://www.westarctica.org/conservation-scholarship).
+The Fellowship operates within the broader framework of the Count's research
+support activities. It is one of several tools used to encourage and sustain
+high-quality work related to polar climate systems.
 
-Learn more about Westarctica's mission and initiatives by visiting the
-[Westarctica website](https://www.westarctica.info).
+Decisions regarding Fellowship awards are guided by alignment with the Count's
+educational mission, rather than by disciplinary exclusivity or institutional
+affiliation. Evaluation emphasizes substance, method, and relevance over status
+or visibility.
 
+## Nature of the award
+
+A Fellowship may include formal recognition, opportunities for engagement with
+the Count's educational activities, or other forms of support as appropriate to
+the work being recognized. The specific form of support may vary over time and
+is determined in light of available resources and institutional priorities.
+
+Fellowships are awarded at the discretion of the Count. There is no presumption
+of renewal, entitlement, or progression, and the Fellowship does not imply
+endorsement of all views or conclusions held by the recipient.
+
+## Closing perspective
+
+The Fellowship exists to encourage careful, responsible engagement with the
+scientific realities of climate change as they are observed in polar
+environments. By recognizing and supporting work that advances understanding of
+these systems, the Count of Krigsvold seeks to contribute, in a modest and
+focused way, to the broader effort of climate education and informed public
+discourse.

@@ -36,7 +36,7 @@ sitemap:
       </h3>
       <p class="card-description">
         {{ post.content | markdownify | strip_html | truncatewords: 30 }}
-        <a href="{{ post.permalink | relative_url }}" class="text-darker icon-move-right text-sm">Read More<i class="fas fa-arrow-right text-xs ms-1"></i></a>
+        <a href="{{ post.permalink | relative_url }}" class="text-darker icon-move-right text-sm">Read More<span class="material-icons me-2 text-md align-middle">arrow_forward</span></a>
       </p>
     </div>
   </div>

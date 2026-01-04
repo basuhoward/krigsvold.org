@@ -1,75 +1,80 @@
 ---
 layout: page
-date: 2024-04-14
-title: About the Count
+title: The Count
 featured_image: /assets/img/about-banner.webp
 ---
 
-[Dr. James P. Howard, II](https://jameshoward.us), is a distinguished
-mathematician, statistician, and an advocate for environmental conservation. His
-work spans various government agencies, including the Securities and Exchange
-Commission, the Executive Office of the President, and the United States
-Department of Homeland Security, where he has applied his expertise in data
-science and public policy to address complex challenges. Before these roles, he
-served as an internal consultant on scientific computing, enhancing the
-capabilities of national economic and security systems and contributing to a
-range of high-stakes initiatives.
+The Count of Krigsvold is an institutional role held by James P. Howard, II. The
+office is oriented toward climate education, with a particular focus on
+Antarctica and related polar systems, and it is pursued through structured
+public explanation, careful advocacy, and support for research aligned with that
+educational mission.
 
-## Biography
+The Count's work is organized around clarity, continuity, and respect for
+established scientific and academic institutions. It is intended to complement,
+rather than duplicate, the efforts of researchers and organizations that
+directly conduct polar science.
 
-Born in 1979 in Dayton, Ohio, Dr. Howard embarked on an academic journey
-characterized by breadth and rigor. He studied mathematics at the University of
-Maryland, College Park, and studied environmental science at the Johns Hopkins
-University, and explored public policy at the University of Baltimore. His
-pursuit of interdisciplinary knowledge culminated in a doctorate in public
-policy from the University of Maryland, Baltimore County, where his research
-focused on the economic implications of the National Flood Insurance Program.
-This academic foundation has profoundly shaped his multifaceted career.
+## Purpose of the office
 
-Throughout his career, Dr. Howard has remained at the dynamic intersection of
-technology, policy, and education. He has spearheaded groundbreaking research
-projects on blockchain technology, augmented reality, and public health,
-contributing significantly to both theoretical advancements and practical
-applications. His development of the R package phonics underscores his
-commitment to creating innovative tools for data analysis, extending their
-utility across a wide range of fields.
+The Count's purpose is to advance public understanding of climate change by
+focusing attention on polar environments, particularly those in Antarctica that
+influence sea level, ocean circulation, and global climate dynamics. Polar
+systems often provide unusually clear evidence of physical change, and they can
+illuminate processes that are otherwise difficult to observe at lower latitudes.
 
-In public service, Dr. Howard's tenure on the Board of Appeals for Howard
-County, Maryland, showcased his dedication to responsible governance and
-community engagement. His contributions to the Maryland Defense Force and the
-Howard County Charter Review Commission further exemplify his unwavering
-commitment to public service. His leadership in these roles has been marked by
-efforts to promote transparency, independence, and sound decision-making in
-governance.
+A fuller statement of the Count's approach is provided on the Mission and Method
+page.
 
-## Academic Contributions
+## Scope and limits
 
-A passionate educator, Dr. Howard has imparted his extensive knowledge of
-mathematics and statistics at the University of Maryland Global Campus
-since 2010. His teaching portfolio spans institutions such as the City
-University of New York and the University of New Mexico, where he has also
-taught public affairs. These experiences reflect his broad expertise and
-enduring commitment to fostering informed and engaged citizens. Dr. Howard's
-innovative approaches to education have made him a respected figure among both
-students and peers.
+The Count does not exercise governmental authority, regulatory jurisdiction, or
+scientific adjudication. The office does not claim sovereignty, territory, or
+policy-making power. Its role is educational and institutional, emphasizing the
+interpretation of credible science and the communication of why polar systems
+matter globally.
 
-Dr. Howard is a prolific author, with notable works including *Teaching and
-Learning Mathematics Online*, *Handbook of Military and Defense Operations
-Research*, *Computational Methods for Numerical Analysis with R*, and
-*Socioeconomic Effects of the National Flood Insurance Program*. His scholarly
-contributions have earned him fellowships with the British Computer Society, the
-Cybernetics Society, the Institute of Mathematics and its Applications, and the
-Royal Society of Arts. Additionally, he is a Senior Member of the Institute of
-Electrical and Electronics Engineers. 
+Where the site references real Antarctic features associated with the Count's
+titles, those references are used as organizing frameworks rather than
+assertions of ownership or jurisdiction.
 
-## Personal Life and Interests
+## Work and activities
 
-Married to Nina Basu, Dr. Howard is deeply integrated into his community in
-Maryland, where he actively participates in local governance and conservation
-efforts. His interests span a wide range of areas, including environmental
-advocacy, community development, and public service. Dr. Howard's remarkable
-career and dedication to public service, education, and environmental
-conservation reflect his enduring commitment to making a positive impact on
-society and the planet. As the Count of Krigsvold and Baron of Matikonis, he
-continues to leverage his vast knowledge and experience to champion causes that
-promote sustainability, equity, and progress.
+The Count's activities fall into three broad categories:
+
+- **Education and interpretation:** providing structured explanation of polar
+  climate systems and the mechanisms through which Antarctic change affects the
+  global climate.
+- **Structured advocacy:** improving climate awareness through careful framing
+  and sustained presentation of evidence rather than political messaging or
+  calls to action.
+- **Research support:** encouraging and recognizing work that contributes to
+  clearer public understanding of polar science.
+
+These categories are described in more detail on the Research Support and
+Fellowship pages.
+
+## Background
+
+James P. Howard, II has a professional background in mathematics, statistics,
+and data science, with experience in public policy and public health. This
+perspective informs the Count's emphasis on evidence, interpretability, and
+institutional clarity.
+
+## Relationship to Westarctica
+
+The title Count of Krigsvold is held within the Grand Duchy of Westarctica, a
+nonprofit organization oriented toward awareness and advocacy for Western
+Antarctica. The Count's work as presented on this site is undertaken
+independently within the educational and institutional framework described here.
+
+For information on Westarctica itself, readers may consult its official website.
+
+## Closing perspective
+
+The Count's work rests on a simple proposition: that public understanding
+improves when complex systems are explained clearly, consistently, and with
+respect for scientific reality. Antarctica is remote, but its climate
+significance is direct. By focusing attention on polar systems, the Count of
+Krigsvold seeks to clarify why climate change is not only a subject of debate,
+but a set of measurable physical processes with long-term global consequences.
