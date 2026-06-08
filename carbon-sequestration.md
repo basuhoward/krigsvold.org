@@ -1,71 +1,95 @@
 ---
 layout: page
 title: Carbon Sequestration
-featured_image: /assets/img/carbon-sequestration.webp
+description: The Southern Ocean absorbs roughly forty percent of the world's oceanic carbon uptake. Understanding its capacity, and how that capacity is changing, matters for every climate projection.
+featured_image: /assets/img/carbon-sequestration-banner.webp
 ---
 
-Carbon sequestration in Antarctica and the surrounding Southern Ocean plays an
-important role in regulating the global climate system. Polar regions act as
-long-term sinks for carbon through a combination of physical, chemical, and
-biological processes. Understanding how these processes function, and how they
-respond to warming, is central to interpreting global carbon dynamics. For this
-reason, carbon sequestration is a key theme in the Count of Krigsvold's
-educational focus.
+The Southern Ocean, the body of water encircling Antarctica, is the largest
+regional ocean sink for anthropogenic carbon. It absorbs roughly 550 million
+metric tons of carbon each year, equivalent to about two billion metric tons
+of carbon dioxide, and accounts for approximately forty percent of global
+oceanic anthropogenic carbon uptake. This sequestration function is a critical
+component of the global carbon cycle, and changes in its capacity, whether
+from warming, acidification, or circulation shifts, have direct implications
+for the pace of atmospheric CO2 accumulation and the rate of global warming.
 
-## The Southern Ocean and carbon uptake
+## How the Southern Ocean absorbs carbon
 
-The Southern Ocean absorbs a substantial fraction of the carbon dioxide
-exchanged between the atmosphere and the global ocean. Cold surface waters
-enhance the solubility of carbon dioxide, allowing large amounts of carbon to be
-taken up and transported into deeper ocean layers.
+Carbon uptake in the Southern Ocean operates through two interrelated
+mechanisms: the physical, or solubility, pump and the biological carbon pump.
 
-This process is closely linked to global ocean circulation. As surface waters
-sink and circulate, carbon absorbed near Antarctica can be sequestered for
-decades to centuries, reducing the concentration of carbon dioxide in the
-atmosphere over long timescales.
+The **solubility pump** works because cold water dissolves CO2 more readily
+than warm water. Dense, cold surface water in the Southern Ocean absorbs
+atmospheric CO2 and then sinks into the deep ocean as part of the
+thermohaline circulation, carrying dissolved carbon with it. This carbon
+can remain sequestered in the deep ocean for centuries to millennia before
+returning to the surface. The formation of Antarctic Bottom Water, one of
+the densest and coldest water masses in the global ocean, is a major driver
+of this process. As the Southern Ocean warms and freshens from glacial
+melt, the density gradients that drive this sinking are weakened, potentially
+reducing the efficiency of the physical pump.
 
-## Biological processes and the carbon cycle
+The **biological carbon pump** operates through photosynthesis. Phytoplankton
+in the Southern Ocean fix atmospheric CO2 into organic carbon during the
+austral summer bloom. When these organisms die, much of their carbon sinks
+to the ocean floor rather than being respired back into the atmosphere.
+The efficiency of this pump depends on nutrient availability, particularly
+iron, which is limiting in large parts of the Southern Ocean. Upwelling
+zones that bring iron-rich deep water to the surface support some of the
+most productive biological carbon uptake in the ocean. Changes in
+circulation that alter upwelling patterns therefore affect the biological
+pump directly.
 
-In addition to physical uptake, biological activity contributes to carbon
-sequestration in polar oceans. Phytoplankton convert carbon dioxide into organic
-matter through photosynthesis. When these organisms die or are consumed, a
-portion of the carbon they contain sinks into deeper waters as particulate
-material.
+## A sink with limits
 
-Sea ice dynamics influence this biological carbon pump. Seasonal ice formation
-and melt affect nutrient availability, light penetration, and ecosystem
-structure, shaping the productivity of polar marine systems and their role in
-carbon cycling.
+The Southern Ocean's carbon uptake capacity is not unlimited, and evidence
+suggests that warming and acidification are already affecting it. As ocean
+temperatures rise, the solubility of CO2 in seawater decreases. As the
+chemistry shifts and pH falls, calcifying organisms that form an important
+part of the biological pump are stressed. The efficiency of the solubility
+pump declines as the temperature differential between surface and deep water
+narrows and density-driven overturning weakens.
 
-## Ice, sediments, and long-term storage
+Research published over the last decade has found that the growth of the
+Southern Ocean carbon sink has not kept pace with the growth of atmospheric
+CO2 concentrations. In effect, the ocean is absorbing more carbon in
+absolute terms because there is more CO2 available to absorb, but its
+uptake efficiency, relative to what a larger sink could theoretically
+absorb, appears to be declining. If this trend continues, a larger fraction
+of anthropogenic CO2 emissions will remain in the atmosphere rather than
+being absorbed by the ocean, accelerating warming.
 
-Over longer timescales, carbon can be stored in marine sediments and
-ice-associated deposits. Particulate carbon that reaches the seafloor may be
-buried and effectively removed from short-term climate feedbacks.
+## Sea ice and carbon cycling
 
-While Antarctic ice itself is not a major direct reservoir for atmospheric
-carbon dioxide, ice sheets influence sequestration indirectly by shaping ocean
-circulation, freshwater input, and nutrient distribution. These interactions
-affect how efficiently carbon is transferred from the atmosphere to long-term
-storage.
+Sea ice plays a complex and still not fully understood role in Southern Ocean
+carbon dynamics. Ice-covered areas limit direct air-sea CO2 exchange, while
+the formation and melt of sea ice drives changes in salinity and density
+that influence deep water formation. The algae that grow on and within sea
+ice contribute to the biological pump: when ice melts in spring, seeding
+the water column with algae and nutrients, it helps trigger the phytoplankton
+bloom that drives seasonal carbon uptake.
 
-## Sensitivity to climate change
+The sharp declines in Southern Ocean sea ice extent observed since 2016
+therefore affect carbon cycling in ways that are not yet fully quantified.
+More open water may allow greater air-sea CO2 exchange in some conditions,
+but it also disrupts the seasonal patterns of productivity on which the
+biological pump depends. Disentangling these effects is a current priority
+in Southern Ocean research.
 
-Warming temperatures and changes in ocean circulation have the potential to
-alter Antarctic carbon sequestration processes. Increased stratification of
-ocean waters can limit the downward transport of carbon, while changes in sea
-ice cover can affect both physical uptake and biological productivity.
+## Carbon and the larger climate picture
 
-The balance between continued carbon absorption and potential reductions in
-sequestration efficiency remains an active area of research. Antarctic systems
-therefore provide important insight into how climate change may influence the
-future behavior of global carbon sinks.
+The Southern Ocean's role as a carbon sink is one reason why changes in
+Antarctic systems matter globally, even to people living far from any coast.
+The ocean's ability to absorb and sequester CO2 is one of the largest
+moderating factors in the relationship between human emissions and atmospheric
+CO2 concentrations. Every ton of carbon absorbed by the Southern Ocean is a
+ton that does not accumulate in the atmosphere. If that sequestration capacity
+declines, the effective CO2 budget consistent with any given warming target
+shrinks.
 
-## Closing perspective
-
-Carbon sequestration in Antarctic and Southern Ocean systems illustrates the
-complex interactions between physics, biology, and climate. By examining how
-carbon is absorbed, transported, and stored in polar environments, researchers
-gain a clearer understanding of the mechanisms that moderate atmospheric carbon
-dioxide levels. This perspective highlights the importance of polar regions in
-shaping long-term climate trajectories.
+Understanding how the Southern Ocean carbon sink works, how it is changing,
+and what drives those changes is not a specialized scientific problem. It is
+one of the most consequential questions in climate science, with direct
+bearing on projections, policy, and the timeline of physical change across
+the entire planet.

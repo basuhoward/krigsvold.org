@@ -1,65 +1,64 @@
 ---
 layout: page
 title: Get Involved
+description: How to follow the Count of Krigsvold's work, support polar climate education, and engage with the broader mission.
 featured_image: /assets/img/get-involved-banner.webp
 ---
 
-Engagement with climate change and polar systems takes many forms. The Count of
-Krigsvold encourages involvement that is informed, responsible, and grounded in
-credible scientific understanding, recognizing that meaningful participation
-does not require formal affiliation or institutional role.
+Climate education about polar systems is most effective when it reaches
+people who are willing to take it seriously and share it with others.
+If you have found the Count of Krigsvold's work useful, there are several
+ways to stay engaged and to support the mission.
 
-The pathways outlined here reflect the Count's educational mission and are
-intended to support informed engagement rather than prescribe particular
-actions.
+## Follow and share
 
-## Learn and stay informed
+The Count maintains a presence on several platforms. Updates, links to
+new research, and commentary on polar climate news are shared regularly.
 
-Understanding climate change begins with sustained attention to reliable sources
-of information. Readers are encouraged to engage with primary scientific
-research, synthesis reports, and authoritative assessments related to Antarctica
-and the broader polar regions.
+On **Bluesky** at [@krigsvold.org](https://bsky.app/profile/krigsvold.org),
+posts are indexed and discoverable without an account, and the platform
+supports substantive links and discussion.
 
-Where appropriate, the Count highlights research and educational materials that
-contribute to clearer public understanding of glaciology, climatology, polar
-ecology, and related fields. Engagement at this level is foundational to all
-other forms of involvement.
+On **Mastodon** at [@krigsvold@mastodon.social](https://mastodon.social/@krigsvold),
+the Count participates in the federated social web, with the fuller
+context that the longer-form environment allows.
 
-## Support scientific work
+The **Facebook** page at [Count Krigsvold Westarctica](https://www.facebook.com/CountKrigsvoldWestarctica)
+reaches audiences who prefer that platform.
 
-Scientific research underpins effective climate education and informed advocacy.
-Supporting institutions, researchers, and programs that conduct rigorous work on
-polar systems is one of the most direct ways to contribute to long-term
-understanding of climate change.
+Sharing content you find genuinely useful is the simplest and most direct
+way to extend the reach of climate education. Quality over volume: one piece
+that someone reads carefully and thinks about is worth more than a dozen
+that scroll past.
 
-The Count's own research support activities, including fellowships and
-recognition, are intended to complement this broader ecosystem of scientific
-inquiry rather than replace or compete with it.
+## The Fellowship
 
-## Contribute to public understanding
+If you are a researcher, educator, or science communicator whose work engages
+seriously with Antarctic or polar climate systems, the [Fellowship](/fellowship/)
+may be relevant to you or to someone you know. Nominations and inquiries
+are welcome at [info@basuhoward.org](mailto:info@basuhoward.org).
 
-Climate change is often discussed in abstract terms, despite its concrete
-physical manifestations in polar environments. Individuals engaged in education,
-communication, or policy-related work can contribute by translating complex
-scientific findings into accurate, accessible forms.
+## Support Westarctica
 
-Such contributions are most effective when they preserve nuance, acknowledge
-uncertainty where it exists, and avoid oversimplification or exaggeration.
+The Grand Duchy of Westarctica, within whose institutional framework the
+Count of Krigsvold holds his title, operates as a nonprofit organization
+dedicated to raising awareness of Western Antarctica's environmental
+significance. Supporting Westarctica financially or through participation
+in its activities is a direct way to support the broader mission. Westarctica
+can be reached through [westarctica.org](https://www.westarctica.org).
 
-## Engage responsibly
+## Engage with the science directly
 
-The Count does not promote a single model of engagement. Readers are encouraged
-to consider their own expertise, resources, and interests when deciding how to
-become involved, and to prioritize actions that align with established
-scientific knowledge and ethical practice.
+The most durable contribution anyone can make to polar climate awareness
+is developing their own genuine understanding of the science. The Count's
+website is a starting point, not an end. The Scientific Committee on Antarctic
+Research ([SCAR](https://scar.org)), the British Antarctic Survey
+([BAS](https://www.bas.ac.uk)), and the United States Antarctic Program
+([USAP](https://www.usap.gov)) all produce public-facing content about
+ongoing polar research. IPCC Working Group I reports are technically dense
+but accessible with patience, and the Summary for Policymakers is written
+for exactly the audience it names.
 
-Constructive engagement is characterized by patience, attention to evidence, and
-respect for the work of scientific and academic institutions.
+## Contact
 
-## Closing perspective
-
-Addressing climate change requires sustained effort across many domains, from
-research and education to policy and public discourse. By fostering informed
-engagement with Antarctic and polar systems, the Count of Krigsvold seeks to
-support participation that is thoughtful, proportionate, and grounded in an
-accurate understanding of the physical world.
+Direct inquiries can be sent to [info@basuhoward.org](mailto:info@basuhoward.org).

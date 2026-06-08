@@ -109,9 +109,6 @@ footer_menu_settings:
         url: /copyright
 
 social_media:
-  - name: Twitter
-    icon: twitter
-    url: https://twitter.com/countkrigsvold
   - name: Facebook
     icon: facebook
     url: https://www.facebook.com/CountKrigsvoldWestarctica

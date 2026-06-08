@@ -20,11 +20,10 @@
 
 title: The Count of Krigsvold
 email: info@basuhoward.org
-description: >- # this means to ignore newlines until "baseurl:"
-  Our website is dedicated to providing comprehensive information about
-  Antarctica, covering topics such as its unique ecosystems, scientific
-  research, environmental conservation efforts, and the role of the
-  continent in global climate regulation.
+description: >-
+  The County of Krigsvold is situated in Marie Byrd Land, West Antarctica.
+  Its Count, James P. Howard, II, advances public understanding of climate
+  change through sustained attention to Antarctica and related polar systems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://krigsvold.org" # the base hostname & protocol for your site, e.g. http://example.com
 port: 4002

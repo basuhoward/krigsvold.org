@@ -1,98 +1,48 @@
 ---
 layout: page
-date: 2026-01-01
 title: Mission and Method
+description: The Count of Krigsvold advances public understanding of Antarctic climate systems through education, advocacy, and support for research.
 featured_image: /assets/img/mission-and-method.webp
+date: 2026-01-01
 ---
 
 The mission of the Count of Krigsvold is to advance public understanding of
-climate change through focused attention on Antarctica and other polar systems.
-This work is grounded in the conviction that polar environments, though remote,
-are central to global climate dynamics and offer uniquely clear insight into
-processes that affect the entire planet.
+climate change through sustained attention to Antarctica and its role in global
+climate systems. The method is simple: explain the science clearly, return often
+to named Antarctic places, and connect remote physical processes to their global
+consequences.
 
-The Count pursues this mission through education, structured advocacy, and the
-support of research. These activities are conducted within clearly defined
-territorial and institutional frameworks, and are intended to complement, rather
-than duplicate, the work of scientific, academic, and policy institutions.
+Antarctica is not a peripheral subject. The continent contains about ninety
+percent of the world's ice and roughly seventy percent of its fresh water,
+locked in ice whose behavior directly governs global sea level. The Southern
+Ocean surrounding it absorbs roughly forty percent of all oceanic anthropogenic
+carbon uptake. Changes in Antarctic circulation patterns alter atmospheric
+dynamics across the entire southern hemisphere and beyond. Remote as it is,
+Antarctica sits at the center of the physical mechanisms that determine how the
+warming of the planet will proceed.
 
-## Mission
+The challenge is that this centrality is poorly understood outside the
+scientific community. The Count's work addresses that gap.
 
-Antarctica plays a disproportionate role in regulating the Earth's climate.
-Changes in ice mass, atmospheric circulation, ocean chemistry, and ecosystem
-stability in the polar regions have direct and cascading effects far beyond the
-continent itself. Yet these systems are often poorly understood outside
-specialist communities.
+## The three pillars
 
-The Count's mission is to make these dynamics intelligible to a wider audience
-by emphasizing:
+**Education and interpretation** is the primary activity. The Count curates,
+presents, and explains climate information drawn from established scientific
+research. The emphasis is on the processes themselves: how ice sheets flow
+and fail, how ocean temperatures drive sub-shelf melting, how changes in sea
+ice alter food webs, how the Southern Ocean's carbon uptake capacity responds
+to warming. This explanation is organized around the real geography of Marie
+Byrd Land, anchored to specific peaks and nunataks that give the work a
+concrete physical basis.
 
-- the scale and pace of **rapid ice melt** and its implications for sea level rise,  
-- the role of Antarctica in **warming continental systems** and atmospheric circulation,  
-- the vulnerability of **polar and subpolar ecosystems**, and  
-- the importance of Antarctic processes in **carbon sequestration** and
-  long-term climate regulation.
+**Advocacy** operates through the sustained presentation of evidence. The
+argument is simpler and more durable than political messaging: here is what
+is happening, here is how we know it, here is why it matters. Presented
+consistently and accurately over time, that case makes itself.
 
-By focusing on these interconnected themes, the Count seeks to foster informed
-engagement with climate science rather than alarm, speculation, or abstraction.
-
-## Method
-
-The Count's work is deliberately institutional in form and educational in
-intent. Its methods fall into three closely related categories.
-
-### Education and interpretation
-
-The primary method is explanation. The Count curates and presents climate
-information in a structured, accessible manner, drawing on established
-scientific research and authoritative sources. The emphasis is on clarity,
-continuity, and context, rather than novelty or persuasion.
-
-Educational materials are organized around identifiable Antarctic features and
-systems, allowing readers to understand climate change through concrete
-geographic reference rather than generalized description.
-
-### Advocacy through structure
-
-Advocacy is pursued indirectly, through the sustained presentation of evidence
-and the cultivation of institutional seriousness. Rather than issuing calls to
-action, the Count advances climate awareness by demonstrating why polar systems
-matter and how their degradation affects global environmental stability.
-
-This form of advocacy is intentionally restrained. It relies on the cumulative
-force of accurate information, careful framing, and consistent engagement with
-polar science.
-
-### Support for research
-
-The Count also supports research and scholarly activity related to Antarctic and
-polar climate systems. This includes fellowships and other forms of recognition
-intended to encourage work that improves understanding of glaciology,
-climatology, ecology, and related fields.
-
-Research support is treated as an extension of the educational mission. By
-enabling and highlighting rigorous scientific inquiry, the Count reinforces the
-informational foundations on which effective climate discourse depends.
-
-## Scope and limits
-
-The Count does not claim regulatory authority, policy-making power, or
-scientific primacy. Its role is complementary: to interpret, to support, and to
-educate. Where possible, it directs attention to the work of established
-scientific bodies and encourages engagement with primary research rather than
-secondary commentary.
-
-All activities are framed by the territorial constructs associated with the
-Count's titles, which serve as organizing references rather than assertions of
-ownership or jurisdiction.
-
-## Closing perspective
-
-Climate change is a global phenomenon, but it is often most clearly observed at
-the margins of human habitation. By focusing on Antarctica and related polar
-systems, the Count of Krigsvold seeks to illuminate climate processes that are
-otherwise distant, abstract, or misunderstood.
-
-The mission and methods outlined here are intended to sustain that effort over
-time, with consistency, restraint, and fidelity to the scientific realities of
-the polar environment.
+**Research support** takes the form of recognition and encouragement of work
+that strengthens public understanding of polar science. The Fellowship of
+the Count of Krigsvold provides formal acknowledgment of individuals whose
+research contributes meaningfully to the field. By enabling and highlighting
+rigorous scientific inquiry, the Count reinforces the informational
+foundations on which effective climate discourse depends.
