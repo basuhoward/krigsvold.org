@@ -1,7 +1,18 @@
-var UKRAINE = UKRAINE || (function(){
-    let _args = {};
-    let messages = [
-        "We stand with 🇺🇦 Ukraine #StandWithUkraine",
+var UKRAINE = UKRAINE || (function () {
+    "use strict";
+
+    const DEFAULT_DISPLAY_PERIOD = 10_000;
+    const FADE_DURATION = 1_000;
+
+    let _args = [
+        "light",
+        "small",
+        "bottom-right",
+        DEFAULT_DISPLAY_PERIOD
+    ];
+
+    const messages = [
+        "We stand with Ukraine against Russian aggression. 🇺🇦",
         "Russia's war against 🇺🇦 Ukraine is real and raw. Our hearts are with those who suffer.",
         "Slava Ukraini! 🇺🇦 Героям слава!",
         "Freedom for Ukraine! Stop Russian aggression!",
@@ -22,73 +33,153 @@ var UKRAINE = UKRAINE || (function(){
         "Stand with Ukraine. Defend democracy.",
         "Ukrainians fight for their survival. We must help.",
         "History will remember who stood with Ukraine.",
-        "A free Ukraine is a free world.",
+        "A free Ukraine strengthens the free world.",
         "We must stop Russia's aggression—now.",
         "Ukraine fights for all of us.",
         "Hope and strength for Ukraine. 🇺🇦",
         "Truth and justice for Ukraine!",
         "Ukrainian children deserve peace, not war.",
-        "Support Ukraine's right to exist.",
+        "Support Ukraine's freedom and sovereignty.",
         "Democracy must prevail. Stand with Ukraine.",
         "Ukraine is strong. Ukraine will win."
     ];
 
+    const fixedMessages = {
+        emoji: "❤️ 🇺🇦",
+        hashtag: "#StandWithUkraine",
+        small: "We stand with Ukraine against Russian aggression. 🇺🇦",
+        large: "Russia's war against 🇺🇦 Ukraine is real and raw. Our hearts are with those who suffer."
+    };
+
+    function getMessage(mode) {
+        if (mode === "random") {
+            return messages[
+                Math.floor(Math.random() * messages.length)
+            ];
+        }
+
+        return fixedMessages[mode] || fixedMessages.small;
+    }
+
     return {
-        init : function(Args) {
-            _args = Args;
-            const head = document.getElementsByTagName('HEAD')[0];
-            const styleSheet = document.createElement('link');
-            styleSheet.rel = 'stylesheet';
-            styleSheet.type = 'text/css';
-            styleSheet.href = '/assets/css/ukraine.css';
-            head.appendChild(styleSheet);
+        init: function (args = []) {
+            const requestedPeriod = Number(args[3]);
+
+            _args = [
+                args[0] === "dark" ? "dark" : "light",
+                args[1] || "small",
+                args[2] || "bottom-right",
+                Number.isFinite(requestedPeriod)
+                    ? Math.max(requestedPeriod, 1_000)
+                    : DEFAULT_DISPLAY_PERIOD
+            ];
+
+            if (!document.querySelector("link[data-ukraine-banner]")) {
+                const styleSheet = document.createElement("link");
+
+                styleSheet.rel = "stylesheet";
+                styleSheet.href = "/assets/css/ukraine.css";
+                styleSheet.dataset.ukraineBanner = "true";
+
+                document.head.appendChild(styleSheet);
+            }
         },
 
-        createBanner : function() {
-            let ukraineBanner = document.createElement("div");
-            ukraineBanner.classList.add('ukb');
-
-            if (_args[0] === "dark") {
-                ukraineBanner.classList.add('ukb-dark');
-            } else {
-                ukraineBanner.classList.add('ukb-light');
+        createBanner: function () {
+            if (!document.body) {
+                throw new Error(
+                    "UKRAINE.createBanner() must be called after document.body exists."
+                );
             }
 
-            let message = "";
-            if (_args[1] === "random") {
-                message = messages[Math.floor(Math.random() * messages.length)];
-            } else if (_args[1] === "emoji") {
-                message = "❤️ 🇺🇦";
-            } else if (_args[1] === "hashtag") {
-                message = "#StandWithUkraine";
-            } else if (_args[1] === "small") {
-                message = "We stand with 🇺🇦 Ukraine #StandWithUkraine";
-            } else if (_args[1] === "large") {
-                message = "Russia's war against 🇺🇦 Ukraine is real and raw. Our hearts are with those who suffer.";
+            const existingBanner = document.querySelector(".ukb");
+
+            if (existingBanner) {
+                existingBanner.remove();
             }
 
-            ukraineBanner.classList.add(_args[1] === "large" ? 'ukb-large' : 'ukb-small');
-            ukraineBanner.appendChild(document.createTextNode(message));
+            const [theme, mode, position, displayPeriod] = _args;
+            const message = getMessage(mode);
+            const ukraineBanner = document.createElement("a");
 
-            if (_args[2] === "bottom-right") {
-                ukraineBanner.classList.add('ukb-bottom-right');
-            } else if (_args[2] === "bottom-left") {
-                ukraineBanner.classList.add('ukb-bottom-left');
-            } else if (_args[2] === "top-left") {
-                ukraineBanner.classList.add('ukb-top-left');
-            } else if (_args[2] === "top-right") {
-                ukraineBanner.classList.add('ukb-top-right');
-            }
+            ukraineBanner.classList.add(
+                "ukb",
+                theme === "dark" ? "ukb-dark" : "ukb-light",
+                `ukb-${position}`
+            );
+
+            const isLarge =
+                mode === "large" ||
+                (mode === "random" && message.length > 60);
+
+            ukraineBanner.classList.add(
+                isLarge ? "ukb-large" : "ukb-small"
+            );
+
+            ukraineBanner.href = "https://u24.gov.ua/";
+            ukraineBanner.textContent = message;
+
+            ukraineBanner.setAttribute(
+                "aria-label",
+                `${message} Visit United24, the official Ukrainian fundraising platform.`
+            );
 
             document.body.appendChild(ukraineBanner);
 
-            ukraineBanner.onclick = () => {
-                window.location.href = 'https://u24.gov.ua/';
-            };
+            let fadeTimer = null;
+            let removalTimer = null;
+
+            function cancelFade() {
+                window.clearTimeout(fadeTimer);
+                window.clearTimeout(removalTimer);
+
+                fadeTimer = null;
+                removalTimer = null;
+
+                ukraineBanner.classList.remove("ukb-fade-out");
+            }
+
+            function scheduleFade() {
+                cancelFade();
+
+                fadeTimer = window.setTimeout(() => {
+                    ukraineBanner.classList.add("ukb-fade-out");
+
+                    removalTimer = window.setTimeout(() => {
+                        ukraineBanner.remove();
+                    }, FADE_DURATION);
+                }, displayPeriod);
+            }
+
+            ukraineBanner.addEventListener(
+                "mouseenter",
+                cancelFade
+            );
+
+            ukraineBanner.addEventListener(
+                "mouseleave",
+                scheduleFade
+            );
+
+            ukraineBanner.addEventListener(
+                "focus",
+                cancelFade
+            );
+
+            ukraineBanner.addEventListener(
+                "blur",
+                scheduleFade
+            );
+
+            scheduleFade();
         }
     };
 }());
 
-// Example usage with random mode
-UKRAINE.init(["dark", "random", "bottom-right"]);
+UKRAINE.init([
+    "dark",
+    "small",
+    "bottom-right"
+]);
+
 UKRAINE.createBanner();
