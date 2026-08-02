@@ -100,9 +100,13 @@ footer_menu_settings:
         relationship: me
     - title: Legal
       submenu_items:
-      - title: Privacy
-        url: /privacy-policy
+      - title: Privacy Notice
+        url: /privacy-and-cookie-notice
         relationship: privacy-policy
+      - title: Cookie Settings
+        url: /privacy-and-cookie-notice/#cookie-settings
+        data:
+          cookie-preferences:
       - title: Terms of Use
         url: /terms-of-use
       - title: Copyright

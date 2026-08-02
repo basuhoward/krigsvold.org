@@ -24,13 +24,23 @@
       <div class="col-md-2 col-sm-6 col-6 mb-4">
         <div>
           <h6 class="text-sm">{{ item.title }}</h6>
+
           <ul class="flex-column ms-n3 nav">
             {% for subitem in item.submenu_items %}
             <li class="nav-item">
-              <a class="nav-link" href="{{ subitem.url | relative_url }}"
-                 {% if subitem.target %} target="{{ subitem.target }}" {% endif %}
-                 {% if subitem.relationship %} rel="{{ subitem.relationship }}" {% endif %}
-                 >
+              <a
+                class="nav-link"
+                href="{{ subitem.url | relative_url }}"
+                {% if subitem.target %}
+                target="{{ subitem.target | escape }}"
+                {% endif %}
+                {% if subitem.relationship %}
+                rel="{{ subitem.relationship | escape }}"
+                {% endif %}
+                {% for datum in subitem.data %}
+                data-{{ datum[0] }}{% if datum[1] != nil %}="{{ datum[1] | escape }}"{% endif %}
+                {% endfor %}
+                >
                 {{ subitem.title }}
               </a>
             </li>
@@ -40,7 +50,7 @@
       </div>
       {% endunless %}
       {% endfor %}
-
+    
       <div class="col-12">
         <div class="text-center">
           <p class="text-dark my-4 text-sm font-weight-normal">
@@ -51,3 +61,4 @@
     </div>
   </div>
 </footer>
+{% include gdpr-cookie.html %}

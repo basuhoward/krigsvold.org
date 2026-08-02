@@ -81,3 +81,9 @@ algolia:
   application_id:       F2YSZQ2KZ4
   index_name:           krigsvold-search
   search_only_api_key:  2d8dc045127e744060be5e0aa0b74db7
+
+cookie_consent:
+  ga_id: "G-13CWX5EBQG"
+  cookie_name: "cookieConsent"
+  duration_days: 365
+  policy_version: "1"

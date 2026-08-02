@@ -1,0 +1,52 @@
+<section
+  class="gdpr-cookie"
+  id="gdpr-cookie"
+  role="region"
+  aria-labelledby="gdpr-cookie-title"
+  aria-describedby="gdpr-cookie-description"
+  aria-hidden="true"
+  hidden
+>
+  <div class="gdpr-cookie__panel">
+    <div class="gdpr-cookie__copy">
+      <h2 class="gdpr-cookie__title" id="gdpr-cookie-title">
+        Analytics cookies
+      </h2>
+
+      <p class="gdpr-cookie__description" id="gdpr-cookie-description">
+        I use optional Google Analytics cookies to understand how visitors
+        use this site. Google Analytics will not load unless you accept.
+        Rejecting analytics will not affect your use of the site.
+      </p>
+
+      <p class="gdpr-cookie__more">
+        You can change your choice at any time in Cookie settings.
+        <a href="{{ '/privacy-and-cookie-notice/' | relative_url }}">
+          Read my privacy and cookie notice
+        </a>.
+      </p>
+    </div>
+
+    <div
+      class="gdpr-cookie__actions"
+      role="group"
+      aria-label="Analytics cookie choices"
+    >
+      <button
+        class="gdpr-cookie__button gdpr-cookie__button--reject"
+        type="button"
+        data-cookie-reject
+      >
+        Reject analytics
+      </button>
+
+      <button
+        class="gdpr-cookie__button gdpr-cookie__button--accept"
+        type="button"
+        data-cookie-accept
+      >
+        Accept analytics
+      </button>
+    </div>
+  </div>
+</section>
