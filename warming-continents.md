@@ -2,7 +2,7 @@
 layout: page
 title: Warming and Circulation
 eyebrow: Antarctica briefing
-description: How heat enters the Southern Ocean, how circulation connects Antarctica to the wider planet, and what recent sea-ice lows do and do not tell us.
+description: This briefing explains how heat enters the Southern Ocean, how circulation connects Antarctica to the wider planet, and what recent sea-ice lows do and do not tell us.
 featured_image: /assets/img/warming-continents-banner.webp
 last_reviewed: 2026-09-02
 ---

@@ -1,7 +1,7 @@
 ---
 title: What Is Krigsvold?
 eyebrow: Status and purpose
-description: A plain account of the Count of Krigsvold, its relationship to Westarctica, and the real work conducted under the title.
+description: This page gives a plain account of the Count of Krigsvold, its relationship to Westarctica, and the real work conducted under the title.
 featured_image: /assets/img/krigsvold-banner.webp
 last_reviewed: 2026-09-02
 ---

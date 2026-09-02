@@ -1,7 +1,7 @@
 ---
 title: Corrections
 eyebrow: Editorial accountability
-description: Material corrections to scientific, programmatic, and institutional claims published by Krigsvold.
+description: Krigsvold records material corrections to its scientific, programmatic, and institutional claims.
 featured_image: /assets/img/south-pole-monitoring-station.webp
 last_reviewed: 2026-09-02
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Ice and Sea Level
 eyebrow: Antarctica briefing
-description: How Antarctic ice loss is measured, why West Antarctica is vulnerable, and what ice-sheet change means for global sea level.
+description: This briefing explains how Antarctic ice loss is measured, why West Antarctica is vulnerable, and what ice-sheet change means for global sea level.
 featured_image: /assets/img/rapid-ice-melt-banner.webp
 last_reviewed: 2026-09-02
 ---

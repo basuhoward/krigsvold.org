@@ -1,7 +1,7 @@
 ---
 title: Annual Record
 eyebrow: Accountability
-description: The Count of Krigsvold's public record of fellowship awards, publications, activity, and priorities.
+description: The annual record reports the Count of Krigsvold's fellowship awards, publications, activity, and priorities.
 featured_image: /assets/img/south-pole-monitoring-station.webp
 last_reviewed: 2026-09-02
 ---

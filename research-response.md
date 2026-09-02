@@ -2,7 +2,7 @@
 layout: page
 title: Research and Response
 eyebrow: Antarctica briefing
-description: The observing systems behind Antarctic climate knowledge, the limits of that knowledge, and the responses the evidence supports.
+description: This briefing explains the observing systems behind Antarctic climate knowledge, its limits, and the responses the evidence supports.
 featured_image: /assets/img/research-response-banner.webp
 last_reviewed: 2026-09-02
 ---

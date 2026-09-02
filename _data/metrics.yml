@@ -1,20 +1,20 @@
 - value: "150 billion"
   label: Metric tons of Antarctic ice lost per year
-  context: Average measured by GRACE and GRACE-FO satellites, 2002–2023.
+  context: NASA measured this annual average with the GRACE and GRACE-FO satellites from 2002 through 2023.
   source_name: NASA
   source_url: https://science.nasa.gov/earth/antarctic-ice-mass-loss-2002-2023/
   verified: 2026-09-02
 
 - value: "1.98 million km²"
   label: Antarctic sea ice at the 2025 summer minimum
-  context: Thirty percent below the 1981–2010 average and tied for the second-lowest minimum in the satellite record.
+  context: The minimum was 30% below the 1981–2010 average and tied for the second lowest in the satellite record.
   source_name: NASA Earth Observatory
   source_url: https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-plunged-in-summer-2025-154112/
   verified: 2026-09-02
 
 - value: "~30%"
   label: Increase in surface-ocean acidity
-  context: Change since the beginning of the Industrial Revolution as the ocean has absorbed atmospheric carbon dioxide.
+  context: Surface-ocean acidity has risen by about 30% since the beginning of the Industrial Revolution.
   source_name: NOAA
   source_url: https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification
   verified: 2026-09-02

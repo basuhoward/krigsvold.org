@@ -3,7 +3,7 @@ title: Sheherazade
 year: 2025
 institution: University of California, Berkeley
 field_site: Central Sulawesi, Indonesia
-summary: Doctoral researcher studying community-led forest governance and biocultural stewardship.
+summary: Sheherazade is a doctoral researcher studying community-led forest governance and biocultural stewardship.
 project: Her work examines Conservation Partnerships and Customary Forest initiatives in Central Sulawesi, with particular attention to Indigenous and local leadership.
 external_url: https://ourenvironment.berkeley.edu/users/1808368
 description: Sheherazade, the 2025 Count of Krigsvold Fellow, studies decentralized forest governance and biocultural stewardship in Central Sulawesi.

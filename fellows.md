@@ -1,7 +1,7 @@
 ---
 title: Meet the Fellows
 eyebrow: Research support
-description: Recipients of the Count of Krigsvold Fellowship for graduate research in climate change and global conservation.
+description: Meet the recipients of the Count of Krigsvold Fellowship for graduate research in climate change and global conservation.
 featured_image: /assets/img/fellowship-banner.webp
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Antarctica Briefings
 eyebrow: Evidence and interpretation
-description: Sourced briefings on Antarctic ice, oceans, circulation, ecosystems, carbon, and scientific response.
+description: Krigsvold publishes sourced briefings on Antarctic ice, oceans, circulation, ecosystems, carbon, and scientific response.
 featured_image: /assets/img/southern-ocean.webp
 last_reviewed: 2026-09-02
 ---

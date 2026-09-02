@@ -4,5 +4,5 @@
 layout: home
 featured_image: /assets/img/home-banner.webp
 title: The Count of Krigsvold
-description: An Antarctic title put to work through polar education, research support, and evidence-led advocacy.
+description: The Count of Krigsvold puts an Antarctic title to work through polar education, research support, and evidence-led advocacy.
 ---

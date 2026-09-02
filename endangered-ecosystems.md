@@ -2,7 +2,7 @@
 layout: page
 title: Polar Ecosystems
 eyebrow: Antarctica briefing
-description: How changing sea ice, ocean conditions, and food-web timing affect krill, emperor penguins, seals, and other Antarctic life.
+description: This briefing explains how changing sea ice, ocean conditions, and food-web timing affect krill, emperor penguins, seals, and other Antarctic life.
 featured_image: /assets/img/endangered-ecosystems-banner.webp
 last_reviewed: 2026-09-02
 ---

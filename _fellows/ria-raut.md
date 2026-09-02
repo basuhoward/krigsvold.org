@@ -4,7 +4,7 @@ short_name: Ria
 year: 2026
 institution: University of California, Berkeley
 field_site: Sabah, Malaysian Borneo
-summary: Doctoral researcher studying how tropical forests recover after selective logging.
+summary: Ria Raut is a doctoral researcher studying how tropical forests recover after selective logging.
 project: Raut examines the biotic and abiotic drivers of sapling recruitment in primary and regenerating forests in Sabah, Borneo.
 featured_image: /assets/img/news/2026/ria-raut-named-recipient-of-2026-count-of-krigsvold-fellowship.webp
 image_alt: Ria Raut conducting forest research

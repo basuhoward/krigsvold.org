@@ -1,7 +1,7 @@
 ---
 title: Sources and Method
 eyebrow: Editorial standard
-description: How Krigsvold selects sources, describes evidence, handles uncertainty, and keeps climate briefings current.
+description: This page explains how Krigsvold selects sources, describes evidence, handles uncertainty, and keeps climate briefings current.
 featured_image: /assets/img/wissard-tents.webp
 last_reviewed: 2026-09-02
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Heraldry
-description: The heraldic arms of the Count of Krigsvold, including personal arms granted by the Chief Herald of Arms of Malta and territorial arms for Krigsvold, Rubin de la Borbolla, and Matikonis.
+description: This page documents the heraldic arms of the Count of Krigsvold, including personal arms granted by the Chief Herald of Arms of Malta and territorial arms for Krigsvold, Rubin de la Borbolla, and Matikonis.
 featured_image: /assets/img/heraldry.webp
 last_reviewed: 2026-09-02
 ---

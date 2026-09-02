@@ -2,7 +2,7 @@
 layout: page
 title: Oceans and Carbon
 eyebrow: Antarctica briefing
-description: How the Southern Ocean absorbs and stores human-emitted carbon dioxide, and why its future capacity matters to the entire climate system.
+description: This briefing explains how the Southern Ocean absorbs and stores human-emitted carbon dioxide and why its future capacity matters to the entire climate system.
 featured_image: /assets/img/carbon-sequestration.webp
 last_reviewed: 2026-09-02
 ---

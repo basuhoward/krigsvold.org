@@ -1,7 +1,7 @@
 ---
 title: Advocacy
 eyebrow: Evidence in public
-description: How the Count of Krigsvold uses evidence, public communication, and institutional attention to advocate for climate and conservation action.
+description: The Count of Krigsvold uses evidence, public communication, and institutional attention to advocate for climate and conservation action.
 featured_image: /assets/img/research-response-banner.webp
 last_reviewed: 2026-09-02
 ---
