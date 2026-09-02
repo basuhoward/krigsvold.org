@@ -1,14 +1,16 @@
 ---
 layout: page
 title: Heraldry
-description: The heraldic arms of the Count of Krigsvold, including personal arms granted by the Chief Herald of Arms of Malta and territorial arms for Krigsvold, Rubin de la Borbolla, and Matikonis.
+description: This page documents the heraldic arms of the Count of Krigsvold, including personal arms granted by the Chief Herald of Arms of Malta and territorial arms for Krigsvold, Rubin de la Borbolla, and Matikonis.
 featured_image: /assets/img/heraldry.webp
+last_reviewed: 2026-09-02
 ---
 
 The Count of Krigsvold bears personal arms granted by the Chief Herald of
-Arms of Malta and territorial arms for each of his three titles. Both are
-governed by established heraldic convention and employed consistently across
-documents and contexts.
+Arms of Malta. Separate armorial designs are used for Krigsvold, Rubin de la
+Borbolla, and Matikonis. The distinction in provenance is important: the
+personal arms are documented by Maltese Letters Patent; the territorial designs
+are used by this office and are not presented as part of that personal grant.
 
 {% include figure.html placement="right" border=false width="4"
 image="armorial/jph2.svg"
@@ -169,6 +171,6 @@ continuous presence in a difficult environment.
 ## Protocol and use
 
 The personal arms are borne in accordance with the terms of the Maltese grant.
-The territorial arms are employed where formal identification of the Count's
-offices is appropriate. All are used consistently and in accordance with
-established heraldic hierarchy.
+The territorial designs identify the corresponding Westarctican dignities.
+They are kept visually and descriptively distinct from the documented personal
+grant so that heraldic style does not obscure heraldic provenance.

@@ -1,54 +1,44 @@
 ---
 layout: page
 title: Research Support
-description: How the Count of Krigsvold supports the scientific and communicative work that advances understanding of polar climate systems.
-featured_image: /assets/img/research-support-banner.webp
+eyebrow: From attention to resources
+description: Krigsvold supports graduate climate and conservation research through direct awards, public profiles, and responsible interpretation.
+featured_image: /assets/img/research-support.webp
+last_reviewed: 2026-09-02
 ---
 
-The Count supports the scientific and communicative work on which good
-climate education depends. That support takes three forms.
+Research support should mean something more concrete than liking research in
+public. Krigsvold's primary mechanism is the **Count of Krigsvold Fellowship**,
+an annual $1,000 graduate research grant administered with Westarctica.
 
-## The Fellowship
+## Direct support
 
-The Fellowship of the Count of Krigsvold is the primary mechanism for formal
-recognition of individuals whose work advances understanding of polar climate
-change. Fellows are researchers, educators, or communicators whose
-contributions demonstrate rigor, relevance, and genuine engagement with the
-science of Antarctic and subpolar systems. Fellowship is awarded at the
-Count's discretion and carries no institutional affiliation or ongoing
-obligation. Full details are on the [Fellowship](/fellowship/) page.
+Since 2025, two Fellows have received $2,000 in total awards:
 
-## Amplification and interpretation
+- [Sheherazade](/fellows/sheherazade/) for work on community-led forest
+  governance in Central Sulawesi; and
+- [Ria Raut](/fellows/ria-raut/) for work on tropical forest recovery in Sabah,
+  Borneo.
 
-Beyond the Fellowship, the Count's ongoing educational work on this site
-functions as a form of research support by directing attention to credible
-scientific sources, contextualizing findings for a general audience, and
-maintaining a sustained public presence that treats polar science with the
-seriousness it warrants.
+Awards, recipients, and project purposes are reported in the
+[Annual Record](/record/).
 
-This is not a substitute for reading primary research. It is an attempt to
-build the kind of informed general understanding that allows primary research
-to have the public resonance it deserves. The four Climate Impacts pages
-on this site, addressing [rapid ice melt](/rapid-ice-melt/),
-[warming continents](/warming-continents/), [endangered ecosystems](/endangered-ecosystems/),
-and [carbon sequestration](/carbon-sequestration/), are written to be
-substantive without being technical, and to provide enough scientific grounding
-that a reader who wants to go further has a clear sense of where to look.
+## Public support
 
-## Encouraging engagement with primary science
+Fellows also receive a durable public profile explaining the question, method,
+and conservation relevance of their work. This is amplification with a subject
+and a reason, not a generic claim that research matters.
 
-Readers are encouraged to engage directly with the research and institutions
-that produce the most reliable polar climate science. The Scientific Committee
-on Antarctic Research ([SCAR](https://scar.org)) is the primary international
-body coordinating polar research and synthesizing findings across national
-programs. The IPCC's Working Group I report and its associated synthesis
-material address polar contributions to climate change in detail accessible
-to non-specialists. National Antarctic program websites, including those of
-the [United States Antarctic Program](https://www.usap.gov) and the
-[British Antarctic Survey](https://www.bas.ac.uk), provide extensive
-public-facing information about ongoing research.
+The site separately interprets Antarctic research for a general audience. That
+editorial work is not financial support and is not presented as such. It can,
+however, help readers reach the primary institutions and findings on which good
+public decisions depend.
 
-These institutions represent decades of sustained scientific effort. Directing
-attention to them, and to the work they produce, is the most useful thing
-the Count can do to support the enterprise on which this educational mission
-depends.
+## Boundaries
+
+Krigsvold does not conduct or supervise the Fellows' research, represent their
+institutions, or endorse every view they hold. The award recognizes a specific
+project. Fellows remain independent researchers responsible for their work.
+
+Current application terms appear on the
+[official Fellowship page](https://www.westarctica.org/conservation-scholarship).

@@ -3,57 +3,58 @@ primaryLogo: /assets/img/identity/primary-logo-light.svg
 
 main_menu_settings:
   menu_items:
-    - title: About
-      icon: info
+    - title: Krigsvold
       submenu_items:
+        - title: What Is Krigsvold?
+          url: /what-is-krigsvold
         - title: The Count
           url: /about
-          icon: person
-        - title: Krigsvold, Borbolla, and Matikonis
+        - title: Three Antarctic Places
           url: /krigsvold-matikonis
-          icon: landscape
         - title: Mission and Method
           url: /mission-and-method
-          icon: explore
+        - title: Status and FAQ
+          url: /faq
         - title: Heraldry
           url: /heraldry
-          icon: shield
-        - title: Frequently Asked Questions
-          url: /faq
-          icon: quiz
-    - title: Climate Impacts
-      icon: layers
+    - title: Antarctica
       submenu_items:
-        - title: Rapid Ice Melt
+        - title: Antarctica Briefings
+          url: /antarctica
+        - title: Ice and Sea Level
           url: /rapid-ice-melt
-          icon: ac_unit
-        - title: Warming Continents
+        - title: Warming and Circulation
           url: /warming-continents
-          icon: thermostat
-        - title: Endangered Ecosystems
+        - title: Polar Ecosystems
           url: /endangered-ecosystems
-          icon: pets
-        - title: Carbon Sequestration
+        - title: Oceans and Carbon
           url: /carbon-sequestration
-          icon: co2
         - title: Research and Response
           url: /research-response
-          icon: science
-    - title: Support and Participation
-      icon: handshake
+    - title: The Work
       submenu_items:
         - title: The Fellowship
           url: /fellowship
-          icon: school
+        - title: Meet the Fellows
+          url: /fellows
         - title: Research Support
           url: /research-support
-          icon: analytics
+        - title: Advocacy
+          url: /advocacy
+        - title: Positions
+          url: /positions
         - title: Get Involved
           url: /get-involved
-          icon: groups
-    - title: News
-      url: /news
-      icon: newspaper
+    - title: The Record
+      submenu_items:
+        - title: Annual Record
+          url: /record
+        - title: News
+          url: /news
+        - title: Sources and Method
+          url: /sources-and-method
+        - title: Corrections
+          url: /corrections
 
 
 footer_menu_settings:
@@ -118,4 +119,4 @@ social_media:
     url: https://www.facebook.com/CountKrigsvoldWestarctica
 
 footer_settings:
-  footer_tagline: A website of the House of Basu-Howard
+  footer_tagline: A website of James Howard

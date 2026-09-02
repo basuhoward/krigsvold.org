@@ -15,7 +15,7 @@ redirect_from:
 
 This notice explains what information may be collected when you visit [krigsvold.org](https://krigsvold.org), why it is collected, how it may be used, and what choices you have.
 
-The Count of Krigsvold website is operated by James P. Howard, II. Questions about this notice or the handling of information associated with this website may be sent to [info@basuhoward.org](mailto:info@basuhoward.org).
+The Count of Krigsvold website is operated by James P. Howard, II. Questions about this notice or the handling of information associated with this website may be sent to [count@krigsvold.org](mailto:count@krigsvold.org).
 
 ## Information collected automatically
 
@@ -58,7 +58,7 @@ The consent cookie:
 
 Because this cookie is used only to remember the privacy choice you requested, it is treated as necessary and does not require separate consent.
 
-<section id="cookie-settings" markdown="1">
+<section markdown="1">
 
 ## Cookie Settings
 
@@ -144,7 +144,7 @@ Depending on where you live and which laws apply, you may have rights concerning
 * Receive certain information in a portable format; and
 * Complain to an appropriate privacy or data-protection authority.
 
-These rights may be subject to legal limitations or exceptions. To make a request, email [info@basuhoward.org](mailto:info@basuhoward.org) and describe the request with enough detail for me to understand and respond to it.
+These rights may be subject to legal limitations or exceptions. To make a request, email [count@krigsvold.org](mailto:count@krigsvold.org) and describe the request with enough detail for me to understand and respond to it.
 
 I will not discriminate against you for exercising an applicable privacy right.
 

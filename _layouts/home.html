@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+  {% include head.html %}
+  <body class="krigsvold-home">
+    {% include navbar.html %}
+
+    <header class="home-hero" style="background-image: url('{{ page.featured_image | relative_url }}')">
+      <div class="home-hero__veil"></div>
+      <div class="container home-hero__content">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <p class="eyebrow text-white">The Count of Krigsvold</p>
+            <h1>An Antarctic title put to work</h1>
+            <p class="home-hero__lede">Polar education, research support, and evidence-led advocacy focused on Antarctica and its global consequences</p>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a class="btn btn-ice" href="#the-work">See the work</a>
+              <a class="btn btn-outline-light" href="{{ '/fellows/' | relative_url }}">Meet the Fellows</a>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center d-none d-lg-block">
+            <img class="home-hero__arms" src="{{ '/assets/img/identity/primary-logo-light.svg' | relative_url }}" alt="Arms and title of the Count of Krigsvold">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="status-note" aria-labelledby="status-heading">
+        <div class="container">
+          <div class="row align-items-start g-3">
+            <div class="col-lg-3">
+              <p class="eyebrow mb-1">What this is</p>
+              <h2 id="status-heading" class="h4 mb-0">A symbolic dignity with a practical purpose</h2>
+            </div>
+            <div class="col-lg-8 offset-lg-1">
+              <p class="lead mb-2">Krigsvold is a dignity within the Grand Duchy of Westarctica, a micronational project without sovereign recognition. The dignity is symbolic. The fellowship, educational work, research support, and public advocacy conducted under it are real.</p>
+              <a class="quiet-link" href="{{ '/what-is-krigsvold/' | relative_url }}">Read the full status statement <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block" id="the-work" aria-labelledby="work-heading">
+        <div class="container">
+          <div class="section-heading row">
+            <div class="col-lg-8">
+              <p class="eyebrow">The work</p>
+              <h2 id="work-heading">The title attracts attention; the work justifies it</h2>
+            </div>
+          </div>
+          <div class="row g-4 mt-2">
+            <div class="col-md-4">
+              <article class="work-card h-100">
+                <p class="work-card__number" aria-hidden="true">01</p>
+                <h3>Explain</h3>
+                <p>Translate Antarctic climate science into clear, sourced briefings without sanding away uncertainty or complexity.</p>
+                <a href="{{ '/antarctica/' | relative_url }}">Read the briefings <span aria-hidden="true">→</span></a>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="work-card h-100">
+                <p class="work-card__number" aria-hidden="true">02</p>
+                <h3>Support</h3>
+                <p>Fund graduate research in climate change and global conservation through an annual $1,000 Fellowship.</p>
+                <a href="{{ '/fellowship/' | relative_url }}">See the Fellowship <span aria-hidden="true">→</span></a>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="work-card h-100">
+                <p class="work-card__number" aria-hidden="true">03</p>
+                <h3>Advocate</h3>
+                <p>Use evidence, public communication, and institutional attention to argue for informed climate and conservation action.</p>
+                <a href="{{ '/advocacy/' | relative_url }}">How advocacy works <span aria-hidden="true">→</span></a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {% assign fellows = site.fellows | sort: "year" | reverse %}
+      {% assign current_fellow = fellows | first %}
+      <section class="fellow-feature" aria-labelledby="fellow-heading">
+        <div class="container">
+          <div class="row g-0 align-items-stretch">
+            <div class="col-lg-5 fellow-feature__image"{% if current_fellow.featured_image %} style="background-image: url('{{ current_fellow.featured_image | relative_url }}')"{% endif %} role="img" aria-label="{{ current_fellow.image_alt | default: current_fellow.title }}"></div>
+            <div class="col-lg-7 fellow-feature__body">
+              <p class="eyebrow">Current Fellow · {{ current_fellow.year }}</p>
+              <h2 id="fellow-heading">{{ current_fellow.title }}</h2>
+              <p class="lead">{{ current_fellow.summary }}</p>
+              <p>{{ current_fellow.project }}</p>
+              <a class="btn btn-dark-blue" href="{{ current_fellow.url | relative_url }}">Meet {{ current_fellow.short_name | default: current_fellow.title }}</a>
+              <a class="quiet-link ms-md-3 d-inline-block mt-3" href="{{ '/fellows/' | relative_url }}">All Fellows</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block evidence" aria-labelledby="evidence-heading">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-lg-7">
+              <p class="eyebrow">Antarctica now</p>
+              <h2 id="evidence-heading">Three measures, with their dates and sources attached</h2>
+              <p>Numbers without a measurement period are ornaments. These are evidence: bounded, attributed, and reviewed.</p>
+            </div>
+          </div>
+          <div class="row g-4">
+            {% for metric in site.data.metrics %}
+            <div class="col-lg-4">
+              <article class="metric h-100">
+                <p class="metric__value">{{ metric.value }}</p>
+                <h3>{{ metric.label }}</h3>
+                <p>{{ metric.context }}</p>
+                <p class="metric__source"><a href="{{ metric.source_url }}">Source: {{ metric.source_name }}</a><br>Verified {{ metric.verified | date: "%B %Y" }}</p>
+              </article>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block geography" aria-labelledby="geography-heading">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <img src="{{ '/assets/img/krigsvold-map.webp' | relative_url }}" alt="Map locating the Krigsvold Nunataks near Strauss Glacier in Marie Byrd Land" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <p class="eyebrow">Real geography</p>
+              <h2 id="geography-heading">Three names on the map, with no claim of jurisdiction</h2>
+              <p class="lead">The titles correspond to the Krigsvold Nunataks, Mount Rubin de la Borbolla, and Matikonis Peak in Marie Byrd Land. The places are real; the titles create no sovereignty, ownership, or authority over them.</p>
+              <a class="quiet-link" href="{{ '/krigsvold-matikonis/' | relative_url }}">Explore the three places <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block record-preview" aria-labelledby="record-heading">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <p class="eyebrow">Accountability</p>
+              <h2 id="record-heading">The public record</h2>
+              <p>What was funded, who received it, what was published, and what comes next. The annual record exists so that the institution can be judged by its work.</p>
+              <a class="btn btn-dark-blue" href="{{ '/record/' | relative_url }}">Read the annual record</a>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+              <p class="record-preview__figure">2</p>
+              <p class="h4">Fellows supported since 2025</p>
+              <hr>
+              <p class="record-preview__figure">$2,000</p>
+              <p class="h4">in graduate research awards</p>
+              <p class="small">These figures are current through the 2026 award cycle.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+    {% include jscode.html %}
+  </body>
+</html>

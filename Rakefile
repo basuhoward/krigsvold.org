@@ -59,8 +59,8 @@ desc "Ping search engines with updated sitemaps"
 task :ping do
   require "net/http"
   urls = [
-    "https://www.google.com/ping?sitemap=https://jameshoward.us/sitemap.xml",
-    "https://www.bing.com/ping?sitemap=https://jameshoward.us/sitemap.xml"
+    "https://www.google.com/ping?sitemap=https://krigsvold.org/sitemap.xml",
+    "https://www.bing.com/ping?sitemap=https://krigsvold.org/sitemap.xml"
   ]
   urls.each do |url|
     uri = URI(url)

@@ -1,119 +1,96 @@
 ---
 layout: page
-title: Rapid Ice Melt
-description: Antarctic ice loss is accelerating, driven by ocean warming, marine ice sheet instability, and ice shelf collapse. Understanding these dynamics is essential to projecting sea level rise.
+title: Ice and Sea Level
+eyebrow: Antarctica briefing
+description: This briefing explains how Antarctic ice loss is measured, why West Antarctica is vulnerable, and what ice-sheet change means for global sea level.
 featured_image: /assets/img/rapid-ice-melt-banner.webp
+last_reviewed: 2026-09-02
 ---
 
-Antarctica is losing ice at an accelerating rate. Since the early 2000s,
-GRACE and GRACE-FO satellite gravity measurements have recorded average net
-losses of approximately 150 billion metric tons per year across the continent.
-The rate is not constant: it has increased over the observational period,
-and the losses are geographically concentrated in West Antarctica and along
-the Antarctic Peninsula, where warming ocean waters have direct access to
-vulnerable glacier systems.
+Antarctica lost an average of approximately **135 billion metric tons of ice a
+year from 2002 through 2025**, according to NASA's GRACE and GRACE Follow-On
+satellite record. NASA estimates that this loss raised global mean sea level by
+about **0.4 millimetres a year** over the same period. Those are observations,
+not projections. The harder question is how quickly the loss will grow and what
+it will add to sea level over the coming decades and centuries.
 
-This is not a distant or speculative risk. It is a process already under way,
-already contributing to global sea level rise, and already reshaping the
-glaciological map of the continent.
+## Measuring a continent's mass
 
-## The structure of Antarctic ice
+No single instrument can describe the entire ice sheet. Scientists combine
+several kinds of observation:
 
-Antarctica holds roughly 26.5 million cubic kilometers of ice, divided between
-two major ice sheets. The East Antarctic Ice Sheet is the larger of the two
-and rests primarily on bedrock at or above sea level. It has been relatively
-stable, though even there, recent observations have raised questions about
-long-term vulnerability.
+- GRACE and GRACE-FO satellites detect changes in Earth's gravity as ice mass
+  moves or disappears;
+- laser and radar altimeters measure changes in surface elevation;
+- radar and airborne surveys map ice thickness and the bed beneath it; and
+- field instruments measure ocean temperature, ice flow, and the position of
+  grounding lines.
 
-The West Antarctic Ice Sheet is the principal concern. Much of it rests on
-bedrock that lies below sea level, in some places more than two kilometers
-below, and slopes downward as you move inland. This geometry creates the
-conditions for marine ice sheet instability.
+These methods do not measure exactly the same thing, and snowfall can add mass
+in some places while glaciers lose it elsewhere. Their convergence is what
+makes the continent-wide conclusion strong: Antarctica is losing mass, with the
+largest losses concentrated in West Antarctica and the Antarctic Peninsula.
 
-Around the continent's margins, floating platforms of ice called ice shelves
-extend over the ocean. These shelves are not merely passive features. They
-exert back-pressure on the glaciers behind them, slowing their flow toward
-the sea. When an ice shelf thins or collapses, the glaciers it was
-restraining can accelerate dramatically.
+## Why West Antarctica is vulnerable
 
-## Marine ice sheet instability
+Much of the West Antarctic Ice Sheet rests on bedrock below sea level. In some
+places the bed becomes deeper farther inland. That geometry permits a retreating
+grounding line—the point at which ice leaves the bed and begins to float—to move
+into deeper water and expose thicker ice to the ocean.
 
-The most consequential process in West Antarctic glaciology is marine ice
-sheet instability. When a glacier retreats across a bed that slopes downward
-toward the interior, the margin, called the grounding line, migrates into
-progressively deeper water. Deeper water means more ice in contact with
-the ocean, more melting, faster flow, and further retreat. The process can
-become self-sustaining once it begins, with no obvious mechanism to arrest
-it short of a change in the underlying bedrock geometry.
+Floating ice shelves do not themselves raise sea level when they melt, but they
+slow the land-based glaciers behind them. Warm water circulating beneath a shelf
+can thin it and reduce that buttressing. The glacier then flows faster, moving
+more land ice into the sea.
 
-Thwaites Glacier, sometimes called the Doomsday Glacier, is the most closely
-watched example. Roughly the size of Florida, it currently contributes
-approximately four percent of annual global sea level rise on its own. Its
-grounding line has been retreating. Its ice shelf, which has historically
-provided stabilizing back-pressure, is fracturing. Warm Circumpolar Deep Water,
-a relatively warm water mass that exists at depth throughout the Southern Ocean,
-is intruding beneath the shelf and accelerating basal melting. The processes
-now visible at Thwaites are consistent with the onset of marine ice sheet
-instability, and the scientific community has been clear that arresting them,
-once fully initiated, would not be straightforward.
+This feedback is central to research on Thwaites and Pine Island glaciers. It
+does not mean that every retreat is automatically irreversible, or that the
+whole West Antarctic Ice Sheet will vanish on a near-term timetable. It means
+that the shape of the bed can amplify retreat, making the pace of future loss
+unusually sensitive to ocean conditions and difficult to bound.
 
-Pine Island Glacier, to Thwaites' east, has shown similar behavior and has
-been losing mass more rapidly than at any point in the observational record.
+## What the latest Thwaites work says
 
-## What drives the acceleration
+The International Thwaites Glacier Collaboration's 2025 synthesis is sobering
+without supporting the most sensational version of the story. Thwaites has
+retreated faster over the past 40 years and is expected to continue retreating
+through the 21st and 22nd centuries. A complete collapse in the next few
+decades is considered unlikely, while a wider West Antarctic collapse over the
+longer period cannot be ruled out.
 
-The immediate driver of accelerated ice loss is ocean warming. The Circumpolar
-Deep Water that reaches the ice shelves of West Antarctica has warmed
-significantly since the mid-twentieth century. As this water contacts the
-underside of ice shelves, it melts ice from below at rates far exceeding
-any surface melting. This sub-shelf melting thins the shelves, reduces their
-buttressing effect, and sets in motion the glaciological cascade described
-above.
+New high-resolution modelling also finds that one proposed worst-case
+mechanism—self-sustaining marine ice-cliff instability—is unlikely to drive a
+catastrophic Thwaites collapse this century. That narrows one pathway; it does
+not stop ocean-driven retreat or remove the need to plan for rising seas.
 
-Atmospheric warming matters too, particularly along the Antarctic Peninsula,
-which has warmed faster than almost any comparable region on Earth over the
-last seventy years. Warmer air accelerates surface melting, contributes to
-the ponding of meltwater on ice shelf surfaces, and drives the hydrofracture
-processes that contributed to the collapse of the Larsen B ice shelf in 2002.
-That event, in which approximately 3,250 square kilometers of ice disintegrated
-within weeks, produced a measurable acceleration in the glaciers that Larsen B
-had been restraining.
+## What sea-level projections mean
 
-## Sea level implications
+The complete loss of the West Antarctic Ice Sheet would raise global mean sea
+level by more than three metres, but such a change would unfold over much
+longer than a single planning horizon. Near-term decisions concern the fraction
+of that ice that could be lost this century and the much wider range of outcomes
+after 2100.
 
-Complete loss of the West Antarctic Ice Sheet would raise global sea levels by
-several meters, commonly estimated at about 3.3 meters for WAIS alone, with
-additional contributions possible from vulnerable East Antarctic sectors.
-No responsible projection suggests this occurs by 2100, but partial loss on
-century timescales is an active subject of scientific analysis rather than a
-theoretical extreme. Current
-projections for the contribution of Antarctic ice loss to sea level rise
-by 2100 range from a few tens of centimeters to well over a meter, with
-the upper end of that range driven by uncertainty about whether marine ice
-sheet instability processes will remain bounded or will accelerate beyond
-current projections.
+Sea level also does not rise evenly. Gravity, ocean circulation, land movement,
+and coastal geometry produce regional differences. Storm surge and high tides
+then act on top of the higher baseline. For infrastructure, insurance, and
+settlement, uncertainty is not an argument for waiting; it is a reason to test
+plans against more than one plausible future.
 
-A meter of sea level rise, distributed unevenly around the globe and amplified
-by storm surge and tidal variability, does not affect coastlines uniformly.
-It affects the most densely populated and least protected coastal areas first
-and most severely. Understanding the pace and dynamics of Antarctic ice loss
-is not an academic exercise. It is a prerequisite for making sensible decisions
-about infrastructure, settlement, and adaptation at a global scale.
+## What is known—and what is not
 
-## Observation and measurement
+**Known:** Antarctica is losing ice; ocean-driven melting beneath ice shelves is
+a major cause in West Antarctica; ice loss contributes to present sea-level
+rise.
 
-The scientific tools available for monitoring Antarctic ice have improved
-substantially over the last three decades. GRACE and GRACE-FO satellites
-track changes in Earth's gravitational field, allowing mass balance estimates
-for the ice sheets as a whole. CryoSat-2 uses radar altimetry to measure
-surface elevation changes across the continent. IceBridge airborne surveys
-have mapped bed topography, a critical input for modeling where retreat
-is likely to accelerate. Field programs at Thwaites and other key glaciers
-are providing direct measurements of ocean temperatures, basal melt rates,
-and grounding line position.
+**Still uncertain:** the timing of ice-sheet thresholds, the speed of retreat in
+the most vulnerable basins, the importance of newly observed processes at
+grounding zones, and the upper end of Antarctic contribution this century and
+beyond.
 
-These observations are converging on a consistent picture. The rate of ice
-loss from Antarctica has increased. The drivers of that loss are understood.
-The processes most likely to amplify it are identified. What remains uncertain
-is the pace at which those processes will unfold, and what combination of
-emissions trajectories and physical thresholds will determine that pace.
+## Primary sources
+
+- [NASA: Ice Sheets Earth Indicator](https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets/)
+- [International Thwaites Glacier Collaboration: Key Research Findings 2025](https://thwaitesglacier.org/findings)
+- [Morlighem et al.: The West Antarctic Ice Sheet may not be vulnerable to marine ice cliff instability during the 21st century](https://doi.org/10.1126/sciadv.ado7794)
+- [IPCC Sixth Assessment Report, Working Group I](https://www.ipcc.ch/report/ar6/wg1/)

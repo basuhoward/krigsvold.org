@@ -1,107 +1,93 @@
 ---
 layout: page
-title: Endangered Ecosystems
-description: Antarctic and subpolar ecosystems are structured around sea ice, cold water, and stable conditions. Climate-driven disruption is already measurable across the food web.
+title: Polar Ecosystems
+eyebrow: Antarctica briefing
+description: This briefing explains how changing sea ice, ocean conditions, and food-web timing affect krill, emperor penguins, seals, and other Antarctic life.
 featured_image: /assets/img/endangered-ecosystems-banner.webp
+last_reviewed: 2026-09-02
 ---
 
-Antarctic ecosystems evolved under conditions of extreme cold, high seasonality,
-and remarkable predictability. The cycles of sea ice advance and retreat, the
-pulses of phytoplankton growth in the austral summer, the patterns of penguin
-breeding and whale migration: all are calibrated to a climate that, until
-recently, had been relatively stable for thousands of years. The disruption of
-those conditions, through warming temperatures, declining sea ice, and ocean
-acidification, is already measurable across the food web.
+Antarctic life is organized around timing. Sea ice advances and retreats;
+sunlight returns; algae bloom; krill feed; predators arrive or breed. Climate
+change matters not only because conditions become warmer, but because the
+location and timing of these linked events can fall out of step.
 
-## Krill: the keystone
+## Sea ice is habitat
 
-Antarctic krill, *Euphausia superba*, are small crustaceans roughly five
-centimeters long, individually unremarkable. Ecologically they are among the
-most important animals on the planet. They are the central link in the Antarctic
-food web, consuming the phytoplankton and ice algae that bloom in polar waters
-and serving as the primary prey of penguins, seals, whales, and fish.
-Biomass estimates for Antarctic krill have placed the total population in the
-hundreds of millions of metric tons, making it one of the largest animal
-biomasses of any single species on Earth.
+Sea ice is a physical platform, a shelter, and a productive ecosystem. Algae
+grow within and beneath it. Juvenile krill use the ice environment for food and
+protection. Penguins and seals depend on predictable ice conditions for
+breeding, resting, or access to prey.
 
-Krill depend critically on sea ice. Their larvae feed on the algae that grow on
-the underside of sea ice during winter. When sea ice extent declines, krill
-recruitment falls. Modeling and observational studies have shown that krill
-distribution has shifted southward in the Southern Ocean as conditions warm,
-and that population density in parts of the historic range has declined. Because
-everything from chinstrap penguins to blue whales depends on krill being
-predictably available in the right place at the right time, changes in krill
-abundance and distribution cascade immediately through the food web.
+Less ice does not affect every species in the same way. Some open-water species
+may expand into areas that become newly accessible. Ice-obligate species lose a
+habitat they cannot simply replace. The result is reorganization rather than a
+uniform decline—but reorganization can still mean severe losses.
 
-## Penguins
+## Krill at the center
 
-Several penguin species serve as sensitive indicators of ecosystem change.
+Antarctic krill connect primary producers to fish, penguins, seals, and whales.
+Their abundance and distribution are shaped by sea ice, ocean temperature,
+currents, food availability, and fishing pressure. Because so many predators
+depend on dense seasonal concentrations of krill, a change in where or when
+those concentrations form can move through the food web quickly.
 
-**Emperor penguins** (*Aptenodytes forsteri*) breed on sea ice and depend on it
-for the entire duration of their reproductive cycle. Colonies require stable sea
-ice from April through December for breeding, incubation, and chick-rearing.
-When sea ice breaks up early, chicks that have not yet developed waterproof
-plumage can be lost at sea. Satellite surveys of emperor penguin colonies have
-documented local extinctions and breeding failures correlated with anomalous
-sea ice loss. The emperor penguin is now listed as Endangered on the IUCN Red
-List, with projections indicating that climate-driven sea-ice loss could halve
-the population by the 2080s.
+This complexity is one reason to be careful with a single-cause story. Warming
+and sea-ice loss interact with fisheries and predator recovery. Management has
+to account for cumulative and locally concentrated pressure rather than
+treating each driver in isolation. That is why the Commission for the
+Conservation of Antarctic Marine Living Resources monitors predator–prey
+relationships as well as the krill catch itself.
 
-**Chinstrap penguins** (*Pygoscelis antarctica*) have declined by more than
-sixty percent at some South Shetland Island colonies since the 1970s. The
-mechanism is indirect but well-understood: warming has reduced sea ice,
-which has reduced winter krill availability, which has reduced the food
-supply available to chinstraps during the period when they need it most.
-Gentoo penguins, which are more flexible in their diet, have expanded into
-areas vacated by chinstraps, a visible reorganization of community structure
-driven by climate.
+## Emperor penguins and breeding failure
 
-## Marine mammals
+Emperor penguins breed on land-fast sea ice during the Antarctic winter. Chicks
+must develop waterproof feathers before the platform breaks up. If it fails too
+early, widespread chick mortality can follow.
 
-Humpback, fin, blue, and minke whales converge on Antarctic waters during
-austral summer to feed on the krill concentrations that bloom as sea ice
-retreats. A reduction in krill abundance directly affects the nutrition and
-reproductive success of these species. Recovery of whale populations
-following the end of commercial whaling has been documented in some species,
-but that recovery is occurring against a backdrop of declining prey availability
-and shifting habitat.
+British Antarctic Survey researchers reported probable total breeding failure
+at four of five monitored colonies in the central and eastern Bellingshausen
+Sea in 2022 after extreme sea-ice loss. Their subsequent analysis found that a
+fifth of known colonies experienced breeding failure in 2023. These are
+observations of particular seasons and colonies, not a claim that every colony
+failed or that sea ice alone determines the species' future.
 
-Weddell seals, leopard seals, and crabeater seals all depend on sea ice as
-a platform for resting, molting, and pupping. Crabeater seals, despite their
-name, are nearly exclusive krill predators and are among the most abundant
-large mammals on Earth. Changes in sea ice affect their access to prey and
-their reproductive habitats simultaneously.
+A 2026 satellite study added a distinct concern: emperors also need stable fast
+ice while they replace their waterproof feathers. In Marie Byrd Land, moulting
+groups were forced into smaller areas during the very low-ice years from 2022
+through 2024, and some ice broke up before moulting was complete. Only 25 small
+groups were visible in 2025 where more than 100 had been identified before
+2022. Researchers do not yet know whether the missing birds relocated or died;
+the observation identifies a serious risk, not a settled population count.
 
-## Ocean acidification
+## Acidification adds another pressure
 
-The Southern Ocean has absorbed not only heat but carbon dioxide. As CO2
-dissolves in seawater, it forms carbonic acid, lowering ocean pH in a process
-called ocean acidification. The Southern Ocean is particularly vulnerable
-because cold water absorbs CO2 more readily than warm water, and because
-polar waters are already naturally low in the calcium carbonate minerals
-that many marine organisms use to build shells and skeletons.
+The ocean's absorption of carbon dioxide changes seawater chemistry. NOAA's
+current synthesis estimates that the ocean has become about **26% more acidic
+on average over the past 250 years**. The ocean remains alkaline, but its pH is
+falling. Cold polar water can absorb carbon dioxide readily, while many Southern
+Ocean organisms already live close to chemical thresholds relevant to shell
+formation.
 
-Pteropods, small free-swimming sea snails that are an important prey item
-for several fish and seabird species, have already shown shell dissolution
-in Southern Ocean samples collected from waters that have reached acidification
-levels that were not expected for several more decades. Krill larvae are also
-sensitive to acidification, adding a further stressor to a population already
-experiencing habitat loss from sea ice decline. The combined effects of warming
-and acidification represent a compounding stress on the foundational organisms
-of the Antarctic food web.
+Acidification, warming, habitat change, and harvesting act together. Laboratory
+responses do not automatically predict ecosystem outcomes, but they identify
+mechanisms that field observation and models must track.
 
-## Terrestrial and coastal ecosystems
+## What is known—and what is not
 
-On land, Antarctica's terrestrial ecosystems are sparse but not absent.
-Mosses, lichens, and a small number of invertebrate species occupy ice-free
-areas along the coast and on nunataks exposed above the ice sheet. As
-temperatures warm and melt increases, new ice-free terrain is being exposed,
-and the distribution of these communities is changing. Invasive species
-represent an emerging concern: as Antarctic conditions moderate slightly,
-the biological barriers that have historically kept non-native organisms
-from establishing are weakened.
+**Known:** sea ice structures Antarctic habitat and food webs; extreme early
+break-up can cause emperor-penguin breeding failure; ocean chemistry is changing
+as seawater absorbs human-emitted carbon dioxide.
 
-Subantarctic islands, closer to human activity and less extreme in climate,
-are already experiencing documented ecosystem reorganization. Vegetation zones
-are shifting upslope and poleward, and introduced species have established
-in areas where they were previously unable to survive.
+**Still uncertain:** how quickly species will redistribute or adapt, whether
+missing emperor-penguin groups moved or suffered major mortality, how the
+recent sea-ice extremes will evolve, and how interacting climate and fishing
+pressures will affect krill-dependent ecosystems.
+
+## Primary sources
+
+- [British Antarctic Survey: emperor-penguin breeding failure in 2022](https://www.bas.ac.uk/media-post/loss-of-sea-ice-causes-catastrophic-breeding-failure-for-emperor-penguins/)
+- [British Antarctic Survey: colony outcomes in 2023](https://www.bas.ac.uk/media-post/emperor-penguin-colonies-in-antarctica-suffer-as-sea-ice-diminishes/)
+- [British Antarctic Survey: emperor-penguin moulting sites and sea ice](https://www.bas.ac.uk/news/accidental-discovery-reveals-grim-future-for-emperor-penguins/)
+- [CCAMLR: Krill biology, ecology and fishing](https://www.ccamlr.org/en/science/krill-%E2%80%93-biology-ecology-and-fishing)
+- [NOAA Ocean Acidification Program: What is ocean acidification?](https://oceanacidification.noaa.gov/what-is-ocean-acidification/)

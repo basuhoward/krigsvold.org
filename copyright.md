@@ -1,47 +1,66 @@
 ---
-title: Copyright
+title: Copyright and Reuse
+eyebrow: Rights and permissions
 date: 2024-04-14
-description: The copyright for the Count of Krigsvold website
+last_reviewed: 2026-09-02
+last_modified_at: 2026-09-02
+description: Copyright ownership, attribution, quotation, and reuse information for krigsvold.org.
 layout: page
 featured_image: /assets/img/copyright-banner.webp
 ---
 
-Copyright &copy; 2023-{{ 'now' | date: "%Y" }} the House of 
-Basu-Howard.  All rights reserved.
+Copyright &copy; 2023–{{ 'now' | date: "%Y" }} James P. Howard, II.
 
-All content on this website, including text, graphics,
-logos, icons, images, audio clips, digital downloads, and software,
-is the property of the House of Basu-Howard or its content suppliers
-and is protected by international copyright laws. The compilation
-of all content on this site is the exclusive property of the House
-of Basu-Howard and protected by international copyright laws.
+I operate krigsvold.org and claim copyright in its original text, site design,
+and original graphics to the extent protected by law, except where a page,
+caption, credit, or source note says otherwise.
 
-## License for Personal and Non-Commercial Use
+## Third-party material
 
-Unless otherwise stated, the House of Basu-Howard and/or its licensors
-own the intellectual property rights for all material on this website. 
-All intellectual property rights are reserved. You
-may access this from this website for your personal use
-subjected to restrictions set in these terms and conditions.
+This site cites and links to scientific papers, institutional reports, datasets,
+maps, photographs, and other work created by third parties. Those materials
+remain subject to the rights and terms established by their respective owners.
+Their appearance or discussion here does not transfer those rights to me or
+make the underlying material part of this site's general permission policy.
 
-You may not:
+## Linking and quotation
 
-* Republish material from this website;
-* Sell, rent, or sub-license material from this website;
-* Reproduce, duplicate, or copy material from this website; or
-* Redistribute content from this website (unless the 
-  content is specifically made for redistribution).
+You are welcome to link to any public page on this site. You may also quote
+reasonable excerpts with clear attribution to **James P. Howard, II** or
+**The Count of Krigsvold**, as appropriate, and a link to the source page.
 
-## Modifications to This Page
+That permission does not extend to reproducing an entire page, republishing the
+site or a substantial portion of it as a substitute for the original, removing
+attribution, or implying my endorsement of another person, organization,
+product, or position.
 
-The House of Basu-Howard may revise this copyright notice at any
-time without notice. By using this website, you are agreeing to be
-bound by the then-current version of these terms.
+Nothing on this page is intended to limit fair use, fair dealing, or any other
+right provided by applicable law. Permission for a use beyond those rights may
+be requested at [count@krigsvold.org](mailto:count@krigsvold.org).
 
-## Contact us
+## Arms, badges, and identity marks
 
-The House of Basu-Howard acknowledges and respects the copyright
-and intellectual property rights of others. Any copyright concerns
-or infringement notices should be directed to us at info@basuhoward.org.
-We commit to addressing such concerns in compliance with applicable
-laws.
+The arms, badges, logos, and other identity marks displayed on this site are not
+included in the permission to quote site text. They may be shown when reasonably
+necessary for news reporting, criticism, scholarship, or reference, subject to
+applicable law, but may not be used to suggest affiliation, authority,
+sponsorship, or endorsement.
+
+Heraldic status and copyright are separate questions. Display of an armorial
+design does not authorize another person to assume, alter, or present those arms
+as their own.
+
+## Photographs and generated images
+
+Rights in individual images vary. A photograph, map, or other image credited to
+a third party remains subject to that party's terms. Images without a separate
+reuse statement should not be copied or redistributed without permission unless
+the proposed use is otherwise permitted by law.
+
+## Copyright concerns
+
+If you believe material on this site infringes your rights, write to
+[count@krigsvold.org](mailto:count@krigsvold.org). Please identify the material,
+the page on which it appears, the right you believe is affected, and a reliable
+way to contact you. I will review a sufficiently detailed notice and take
+appropriate action.

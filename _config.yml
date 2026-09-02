@@ -19,11 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The Count of Krigsvold
-email: info@basuhoward.org
+email: count@krigsvold.org
 description: >-
-  The County of Krigsvold is situated in Marie Byrd Land, West Antarctica.
-  Its Count, James P. Howard, II, advances public understanding of climate
-  change through sustained attention to Antarctica and related polar systems.
+  The Count of Krigsvold puts an Antarctic title to work through climate
+  education, research support, and evidence-led advocacy.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://krigsvold.org" # the base hostname & protocol for your site, e.g. http://example.com
 port: 4002
@@ -38,16 +37,38 @@ collections:
     output: true
     permalink: /news/:year/:month/:day/:slug
     type: "post"
+  fellows:
+    output: true
+    permalink: /fellows/:name/
+  positions:
+    output: true
+    permalink: /positions/:name/
+
+keywords:
+  - Antarctica
+  - climate change
+  - conservation research
+  - Marie Byrd Land
+  - Westarctica
 
 paginate: 10
 paginate_path: "/news/page/:num/"
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
+  - scope:
+      path: ""
+      type: "fellows"
+    values:
+      layout: "fellow"
+  - scope:
+      path: ""
+      type: "positions"
+    values:
+      layout: "page"
 
 sass:
   sass_dir: assets/styles
@@ -58,6 +79,8 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-inline-svg
+  - jekyll-paginate
+  - jekyll-redirect-from
 
 svg:
   optimize: true

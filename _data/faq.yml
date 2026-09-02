@@ -1,302 +1,130 @@
 groups:
-  - name: Climate Change and Antarctica
+  - name: Krigsvold and the title
     questions:
-      - question: How is climate change affecting Antarctica?
+      - question: What is Krigsvold?
         answer: >
-          Antarctica is losing ice at an accelerating rate, with GRACE satellite
-          measurements recording average net losses of around 150 billion metric
-          tons per year since 2002. The Antarctic Peninsula has warmed by nearly
-          three degrees Celsius since the 1950s. Sea ice extent in the Southern
-          Ocean has shown sharp declines since 2016. Marine ecosystems are
-          reorganizing as prey availability and habitat conditions shift. The
-          effects are geographically uneven but directionally consistent.
+          Krigsvold is a dignity within the Grand Duchy of Westarctica, held by
+          James P. Howard, II. It takes its name from the Krigsvold Nunataks in
+          Marie Byrd Land. The title supplies a durable identity for climate
+          education, research support, and public advocacy.
 
-      - question: Why does Antarctic change matter to people far from Antarctica?
+      - question: Does the Count own or govern Antarctic territory?
         answer: >
-          Antarctica holds about ninety percent of the world's ice and roughly
-          seventy percent of its fresh water, and its ice sheets directly govern
-          global sea level. The Southern Ocean absorbs approximately forty percent
-          of all oceanic anthropogenic carbon uptake, moderating the pace of
-          atmospheric warming. Changes in Antarctic circulation patterns alter
-          jet streams and ocean currents that influence weather across the entire
-          planet. The continent is remote, but its role in the climate system
-          is central.
+          No. The title conveys no sovereignty, ownership, jurisdiction, or
+          governmental authority over the Krigsvold Nunataks or any other
+          place. The three dignities held by James correspond to real features
+          on the Antarctic map; they are not property claims.
 
-      - question: What is causing Antarctic ice to melt?
+      - question: Is Westarctica a recognized country?
         answer: >
-          The primary driver is ocean warming. Relatively warm Circumpolar Deep
-          Water is intruding onto Antarctic continental shelves and melting ice
-          shelves from below, reducing the back-pressure that restrains inland
-          glaciers and accelerating ice flow toward the sea. Atmospheric warming
-          contributes additional surface melting, particularly along the
-          Antarctic Peninsula. The two processes interact: a warming climate
-          drives both ocean and atmospheric change, and the ice sheet's response
-          to each reinforces the other.
+          No. Westarctica is a micronational project and nonprofit organization,
+          not a state recognized by any national government or international
+          body. Its peerage is a vehicle for identity, participation, and
+          advocacy rather than a governmental system.
 
-      - question: How do we know Antarctic ice loss is accelerating?
-        answer: >
-          The GRACE and GRACE-FO satellite missions have tracked changes in
-          Earth's gravitational field since 2002, providing direct measurements
-          of ice mass changes across the continent. Radar and laser altimetry
-          from CryoSat-2, ICESat, and ICESat-2 measure changes in ice surface
-          elevation. These independent observational approaches converge on the
-          same conclusion: Antarctic ice loss has increased over the
-          observational period, concentrated in West Antarctica and the
-          Antarctic Peninsula.
-
-      - question: Are Antarctic ecosystems affected by climate change?
-        answer: >
-          Yes, and measurably so. Chinstrap penguin populations have declined
-          by more than sixty percent at some colonies since the 1970s, largely
-          because warming has reduced sea ice and therefore reduced the winter
-          krill availability on which they depend. Emperor penguins, which
-          breed on sea ice, are now listed as Endangered on the IUCN Red List, with sea-ice loss projected to halve the population by the 2080s.
-          Krill, the keystone species of the Antarctic food web, depend on sea
-          ice algae for larval development, and their distribution is shifting.
-          Ocean acidification is affecting calcifying organisms, including
-          pteropods, at the base of the food chain.
-
-      - question: How do scientists study climate change in Antarctica?
-        answer: >
-          Scientists use satellite observation, airborne surveys, field
-          stations, ocean monitoring, ice core analysis, and numerical modeling.
-          The GRACE and GRACE-FO missions measure ice mass change by tracking
-          gravitational anomalies. CryoSat-2 and ICESat-2 measure surface
-          elevation. Operation IceBridge used aircraft to map bed topography
-          and ice thickness. Field programs like the International Thwaites
-          Glacier Collaboration place instruments directly at the ice-ocean
-          interface to measure basal melt rates, grounding line position, and
-          ocean temperatures. Long-term records from permanently staffed
-          stations like McMurdo and Amundsen-Scott provide continuous
-          observations across decades.
-
-      - question: How do we know human activity is driving climate change?
-        answer: >
-          Multiple independent lines of evidence converge on the same
-          conclusion. Direct atmospheric measurements at Mauna Loa and elsewhere
-          show CO2 rising from about 280 parts per million before industrialization
-          to over 420 ppm today, closely tracking the history of fossil fuel
-          combustion. Isotopic analysis of atmospheric CO2 confirms its
-          fossil-fuel origin. Physical models of the climate system, constrained
-          by observed physics, can only reproduce the warming pattern of the
-          last century when anthropogenic forcing is included. Paleoclimate
-          records from ice cores, ocean sediments, and coral confirm that
-          current CO2 levels are unprecedented in at least 800,000 years, and
-          that the rate of increase is faster than any natural transition in
-          that record.
-
-  - name: The West Antarctic Ice Sheet
-    questions:
-      - question: What is the West Antarctic Ice Sheet?
-        answer: >
-          The West Antarctic Ice Sheet (WAIS) is one of Antarctica's two major
-          ice sheets, containing ice equivalent to several meters of global sea
-          level rise, commonly estimated at about 3.3 meters for WAIS alone.
-          Unlike the East Antarctic Ice Sheet, much of the WAIS rests on bedrock
-          below sea level, in places more than two kilometers below, with the bed
-          sloping downward toward the interior. This geometry makes it
-          particularly sensitive to ocean-driven melting and to the process known
-          as marine ice sheet instability.
-
-      - question: What is marine ice sheet instability?
-        answer: >
-          Marine ice sheet instability describes a process by which retreat of
-          a marine-based ice sheet can become self-reinforcing. When a glacier's
-          grounding line, the point where the ice lifts off the bed and begins
-          to float, retreats across a bed that slopes downward inland, the ice
-          in contact with the ocean becomes progressively thicker. Thicker ice
-          produces faster flow and more calving, driving further retreat, which
-          exposes yet more deep ice to ocean water. Once initiated on a reverse
-          slope, the retreat may not require any additional forcing to continue.
-          This process is a central concern in projections for Thwaites and
-          Pine Island glaciers.
-
-      - question: How much sea level rise could West Antarctic ice loss cause?
-        answer: >
-          Complete loss of the West Antarctic Ice Sheet would raise global sea
-          levels by several meters, commonly estimated at about 3.3 meters, with
-          additional contributions possible from vulnerable East Antarctic sectors.
-          This would unfold over centuries to millennia. Near-term projections
-          are more relevant to planning: the IPCC's Sixth Assessment Report found
-          that Antarctic ice loss could contribute on the order of tens of
-          centimeters to sea level rise by 2100 under moderate emissions
-          scenarios, with higher-end scenarios involving poorly bounded risks
-          from marine ice sheet instability contributing potentially a meter or
-          more. The uncertainty reflects genuine scientific uncertainty about
-          the pace of processes that have not been fully observed in action.
-
-      - question: What is Thwaites Glacier and why is it significant?
-        answer: >
-          Thwaites Glacier is a major outlet glacier in West Antarctica roughly
-          the size of Florida. It currently contributes approximately four
-          percent of annual global sea level rise and is considered one of the
-          most consequential systems in Antarctic glaciology. Its bed topography,
-          sloping downward inland across a wide area, makes it susceptible to
-          marine ice sheet instability. Its ice shelf, which has historically
-          restrained its flow, is fracturing and thinning as warm Circumpolar
-          Deep Water intrudes beneath it. The International Thwaites Glacier
-          Collaboration, a joint U.S.-UK scientific program launched in 2018,
-          has been conducting intensive field and remote sensing research to
-          characterize the glacier's current state and project its future
-          behavior.
-
-      - question: How is the West Antarctic Ice Sheet monitored?
-        answer: >
-          Monitoring combines satellite remote sensing, airborne surveys, and
-          direct field measurement. GRACE and GRACE-FO provide mass balance
-          estimates. CryoSat-2 and ICESat-2 track surface elevation changes.
-          IceBridge airborne surveys mapped bed topography and ice thickness.
-          The Thwaites field program has placed oceanographic moorings, deployed
-          remotely operated and autonomous underwater vehicles beneath the ice
-          shelf, and installed GPS instruments to measure ice flow. These tools
-          together provide an increasingly detailed picture of conditions at
-          and beneath one of the most consequential ice masses on Earth.
-
-  - name: The Count of Krigsvold
-    questions:
       - question: Who is the Count of Krigsvold?
         answer: >
-          The Count of Krigsvold is an institutional role held by James P.
-          Howard, II, a data scientist and applied mathematician at the Johns
-          Hopkins University Applied Physics Laboratory. He holds advanced
-          degrees in public policy, applied mathematics, environmental
-          engineering, and several other fields, and is a Chartered Engineer,
-          Chartered Mathematician, and Chartered Scientist. His background in
-          quantitative analysis and public communication shapes the Count's
-          approach to explaining the dynamics of polar climate systems to
-          a general audience.
+          James P. Howard, II is a data scientist and applied mathematician at
+          the Johns Hopkins University Applied Physics Laboratory. His work
+          spans quantitative analysis, environmental systems, public policy,
+          and teaching. He directs this site, sponsors the Fellowship, and is
+          responsible for the claims published here.
 
-      - question: What does the Count of Krigsvold actually do?
+      - question: What does the office actually do?
         answer: >
-          The Count advances public understanding of climate change through
-          focused attention on Antarctica and polar systems. This means
-          producing and maintaining substantive educational content about ice
-          dynamics, ocean warming, ecosystem disruption, and carbon
-          sequestration; recognizing researchers whose work advances that
-          understanding through the Fellowship; and maintaining a public
-          presence on social platforms that takes polar climate science
-          seriously. The role is educational and institutional. It does not
-          involve scientific research, governmental authority, or policy advocacy.
+          It publishes sourced briefings on Antarctic climate systems, funds an
+          annual $1,000 graduate research Fellowship, advocates for informed
+          climate and conservation action, and maintains a public record of its
+          awards and corrections. It does not conduct the scientific studies it
+          interprets or exercise governmental power.
 
-      - question: What are the Count's territorial titles?
-        answer: >
-          The Count holds three titles corresponding to real geographic features
-          in Marie Byrd Land, Antarctica: Count of Krigsvold (associated with
-          the Krigsvold Nunataks, a group of peaks at the head of Strauss
-          Glacier), Count Rubin de la Borbolla (associated with Mount Rubin
-          de la Borbolla, named for a meteorologist who served at Plateau
-          Station in 1968), and Baron of Matikonis (associated with Matikonis
-          Peak in the Coulter Heights). These features are peaks and nunataks,
-          rock formations projecting above the surrounding ice sheet. They are
-          not symbols. They are real places.
-
-      - question: Does the Count have authority over Antarctic territory?
-        answer: >
-          No. The Count holds no governmental authority, territorial jurisdiction,
-          or policy-making power over any part of Antarctica or elsewhere. The
-          Antarctic Treaty prohibits claims of sovereignty over Antarctic
-          territory by any state, and no individual title confers such a claim.
-          The Count's territorial titles are dignities within the framework of
-          the Grand Duchy of Westarctica, a nonprofit organization, and are
-          used as organizing references for educational work rather than as
-          instruments of governance.
-
-      - question: How does the Count support climate research?
-        answer: >
-          Through the Fellowship of the Count of Krigsvold, which formally
-          recognizes individuals whose research contributes meaningfully to
-          understanding of polar climate systems, and through this site's
-          educational content, which interprets and amplifies credible
-          scientific findings for a general audience. The Count also directs
-          readers toward primary scientific institutions, including SCAR, USAP,
-          and BAS, where the research itself is conducted and communicated.
-
-  - name: Heraldry
+  - name: The Fellowship
     questions:
+      - question: What is the Count of Krigsvold Fellowship?
+        answer: >
+          It is an annual $1,000 grant supporting graduate research in climate
+          change and global conservation, sponsored by the Count in partnership
+          with Westarctica. The Fellowship was established in 2025.
+
+      - question: Is the Fellowship limited to Antarctic or polar research?
+        answer: >
+          No. Its remit is global climate and conservation research. The first
+          two Fellows study forest governance and forest recovery in Indonesia
+          and Malaysian Borneo. Antarctica anchors the office's educational
+          work; it does not impose a geographic boundary on the grant.
+
+      - question: Who may apply?
+        answer: >
+          Master's and doctoral students worldwide may apply, subject to the
+          terms of the current award cycle. Dates and required materials are
+          maintained on Westarctica's official Fellowship application page.
+
+      - question: Does a Fellow speak for Krigsvold?
+        answer: >
+          No. Fellows are independent researchers. An award recognizes and
+          supports a particular project; it does not create employment, agency,
+          or endorsement of every position a Fellow may hold.
+
+  - name: Antarctica and climate
+    questions:
+      - question: How do we know Antarctica is losing ice?
+        answer: >
+          Independent observing systems reach the same conclusion. NASA's GRACE
+          and GRACE-FO satellites measure changes in mass through Earth's
+          gravity field, while radar and laser altimetry measure elevation and
+          satellite radar tracks ice velocity. NASA reports an average Antarctic
+          loss of approximately 135 billion metric tons per year from 2002
+          through 2025.
+
+      - question: Why does West Antarctic ice attract particular concern?
+        answer: >
+          Much of the West Antarctic Ice Sheet rests on bedrock below sea level,
+          with sections that deepen inland. Warm ocean water can thin floating
+          ice shelves that restrain land ice. A retreating grounding line can
+          then move into deeper water, creating conditions that amplify further
+          retreat.
+
+      - question: Does melting sea ice raise sea level?
+        answer: >
+          Not materially, because floating sea ice already displaces water.
+          Land ice flowing into the ocean does raise sea level. Sea ice still
+          matters greatly because it affects heat exchange, ocean circulation,
+          habitat, and Antarctic food webs.
+
+      - question: How does Antarctic change affect the rest of the world?
+        answer: >
+          Antarctic land-ice loss raises global sea level. The Southern Ocean
+          connects the major ocean basins and absorbs a disproportionate share
+          of human-added heat and carbon. Changes in those systems affect ocean
+          chemistry, circulation, ecosystems, coastlines, and the global carbon
+          budget.
+
+  - name: Sources, advocacy, and heraldry
+    questions:
+      - question: Is this site scientific research?
+        answer: >
+          No. It is public interpretation and advocacy. The briefings prefer
+          primary scientific sources, distinguish measurements from projections,
+          and carry review dates. Readers should follow the links to the
+          underlying institutions and research.
+
+      - question: Is Krigsvold politically neutral?
+        answer: >
+          No claim of political neutrality is made. Krigsvold advocates for
+          climate mitigation, adaptation, conservation, and sustained support
+          for research. The standard is traceability: evidence, uncertainty, and
+          judgment should be distinguishable even when they support the same
+          conclusion.
+
       - question: What are the Count's arms?
         answer: >
-          The Count bears personal arms granted by the Chief Herald of Arms of
-          Malta under Letters Patent G0102, issued 1 May 2024. The blazon is:
-          *Argent in pale a tetrahedron Azure pierced in bend by a sword Or with
-          pommel and crosspiece of the Second. Upon a helm befitting his degree
-          with mantling Azure and doubled Or is set for crest, upon a wreath of
-          the liveries a martlet Sable.* The motto is *Ir-rieda biss tmexxi
-          l-qalb*, Maltese for "Only the will moves the heart." The arms are
-          also registered with the Committee on Heraldry of the New England
-          Historic Genealogical Society, the American College of Heraldry, and
-          the American Armigers Register.
+          James P. Howard, II bears personal arms granted by the Chief Herald of
+          Arms of Malta under Letters Patent G0102. Krigsvold, Rubin de la
+          Borbolla, and Matikonis also use distinct territorial armorial designs.
+          Their provenance and blazons are set out on the Heraldry page.
 
-      - question: What are the territorial arms of Krigsvold, Rubin de la Borbolla, and Matikonis?
+      - question: How can I report an error?
         answer: >
-          The arms of Krigsvold are: *Azure, a snowflake Argent, a chief
-          invected Argent*, the blue field representing polar sky and water, the
-          snowflake the fundamental unit of the cryosphere, and the invected
-          chief suggesting the nunatak ridgeline. The arms of Rubin de la
-          Borbolla are: *Gules, three estoiles of twelve in chief*, the red
-          field signifying urgency and importance, the estoiles representing
-          the instruments of scientific observation. The arms of Matikonis
-          are: *Per pale Gules and Vert, an oak tree counterchanged, fructed
-          Or*, the divided field and counterchanged oak representing the
-          capacity for sustained, adaptive inquiry, the golden acorns the
-          harvest of patient observation.
-
-      - question: What is a nunatak?
-        answer: >
-          A nunatak is a peak or rocky outcrop that projects above the
-          surrounding ice sheet, surrounded on all sides by glacial ice without
-          being covered by it. Nunataks are found throughout Antarctica and
-          other glaciated regions. The word is of Greenlandic Inuit origin.
-          The Krigsvold Nunataks, at the head of Strauss Glacier in Marie Byrd
-          Land, are the primary geographic anchor of the Count's principal title.
-          As fixed rock formations in a dynamic glaciological environment, they
-          serve as reference points for measuring ice flow, accumulation, and
-          retreat over time.
-
-      - question: Why does the Count use heraldry?
-        answer: >
-          Heraldry provides a formal, disciplined visual language through which
-          institutional identity, continuity, and territorial association can
-          be expressed. For an office organized around specific geographic
-          features and a structured educational mission, heraldry offers
-          something that a logo or graphic mark cannot: a system of established
-          conventions with defined meanings, governed by recognized authorities,
-          carrying the weight of centuries of consistent use. The Count employs
-          heraldry not as decoration but as one of several tools through which
-          the office identifies and presents itself.
-
-  - name: The Grand Duchy of Westarctica
-    questions:
-      - question: What is the Grand Duchy of Westarctica?
-        answer: >
-          The Grand Duchy of Westarctica is a nonprofit organization that
-          advocates for awareness of the environmental significance of Western
-          Antarctica. It structures itself as a micronation with a peerage
-          system, through which titles like Count of Krigsvold are held. Its
-          activities are oriented toward outreach, advocacy, and education
-          about polar climate issues.
-
-      - question: Is Westarctica a recognized state?
-        answer: >
-          Westarctica is not recognized as a sovereign state by any national
-          government or international body. The Antarctic Treaty prohibits any
-          state from asserting sovereignty over Antarctic territory, and
-          Westarctica operates within that legal framework as a nonprofit
-          organization, not as a claimant to governmental authority. Its
-          institutional structure, including its peerage and titles, is a
-          vehicle for advocacy and awareness, not a governmental system.
-
-      - question: How does Westarctica relate to the Count of Krigsvold?
-        answer: >
-          The title Count of Krigsvold is held within Westarctica's peerage.
-          This site reflects the Count's independent educational activities
-          within that broader institutional context. The Count's work, as
-          presented here, focuses on substantive climate education rather than
-          Westarctica's organizational activities. For information about
-          Westarctica itself, readers are directed to westarctica.info,
-          westarctica.wiki, and westarctica.org.
-
-      - question: How is Westarctica funded?
-        answer: >
-          Westarctica operates as a nonprofit organization supported by
-          donations and related activities. Financial and organizational
-          details are provided through Westarctica's own official channels.
+          Write to count@krigsvold.org with the page, the disputed claim, and the
+          best available source. Material corrections are recorded on the
+          Corrections page.
