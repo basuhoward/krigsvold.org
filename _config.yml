@@ -40,6 +40,9 @@ collections:
   fellows:
     output: true
     permalink: /fellows/:name/
+  positions:
+    output: true
+    permalink: /positions/:name/
 
 keywords:
   - Antarctica
@@ -61,6 +64,11 @@ defaults:
       type: "fellows"
     values:
       layout: "fellow"
+  - scope:
+      path: ""
+      type: "positions"
+    values:
+      layout: "page"
 
 sass:
   sass_dir: assets/styles

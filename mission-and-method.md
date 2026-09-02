@@ -38,6 +38,8 @@ Krigsvold argues for informed climate mitigation, adaptation, ecosystem
 protection, and sustained support for science. Advocacy is not disguised as
 neutrality. It is made accountable by distinguishing observation from
 projection, linking claims to sources, and publishing corrections.
+[Formal Position Statements](/positions/) show that method applied to specific
+public choices.
 
 ## The editorial method
 

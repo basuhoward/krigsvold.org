@@ -41,6 +41,8 @@ main_menu_settings:
           url: /research-support
         - title: Advocacy
           url: /advocacy
+        - title: Positions
+          url: /positions
         - title: Get Involved
           url: /get-involved
     - title: The Record

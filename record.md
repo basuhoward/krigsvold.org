@@ -17,6 +17,7 @@ funded and published, where the work fell short, and what comes next.
 | Fellow | [Ria Raut](/fellows/ria-raut/) |
 | Research focus | Tropical forest recovery after selective logging in Sabah, Borneo |
 | Public briefings | Five Antarctic subject briefings reviewed and reorganized |
+| Formal positions | 1: [Antarctic Observation Is Global Public Infrastructure](/positions/antarctic-observation-is-global-public-infrastructure/) |
 | Institutional work | Public status statement, sourcing standard, and corrections policy established |
 
 The 2026 Fellowship application cycle opened in March. Ria Raut was announced

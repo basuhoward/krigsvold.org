@@ -35,6 +35,11 @@ went.
 **Correct in public.** Material factual changes are recorded on the
 [Corrections](/corrections/) page.
 
+Formal [Position Statements](/positions/) apply this method to a particular
+public choice. Each states the proposition, evidence, recommended action, and
+limits separately so readers can agree with the facts without being required to
+accept the judgment.
+
 ## What Krigsvold argues for
 
 - rapid reduction of greenhouse-gas emissions consistent with limiting

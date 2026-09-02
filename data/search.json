@@ -51,4 +51,20 @@ sitemap: false
     }
     {% endunless %}
 {% endfor %}
+
+{% for position in site.positions %}
+    {% unless position.published == false or position.sitemap == false %}
+        {% if first %}
+            {% assign first = false %}
+        {% else %}
+            ,
+        {% endif %}
+    {
+        "title":   {{ position.title | markdownify | strip_html | normalize_whitespace | jsonify }},
+        "uri":     "{{ position.url }}",
+        "date":    "Position {{ position.position_number }} · {{ position.date | date: '%b %d, %Y' }}",
+        "content": {{ position.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+    }
+    {% endunless %}
+{% endfor %}
 ]

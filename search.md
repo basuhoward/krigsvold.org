@@ -2,7 +2,7 @@
 layout: page
 title: Search
 eyebrow: Find a page
-description: Search Krigsvold's briefings, Fellow profiles, news, and institutional pages.
+description: Search Krigsvold's briefings, positions, Fellow profiles, news, and institutional pages.
 sitemap: false
 featured_image: /assets/img/search-banner.webp
 ---
