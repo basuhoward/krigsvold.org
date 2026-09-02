@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/ProfilePage">
+  {% include head.html %}
+  <body class="institutional-page">
+    {% include navbar.html %}
+    <header class="page-masthead fellow-masthead{% unless page.featured_image %} page-masthead--plain{% endunless %}"{% if page.featured_image %} style="background-image: url('{{ page.featured_image | relative_url }}')"{% endif %}>
+      <div class="page-masthead__veil"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <p class="eyebrow text-white">{{ page.year }} Count of Krigsvold Fellow</p>
+            <h1>{{ page.title }}</h1>
+            <p class="page-masthead__subtitle">{{ page.summary }}</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main-content" class="page-shell">
+      <div class="container">
+        <div class="row g-5">
+          <article class="col-lg-8 editorial-content">
+            {{ content }}
+          </article>
+          <aside class="col-lg-4 fellow-facts" aria-label="Fellowship details">
+            <p class="eyebrow">At a glance</p>
+            <dl>
+              <dt>Award year</dt><dd>{{ page.year }}</dd>
+              <dt>Institution</dt><dd>{{ page.institution }}</dd>
+              <dt>Field site</dt><dd>{{ page.field_site }}</dd>
+              <dt>Award</dt><dd>$1,000 graduate research grant</dd>
+            </dl>
+            {% if page.external_url %}<a class="quiet-link" href="{{ page.external_url }}">Researcher profile <span aria-hidden="true">↗</span></a>{% endif %}
+          </aside>
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+    {% include jscode.html %}
+  </body>
+</html>

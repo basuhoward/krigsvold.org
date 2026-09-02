@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
   {% include head.html %}
-  <body class="index-page bg-gray-200">
+  <body class="institutional-page">
     {% include navbar.html %}
 
-    {% if page.featured_image %}
-    <header class="bg-gradient-dark">
-      <div class="page-header min-vh-25" style="background-image: url('{{ page.featured_image | relative_url }}');">
-        <span class="mask bg-gradient-dark opacity-7"></span>
-        <div class="container">
-          <div class="row justify-content-center pt-5 mt-5">
-            <div class="col-lg-8 text-center mx-auto my-auto">
-              <h1 class="text-white">{{ page.title }}</h1>
-            </div>
+    <header class="page-masthead{% unless page.featured_image %} page-masthead--plain{% endunless %}"{% if page.featured_image %} style="background-image: url('{{ page.featured_image | relative_url }}')"{% endif %}>
+      <div class="page-masthead__veil"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            {% if page.eyebrow %}<p class="eyebrow text-white">{{ page.eyebrow }}</p>{% endif %}
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}<p class="page-masthead__subtitle">{{ page.subtitle }}</p>{% endif %}
           </div>
         </div>
       </div>
     </header>
-    {% endif %}
-    <section class="pt-3 pt-md-5">
+    <main id="main-content" class="page-shell">
       <div class="container">
-        <div class="col-12 mx-auto">
-          <div class="card shadow-lg">
-            {% if page.subtitle %}
-            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-              <div class="bg-gradient-info shadow-info border-radius-lg p-4">
-                <h3 class="text-white mb-0">{{ page.subtitle }}</h3>
-              </div>
-            </div>
+        <div class="row">
+          <article class="col-xl-8 col-lg-9 editorial-content">
+            {% if page.last_reviewed %}
+            <p class="review-note">Last reviewed {{ page.last_reviewed | date: "%B %-d, %Y" }}</p>
             {% endif %}
-            <div class="card-body p-sm-5 pt-4">
-              {{ content | markdownify }}
-            </div>
-          </div>
+            {{ content }}
+          </article>
         </div>
       </div>
-    </section>
+    </main>
     {% include footer.html %}
   </body>
   {% include jscode.html %}

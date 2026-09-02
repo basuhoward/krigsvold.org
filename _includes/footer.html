@@ -1,63 +1,32 @@
-<footer class="footer pt-5 mt-5">
+<footer class="site-footer">
   <div class="container">
-    <div class=" row">
-      <div class="col-md-3 mb-4 ms-auto">
-        <div>
-          <a href="https://jameshoward.us">
-            {% svg "/assets/img/identity/jh-badge-1x1.svg" class="mt-1 mb-2 basu-howard-flag" alt="Basu-Howard Banner" %}
-            <h6 class="text-sm mb-0 basu-howard-banner">krigsvold.org</h6>
-            <h6 class="text-sm basu-howard-banner">A website of James Howard</h6>
-          </a>
-        </div>
+    <div class="row g-5">
+      <div class="col-lg-4">
+        <a class="footer-identity" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/img/identity/favicon.svg' | relative_url }}" alt="" width="52" height="52">
+          <span>The Count of Krigsvold</span>
+        </a>
+        <p class="mt-3">An Antarctic title put to work through education, research support, and evidence-led advocacy.</p>
+        <p class="small">The dignity is symbolic and conveys no sovereignty, ownership, or governmental authority.</p>
       </div>
-
       {% for item in site.data.settings.footer_menu_settings.menu_items %}
-      {% unless item.submenu_items %}
-      <div class="col-md-2 col-sm-6 col-6 mb-4">
-        <div>
-          <h6 class="text-sm">{{ item.title }}</h6>
-          <ul class="flex-column ms-n3 nav">
-          </ul>
-        </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <h2>{{ item.title }}</h2>
+        {% if item.submenu_items %}
+        <ul>
+          {% for subitem in item.submenu_items %}
+          <li>
+            <a href="{{ subitem.url | relative_url }}"{% if subitem.target %} target="{{ subitem.target }}"{% endif %}{% if subitem.relationship %} rel="{{ subitem.relationship }}{% if subitem.target == '_blank' %} noopener{% endif %}"{% elsif subitem.target == '_blank' %} rel="noopener"{% endif %}{% for datum in subitem.data %} data-{{ datum[0] }}{% if datum[1] != nil %}="{{ datum[1] }}"{% endif %}{% endfor %}>{{ subitem.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
       </div>
-      {% else %}
-      <div class="col-md-2 col-sm-6 col-6 mb-4">
-        <div>
-          <h6 class="text-sm">{{ item.title }}</h6>
-
-          <ul class="flex-column ms-n3 nav">
-            {% for subitem in item.submenu_items %}
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="{{ subitem.url | relative_url }}"
-                {% if subitem.target %}
-                target="{{ subitem.target | escape }}"
-                {% endif %}
-                {% if subitem.relationship %}
-                rel="{{ subitem.relationship | escape }}"
-                {% endif %}
-                {% for datum in subitem.data %}
-                data-{{ datum[0] }}{% if datum[1] != nil %}="{{ datum[1] | escape }}"{% endif %}
-                {% endfor %}
-                >
-                {{ subitem.title }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-      {% endunless %}
       {% endfor %}
-    
-      <div class="col-12">
-        <div class="text-center">
-          <p class="text-dark my-4 text-sm font-weight-normal">
-            All rights reserved. Copyright &copy; 2023-{{ 'now' | date: "%Y" }} by <a href="https://jameshoward.us" target="_blank">James P. Howard, II</a>.
-          </p>
-        </div>
-      </div>
+    </div>
+    <div class="site-footer__base">
+      <p>Copyright © 2023–{{ 'now' | date: "%Y" }} James P. Howard, II.</p>
+      <p><a href="mailto:count@krigsvold.org">count@krigsvold.org</a></p>
     </div>
   </div>
 </footer>
