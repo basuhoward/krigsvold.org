@@ -5,6 +5,7 @@ date: 2025-05-01
 author: k3jph
 layout: post
 permalink: /2025/05/01/sheherazade-named-recipient-of-2025-count-of-krigsvold-fellowship
+description: Sheherazade received the inaugural Count of Krigsvold Fellowship for research on community-led forest governance in Central Sulawesi.
 categories:
  - Blog 
 tags:
@@ -45,6 +46,5 @@ For more information or to apply, please visit:
 | Name              | James Howard, Count of Krigsvold               |
 | Email             | count@krigsvold.org                            |
 | Website           | [https://krigsvold.org](https://krigsvold.org) |
-
 
 

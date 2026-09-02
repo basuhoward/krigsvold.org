@@ -1,64 +1,47 @@
 ---
 layout: page
 title: Get Involved
-description: How to follow the Count of Krigsvold's work, support polar climate education, and engage with the broader mission.
+eyebrow: Useful next actions
+description: Apply for the Fellowship, share a briefing, report a correction, follow the work, or support Westarctica's conservation programs.
 featured_image: /assets/img/get-involved-banner.webp
+last_reviewed: 2026-09-02
 ---
 
-Climate education about polar systems is most effective when it reaches
-people who are willing to take it seriously and share it with others.
-If you have found the Count of Krigsvold's work useful, there are several
-ways to stay engaged and to support the mission.
+There are several useful ways to participate. Choose the one that matches what
+you can actually contribute.
 
-## Follow and share
+## Apply or nominate
 
-The Count maintains a presence on several platforms. Updates, links to
-new research, and commentary on polar climate news are shared regularly.
+Graduate students working in climate change and global conservation may apply
+for the annual $1,000 [Count of Krigsvold Fellowship](/fellowship/). Exact dates
+and requirements are maintained on the
+[official application page](https://www.westarctica.org/conservation-scholarship).
+If a researcher you know should see the opportunity, send it to them directly.
 
-On **Bluesky** at [@krigsvold.org](https://bsky.app/profile/krigsvold.org),
-posts are indexed and discoverable without an account, and the platform
-supports substantive links and discussion.
+## Use and challenge the briefings
 
-On **Mastodon** at [@krigsvold@mastodon.social](https://mastodon.social/@krigsvold),
-the Count participates in the federated social web, with the fuller
-context that the longer-form environment allows.
+Read an [Antarctica briefing](/antarctica/), follow its sources, and share it
+with someone for whom the subject matters. If a claim is wrong, stale, or more
+certain than its source allows, report it. Correction requests should identify
+the page, disputed claim, and best available source.
 
-The **Facebook** page at [Count Krigsvold Westarctica](https://www.facebook.com/CountKrigsvoldWestarctica)
-reaches audiences who prefer that platform.
+## Follow the work
 
-Sharing content you find genuinely useful is the simplest and most direct
-way to extend the reach of climate education. Quality over volume: one piece
-that someone reads carefully and thinks about is worth more than a dozen
-that scroll past.
+- [Bluesky](https://bsky.app/profile/krigsvold.org)
+- [Mastodon](https://mastodon.social/@krigsvold)
+- [Facebook](https://www.facebook.com/CountKrigsvoldWestarctica)
 
-## The Fellowship
+These channels carry new research, site updates, award announcements, and
+commentary. One careful share is generally more useful than a great deal of
+frictionless applause.
 
-If you are a researcher, educator, or science communicator whose work engages
-seriously with Antarctic or polar climate systems, the [Fellowship](/fellowship/)
-may be relevant to you or to someone you know. Nominations and inquiries
-are welcome at [info@basuhoward.org](mailto:info@basuhoward.org).
+## Support the wider program
 
-## Support Westarctica
-
-The Grand Duchy of Westarctica, within whose institutional framework the
-Count of Krigsvold holds his title, operates as a nonprofit organization
-dedicated to raising awareness of Western Antarctica's environmental
-significance. Supporting Westarctica financially or through participation
-in its activities is a direct way to support the broader mission. Westarctica
-can be reached through [westarctica.org](https://www.westarctica.org).
-
-## Engage with the science directly
-
-The most durable contribution anyone can make to polar climate awareness
-is developing their own genuine understanding of the science. The Count's
-website is a starting point, not an end. The Scientific Committee on Antarctic
-Research ([SCAR](https://scar.org)), the British Antarctic Survey
-([BAS](https://www.bas.ac.uk)), and the United States Antarctic Program
-([USAP](https://www.usap.gov)) all produce public-facing content about
-ongoing polar research. IPCC Working Group I reports are technically dense
-but accessible with patience, and the Summary for Policymakers is written
-for exactly the audience it names.
+Westarctica, Inc. administers conservation and outreach work beyond this office.
+See [westarctica.org](https://www.westarctica.org) for its current programs and
+ways to participate.
 
 ## Contact
 
-Direct inquiries can be sent to [info@basuhoward.org](mailto:info@basuhoward.org).
+Fellowship, press, partnership, sourcing, and correction inquiries may be sent
+to [count@krigsvold.org](mailto:count@krigsvold.org).

@@ -5,6 +5,7 @@ date: 2025-02-01
 author: k3jph
 layout: post
 permalink: /2025/02/01/count-of-krigsvold-fellowship-supports-conservation-research
+description: The Count of Krigsvold and Westarctica established an annual $1,000 Fellowship for graduate climate and conservation research.
 categories:
  - Blog 
 tags:
@@ -43,6 +44,5 @@ For more information or to apply, please visit:
 | Name              | James Howard, Count of Krigsvold               |
 | Email             | count@krigsvold.org                            |
 | Website           | [https://krigsvold.org](https://krigsvold.org) |
-
 
 

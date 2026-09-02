@@ -5,6 +5,7 @@ date: 2026-03-01
 author: k3jph
 layout: post
 permalink: /2026/03/01/applications-open-for-2026-count-of-krigsvold-fellowship
+description: Applications opened for the 2026 Count of Krigsvold Fellowship, a $1,000 graduate research award in climate and conservation.
 categories:
  - Blog 
 tags:

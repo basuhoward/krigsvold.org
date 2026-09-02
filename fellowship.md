@@ -1,51 +1,57 @@
 ---
 layout: page
 title: The Fellowship
-description: The Fellowship of the Count of Krigsvold recognizes individuals whose work advances understanding of Antarctic climate systems and polar science.
+eyebrow: Graduate research grant
+description: The Count of Krigsvold Fellowship is an annual $1,000 award supporting graduate research in climate change and global conservation.
 featured_image: /assets/img/fellowship-banner.webp
+last_reviewed: 2026-09-02
 ---
 
-The Fellowship of the Count of Krigsvold is the Count's recognition of
-individuals whose work advances understanding of climate change, with
-particular emphasis on Antarctica and related polar systems. It is awarded
-at the Count's discretion to researchers, communicators, and educators whose
-contributions demonstrate rigor, relevance, and genuine engagement with the
-science of polar environments.
+The Count of Krigsvold Fellowship is an annual **$1,000 grant** for graduate
+research in climate change and global conservation. The Count sponsors the
+award in partnership with the Grand Duchy of Westarctica.
 
-Fellows are not agents of the Count and their views are their own. A
-Fellowship expresses the Count's considered judgment that the work in
-question deserves attention and support, and his willingness to say so
-publicly.
+The Fellowship is global rather than polar-only. Climate and conservation
+problems connect ice sheets, forests, oceans, institutions, biodiversity, and
+human communities. Projects are judged on the rigor of the research and the
+importance of the environmental problem they address.
 
-## Who qualifies
+## Who may apply
 
-Fellowship is open to anyone whose work meets the standard of substance and
-relevance, without restriction by discipline, institution, or career stage.
-Relevant fields include but are not limited to glaciology, physical
-oceanography, atmospheric science, polar ecology, climatology, and
-science communication focused on polar systems.
+The program is open to master's and doctoral students worldwide. Exact
+eligibility, application materials, dates, and recipient responsibilities are
+published on the
+[official application page](https://www.westarctica.org/conservation-scholarship).
+That page controls if its current terms differ from a summary here.
 
-Original research, synthesis work, and high-quality public communication
-each constitute legitimate grounds for recognition. The determining factors
-are whether the work is grounded in credible evidence, whether it advances
-understanding rather than merely generates heat, and whether it engages
-honestly with the complexity of polar climate science.
+Applicants ordinarily provide a cover letter, a concise research proposal, and
+a curriculum vitae. The program favors work that combines a defensible method
+with a clear account of why the result will matter.
 
-## What Fellowship entails
+## What the award supports
 
-A Fellowship may include formal recognition on this site, opportunities for
-engagement with the Count's educational activities, and other forms of support
-as resources and circumstances allow. The specific character of recognition is
-determined in light of the work being recognized and the needs of the
-recipient.
+The grant is intended to help a graduate researcher carry out the proposed
+work. The project may address climate change, conservation, biodiversity,
+restoration, environmental governance, or a closely related field. Geography
+and discipline are open; scientific and practical seriousness are not.
 
-There is no presumption of renewal or progression. A Fellowship does not
-imply the Count's endorsement of every position held by the recipient, nor
-does it create any ongoing obligation on either side. It is recognition of
-work already done or being done, given at a particular moment, in response
-to what that work has contributed.
+The award does not make a Fellow an employee, agent, or spokesperson of the
+Count. Fellows retain responsibility for their research and their views.
 
-## Nomination and contact
+## Fellows
 
-Nominations may be made by third parties or by the individual themselves.
-Inquiries may be directed to [info@basuhoward.org](mailto:info@basuhoward.org).
+- **[Ria Raut, 2026](/fellows/ria-raut/):** sapling recruitment and forest
+  recovery in logged and unlogged forests in Sabah, Borneo.
+- **[Sheherazade, 2025](/fellows/sheherazade/):** decentralized forest governance
+  and biocultural stewardship in Central Sulawesi, Indonesia.
+
+See [Meet the Fellows](/fellows/) for full profiles and the
+[Annual Record](/record/) for cumulative awards.
+
+## Applications
+
+Application timing changes from year to year. Consult
+[Westarctica's Fellowship page](https://www.westarctica.org/conservation-scholarship)
+for the next cycle rather than relying on an old announcement. Questions about
+Krigsvold's sponsorship may be sent to
+[count@krigsvold.org](mailto:count@krigsvold.org).

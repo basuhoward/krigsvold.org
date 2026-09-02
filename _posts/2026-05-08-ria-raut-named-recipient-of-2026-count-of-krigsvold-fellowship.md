@@ -6,6 +6,7 @@ author: k3jph
 layout: post
 permalink: /2026/05/08/ria-raut-named-recipient-of-2026-count-of-krigsvold-fellowship
 featured_image: /assets/img/news/2026/ria-raut-named-recipient-of-2026-count-of-krigsvold-fellowship.webp
+description: Ria Raut received the 2026 Count of Krigsvold Fellowship for research on forest recovery after selective logging in Sabah, Borneo.
 categories:
  - Blog 
 tags:
@@ -22,7 +23,7 @@ Peter I Island, Westarctica–The Count of Krigsvold, in partnership with the
 Grand Duchy of Westarctica, is pleased to announce that [Ria
 Raut](https://github.com/riaraut7), a doctoral student in Environmental Science,
 Policy, and Management at the **University of California, Berkeley**, has been
-selected as the recipient of the i **2026 Count of Krigsvold Fellowship**.
+selected as the recipient of the **2026 Count of Krigsvold Fellowship**.
 
 Raut's research investigates the drivers of sapling recruitment in undisturbed
 and selectively logged forests in Sabah, Borneo. Working across primary forest
@@ -48,6 +49,5 @@ For more information or to apply, please visit:
 | Name              | James Howard, Count of Krigsvold               |
 | Email             | count@krigsvold.org                            |
 | Website           | [https://krigsvold.org](https://krigsvold.org) |
-
 
 
