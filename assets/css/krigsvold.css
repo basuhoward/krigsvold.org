@@ -118,7 +118,7 @@ img { max-width: 100%; }
   padding-left: .65rem;
 }
 .site-search input {
-  width: 5rem;
+  width: 8rem;
   border: 0;
   border-bottom: 1px solid rgba(255,255,255,.5);
   outline: 0;
@@ -127,7 +127,7 @@ img { max-width: 100%; }
   font-size: .86rem;
 }
 .site-search input::placeholder { color: rgba(255,255,255,.75); }
-.site-search input:focus { width: 8rem; border-bottom-color: var(--ice-400); }
+.site-search input:focus { border-bottom-color: var(--ice-400); }
 .site-search button { border: 0; background: transparent; color: white; padding: .25rem; }
 
 .eyebrow {
