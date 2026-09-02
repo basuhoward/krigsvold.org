@@ -146,6 +146,7 @@ img { max-width: 100%; }
   font-weight: 700;
   letter-spacing: -.045em;
   line-height: .98;
+  text-wrap: balance;
 }
 .home-hero__lede {
   max-width: 700px;
