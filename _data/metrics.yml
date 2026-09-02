@@ -1,20 +1,20 @@
-- value: "150 billion"
+- value: "~135 billion"
   label: Metric tons of Antarctic ice lost per year
-  context: NASA measured this annual average with the GRACE and GRACE-FO satellites from 2002 through 2023.
+  context: NASA measured this annual average with the GRACE and GRACE Follow-On satellites from 2002 through 2025.
   source_name: NASA
-  source_url: https://science.nasa.gov/earth/antarctic-ice-mass-loss-2002-2023/
+  source_url: https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets/
   verified: 2026-09-02
 
-- value: "1.98 million km²"
-  label: Antarctic sea ice at the 2025 summer minimum
-  context: The minimum was 30% below the 1981–2010 average and tied for the second lowest in the satellite record.
-  source_name: NASA Earth Observatory
-  source_url: https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-plunged-in-summer-2025-154112/
+- value: "2.58 million km²"
+  label: Antarctic sea ice at the 2026 summer minimum
+  context: The minimum ranked sixteenth lowest in the satellite record, 260,000 square kilometres below the 1981–2010 average.
+  source_name: National Snow and Ice Data Center
+  source_url: https://nsidc.org/news-analyses/news-stories/antarctic-sea-ice-extent-arrives-near-average-minimum
   verified: 2026-09-02
 
-- value: "~30%"
+- value: "~26%"
   label: Increase in surface-ocean acidity
-  context: Surface-ocean acidity has risen by about 30% since the beginning of the Industrial Revolution.
-  source_name: NOAA
-  source_url: https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification
+  context: The ocean has become about 26% more acidic on average over the past 250 years.
+  source_name: NOAA Ocean Acidification Program
+  source_url: https://oceanacidification.noaa.gov/what-is-ocean-acidification/
   verified: 2026-09-02

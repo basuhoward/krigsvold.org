@@ -8,11 +8,11 @@ last_reviewed: 2026-09-02
 ---
 
 The Southern Ocean performs an enormous climate service without making the
-underlying problem disappear. The British Antarctic Survey estimates that it
-accounts for **more than 40% of the anthropogenic carbon dioxide absorbed by the
-global ocean**. That uptake slows the accumulation of carbon dioxide in the
-atmosphere. It also acidifies the water and moves carbon into a system whose
-future behavior is not fixed.
+underlying problem disappear. A 2024 modelling study reported by the British
+Antarctic Survey estimated that it accounted for **43 ± 3% of historical global
+ocean carbon uptake**. That uptake slows the accumulation of carbon dioxide in
+the atmosphere. It also acidifies the water and moves carbon into a system whose
+future behaviour is not fixed.
 
 ## How carbon enters the ocean
 
@@ -31,9 +31,8 @@ the surface; a smaller fraction reaches deeper water or sediment.
 
 Ocean uptake is sometimes described as though carbon simply vanishes. It does
 not. Dissolved carbon changes seawater chemistry, increasing acidity and
-reducing carbonate ions used by many organisms. NOAA estimates that average
-surface-ocean acidity has risen by about 30% since the beginning of the
-Industrial Revolution.
+reducing carbonate ions used by many organisms. NOAA estimates that the ocean
+has become about 26% more acidic on average over the past 250 years.
 
 Nor is the sink guaranteed to grow in direct proportion to emissions. Wind,
 temperature, stratification, sea ice, circulation, and biological productivity
@@ -45,9 +44,10 @@ the atmosphere.
 Warming has competing effects. It reduces the solubility of carbon dioxide, but
 changes in winds and circulation may expose different water masses to the
 atmosphere. Shifts in sea ice can alter both gas exchange and the seasonal
-biology of carbon uptake. Models agree that the Southern Ocean remains central
-to the global carbon budget; they differ in the regional and temporal details
-of its response.
+biology of carbon uptake. The 2024 study projected that the Southern Ocean
+would remain responsible for close to half of global ocean carbon uptake in a
+middle-emissions scenario, even as its share of heat uptake became less
+dominant. Models still differ in the regional and temporal details.
 
 The practical implication is plain. A natural sink is not an alternative to
 emissions reduction. If the ocean absorbs a smaller fraction of future
@@ -56,15 +56,16 @@ fraction, the chemical and ecological consequences in the ocean increase.
 
 ## What is known—and what is not
 
-**Known:** the Southern Ocean is the largest regional ocean sink for
-human-emitted carbon; physical circulation and biological production both store
-carbon; uptake causes acidification.
+**Known:** the Southern Ocean is a major regional sink for human-emitted carbon;
+physical circulation and biological production both store carbon; uptake
+causes acidification.
 
 **Still uncertain:** how circulation, stratification, sea ice, and ecosystem
 change will alter the sink's strength and distribution over coming decades.
 
 ## Primary sources
 
-- [British Antarctic Survey: Southern Ocean carbon and heat uptake](https://www.bas.ac.uk/project/siwha/)
+- [British Antarctic Survey: Asymmetries in Southern Ocean heat and carbon uptake](https://www.bas.ac.uk/data/our-data/publication/asymmetries-in-the-southern-ocean-contribution-to-global-heat-and-carbon-uptake/)
+- [British Antarctic Survey: Southern Ocean Carbon and Heat Regulation](https://www.bas.ac.uk/project/orchestra/)
 - [British Antarctic Survey: how carbon is stored in the Southern Ocean](https://www.bas.ac.uk/media-post/new-discovery-of-how-carbon-is-stored-in-the-southern-ocean/)
-- [NOAA: Ocean acidification](https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification)
+- [NOAA Ocean Acidification Program: What is ocean acidification?](https://oceanacidification.noaa.gov/what-is-ocean-acidification/)

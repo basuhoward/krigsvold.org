@@ -11,33 +11,47 @@ Antarctica is not warming in one simple, uniform pattern. The peninsula, West
 Antarctica, the high interior, the atmosphere above them, and the ocean around
 them can change at different rates. The larger signal is nonetheless clear:
 human-added heat has entered the coupled atmosphere–ocean system, and the
-Southern Ocean carries an exceptional share of it.
+Southern Ocean has absorbed and redistributed an exceptional share of it.
 
 ## The ocean is the main heat reservoir
 
-The ocean absorbs most of the excess heat trapped by greenhouse gases. The
-British Antarctic Survey's Southern Ocean research program reports that the
-Southern Ocean accounts for roughly **three-quarters of the anthropogenic heat
-absorbed by the global ocean**. This moderates atmospheric warming in the short
-term while committing the ocean and ice shelves to long-lived change.
+The ocean has absorbed most of the excess heat accumulating in the Earth
+system. A 2024 modelling study reported by the British Antarctic Survey
+estimated that the Southern Ocean accounted for **83 ± 33% of global ocean heat
+uptake over the historical period**. The broad uncertainty matters, but so does
+the scale: a region covering about one-fifth of the global ocean has been a
+dominant heat sink.
+
+That historical share is not a fixed law. The same study projected a smaller
+Southern Ocean share as aerosol and greenhouse-gas forcing evolve, while the
+region remains important to both heat and carbon uptake. Past uptake has
+moderated atmospheric warming while committing the ocean and ice shelves to
+long-lived change.
 
 The Antarctic Circumpolar Current flows around the continent and connects the
 Atlantic, Pacific, and Indian oceans. Water masses formed or transformed in the
 south carry heat, carbon, oxygen, and nutrients through the global ocean. That
 is why an Antarctic change can be remote in geography and global in consequence.
 
-## Sea ice: a sharp recent departure
+## Sea ice: extremes and a partial rebound
 
 Antarctic sea ice expands and contracts dramatically each year. Unlike land
 ice, its melting does not materially raise sea level. It does influence the
 exchange of heat between ocean and atmosphere, the formation of dense water,
 habitat, and the timing of biological productivity.
 
-NASA reported that the 2025 summer minimum reached **1.98 million square
-kilometres**—30% below the 1981–2010 average and tied for the second-lowest
-minimum in the 47-year satellite record. One season is not a climate trend, but
-the repeated low-ice years since the record minimum of 2023 mark a substantial
-departure from much of the earlier satellite record.
+The 2026 summer minimum reached **2.58 million square kilometres** on February
+26, according to the National Snow and Ice Data Center. It ranked sixteenth
+lowest in the 48-year satellite record: still 260,000 square kilometres below
+the 1981–2010 average, but 730,000 square kilometres above the record low set in
+2023.
+
+That return toward average conditions after four exceptionally low years is a
+useful warning against reading a long-term conclusion from one season in either
+direction. It does not erase the recent extremes, and the recent extremes do
+not make year-to-year variability disappear. Researchers are testing whether
+the post-2016 decline reflects a lasting structural shift in the
+atmosphere–ocean–sea-ice system.
 
 ## Circulation and weather
 
@@ -55,9 +69,10 @@ equally settled.
 
 ## What is known—and what is not
 
-**Known:** the Southern Ocean is a dominant reservoir for human-added heat; warm
-water reaching continental shelves can increase basal ice-shelf melt; recent
-Antarctic sea-ice minima have been exceptionally low.
+**Known:** the Southern Ocean has been a dominant reservoir for human-added
+heat; warm water reaching continental shelves can increase basal ice-shelf
+melt; and Antarctic sea ice has experienced several exceptional lows since
+2016.
 
 **Still uncertain:** whether the recent sea-ice regime will persist, how
 Southern Ocean circulation will reorganize, and the strength of particular
@@ -65,6 +80,7 @@ links to regional weather outside Antarctica.
 
 ## Primary sources
 
-- [British Antarctic Survey: Southern Ocean carbon and heat uptake](https://www.bas.ac.uk/project/siwha/)
-- [NASA Earth Observatory: Antarctic sea ice in summer 2025](https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-plunged-in-summer-2025-154112/)
+- [British Antarctic Survey: Asymmetries in Southern Ocean heat and carbon uptake](https://www.bas.ac.uk/data/our-data/publication/asymmetries-in-the-southern-ocean-contribution-to-global-heat-and-carbon-uptake/)
+- [National Snow and Ice Data Center: Antarctic sea ice at the 2026 minimum](https://nsidc.org/news-analyses/news-stories/antarctic-sea-ice-extent-arrives-near-average-minimum)
+- [Scientific Committee on Antarctic Research: Antarctic Climate Change and the Environment](https://scar.org/~documents/route%3A/download/6431)
 - [IPCC Sixth Assessment Report, Working Group I](https://www.ipcc.ch/report/ar6/wg1/)

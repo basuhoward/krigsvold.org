@@ -20,9 +20,10 @@ quietly changing what a page claims is not.
   $1,000 grant for graduate research in climate change and global conservation.
   The Fellowship and research-support pages now reflect the actual program.
 - **Ocean acidification figure.** An animated homepage statistic claimed a 40%
-  rise in ocean acidity. It has been replaced with NOAA's figure of about 30%
-  for the increase in surface-ocean acidity since the Industrial Revolution,
-  with the source and measurement context attached.
+  rise in ocean acidity. It was first replaced with an older NOAA estimate of
+  about 30%. The site now uses NOAA's current synthesis: the ocean has become
+  about 26% more acidic on average over the past 250 years, with the source and
+  measurement context attached.
 - **Territorial language.** Earlier copy called three Antarctic features the
   Count's “territories.” The site now states that the dignities correspond to
   real places but convey no ownership, jurisdiction, or sovereignty.

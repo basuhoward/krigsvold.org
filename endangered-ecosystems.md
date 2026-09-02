@@ -34,8 +34,10 @@ those concentrations form can move through the food web quickly.
 
 This complexity is one reason to be careful with a single-cause story. Warming
 and sea-ice loss interact with fisheries and predator recovery. Management has
-to account for cumulative pressure rather than treating each driver in
-isolation.
+to account for cumulative and locally concentrated pressure rather than
+treating each driver in isolation. That is why the Commission for the
+Conservation of Antarctic Marine Living Resources monitors predator–prey
+relationships as well as the krill catch itself.
 
 ## Emperor penguins and breeding failure
 
@@ -50,13 +52,22 @@ fifth of known colonies experienced breeding failure in 2023. These are
 observations of particular seasons and colonies, not a claim that every colony
 failed or that sea ice alone determines the species' future.
 
+A 2026 satellite study added a distinct concern: emperors also need stable fast
+ice while they replace their waterproof feathers. In Marie Byrd Land, moulting
+groups were forced into smaller areas during the very low-ice years from 2022
+through 2024, and some ice broke up before moulting was complete. Only 25 small
+groups were visible in 2025 where more than 100 had been identified before
+2022. Researchers do not yet know whether the missing birds relocated or died;
+the observation identifies a serious risk, not a settled population count.
+
 ## Acidification adds another pressure
 
-The ocean's absorption of carbon dioxide changes seawater chemistry. NOAA
-estimates that average surface-ocean acidity has increased by about 30% since
-the beginning of the Industrial Revolution. Cold polar water can absorb carbon
-dioxide readily, while many Southern Ocean organisms already live close to
-chemical thresholds relevant to shell formation.
+The ocean's absorption of carbon dioxide changes seawater chemistry. NOAA's
+current synthesis estimates that the ocean has become about **26% more acidic
+on average over the past 250 years**. The ocean remains alkaline, but its pH is
+falling. Cold polar water can absorb carbon dioxide readily, while many Southern
+Ocean organisms already live close to chemical thresholds relevant to shell
+formation.
 
 Acidification, warming, habitat change, and harvesting act together. Laboratory
 responses do not automatically predict ecosystem outcomes, but they identify
@@ -68,12 +79,15 @@ mechanisms that field observation and models must track.
 break-up can cause emperor-penguin breeding failure; ocean chemistry is changing
 as seawater absorbs human-emitted carbon dioxide.
 
-**Still uncertain:** how quickly species will redistribute or adapt, how the
-recent low-sea-ice period will evolve, and how interacting climate and fishing
+**Still uncertain:** how quickly species will redistribute or adapt, whether
+missing emperor-penguin groups moved or suffered major mortality, how the
+recent sea-ice extremes will evolve, and how interacting climate and fishing
 pressures will affect krill-dependent ecosystems.
 
 ## Primary sources
 
 - [British Antarctic Survey: emperor-penguin breeding failure in 2022](https://www.bas.ac.uk/media-post/loss-of-sea-ice-causes-catastrophic-breeding-failure-for-emperor-penguins/)
 - [British Antarctic Survey: colony outcomes in 2023](https://www.bas.ac.uk/media-post/emperor-penguin-colonies-in-antarctica-suffer-as-sea-ice-diminishes/)
-- [NOAA: Ocean acidification](https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification)
+- [British Antarctic Survey: emperor-penguin moulting sites and sea ice](https://www.bas.ac.uk/news/accidental-discovery-reveals-grim-future-for-emperor-penguins/)
+- [CCAMLR: Krill biology, ecology and fishing](https://www.ccamlr.org/en/science/krill-%E2%80%93-biology-ecology-and-fishing)
+- [NOAA Ocean Acidification Program: What is ocean acidification?](https://oceanacidification.noaa.gov/what-is-ocean-acidification/)
