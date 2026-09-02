@@ -42,6 +42,6 @@ bound by the then-current version of these terms.
 
 The House of Basu-Howard acknowledges and respects the copyright
 and intellectual property rights of others. Any copyright concerns
-or infringement notices should be directed to us at info@basuhoward.org.
+or infringement notices should be directed to us at count@krigsvold.org.
 We commit to addressing such concerns in compliance with applicable
 laws.

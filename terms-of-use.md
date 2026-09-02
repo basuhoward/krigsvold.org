@@ -14,7 +14,7 @@ The content of the pages of this website is for your general information and use
 
 ## Intellectual Property
 
-The trademarks, logos, and service marks (collectively the "Trademarks") displayed on the website are registered and unregistered Trademarks of the House of Basu-Howard and others. Nothing contained on the site should be construed as granting any license or right to use any Trademark displayed on the site without the written permission of [Your Website Name] or such third party that may own the Trademarks displayed on the site.
+The trademarks, logos, and service marks (collectively the "Trademarks") displayed on the website are registered and unregistered Trademarks of the House of Basu-Howard and others. Nothing contained on the site should be construed as granting any license or right to use any Trademark displayed on the site without the written permission of James P. Howard, II or such third party that may own the Trademarks displayed on the site.
 
 ## User Conduct
 
@@ -46,4 +46,4 @@ Any claim relating to the House of Basu-Howard's website shall be governed by th
 
 ## Contact Us
 
-If you have any questions about these Terms of Use, please contact us at info@basuhoward.org.
+If you have any questions about these Terms of Use, please contact us at count@krigsvold.org.

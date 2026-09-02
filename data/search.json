@@ -35,4 +35,20 @@ sitemap: false
     }
     {% endunless %}
 {% endfor %}
+
+{% for fellow in site.fellows %}
+    {% unless fellow.published == false or fellow.sitemap == false %}
+        {% if first %}
+            {% assign first = false %}
+        {% else %}
+            ,
+        {% endif %}
+    {
+        "title":   {{ fellow.title | markdownify | strip_html | normalize_whitespace | jsonify }},
+        "uri":     "{{ fellow.url }}",
+        "date":    "{{ fellow.year }} Fellow",
+        "content": {{ fellow.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+    }
+    {% endunless %}
+{% endfor %}
 ]
