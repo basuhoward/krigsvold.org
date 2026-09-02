@@ -2,6 +2,7 @@
 id: sheherazade-named-recipient-of-2025-count-of-krigsvold-fellowship
 title: Sheherazade Named Recipient of 2025 Count of Krigsvold Fellowship
 date: 2025-05-01
+last_modified_at: 2026-09-02
 author: k3jph
 layout: post
 permalink: /2025/05/01/sheherazade-named-recipient-of-2025-count-of-krigsvold-fellowship
@@ -14,37 +15,32 @@ tags:
  - graduate fellowship
 ---
 
-**FOR IMMEDIATE RELEASE**
+[Sheherazade](/fellows/sheherazade/), a doctoral researcher in Environmental
+Science, Policy, and Management at the University of California, Berkeley, has
+been selected as the inaugural recipient of the **Count of Krigsvold
+Fellowship**.
 
-**Sheherazade Named Recipient of 2025 Count of Krigsvold Fellowship**
+## Community-led forest governance
 
-Peter I Island, Westarctica--The Count of Krigsvold, in partnership with the
-Grand Duchy of Westarctica, is pleased to announce that
-[Sheherazade](https://ourenvironment.berkeley.edu/users/1808368), a doctoral
-candidate in Environmental Sciences, Policy, and Management at the **University
-of California, Berkeley**, has been selected as the recipient of the **2025
-Count of Krigsvold Fellowship**.
+Sheherazade studies decentralized forest governance in Central Sulawesi,
+Indonesia. Her research focuses on Conservation Partnerships and Customary
+Forest initiatives, examining how Indigenous and local communities lead the
+stewardship of forests and how policy and science recognize their knowledge.
 
-Sheherazade's research investigates decentralized models of forest governance in
-Central Sulawesi, Indonesia, with a focus on Conservation Partnerships and
-Customary Forest initiatives. Her work emphasizes the integration of Indigenous
-and Local Community leadership into conservation practice, seeking to strengthen
-scientific legitimacy for biocultural stewardship and advance more equitable and
-effective conservation strategies in the tropics.
+The project connects several questions that are too often treated separately:
+who makes conservation decisions, what knowledge counts, and whether the people
+who live with a landscape share authority over its future. That approach makes
+the research relevant to biodiversity, climate resilience, governance, and
+environmental justice.
 
-The Count of Krigsvold Fellowship awards $1,000 annually to support graduate
-research addressing critical issues in climate change and global conservation.
-Sheherazade's innovative and community-driven approach reflects the Fellowship's
-mission to promote environmental research that bridges scientific rigor with
-local knowledge and practice.
+## The 2025 award
 
-For more information or to apply, please visit:
-[https://www.westarctica.org/conservation-scholarship](https://www.westarctica.org/conservation-scholarship)
+The Fellowship provides $1,000 each year for graduate research in climate change
+and global conservation. James Howard, Count of Krigsvold, sponsors the award,
+and the Grand Duchy of Westarctica administers the application and selection
+process.
 
-| **Media Contact** |                                                |
-|:------------------|:-----------------------------------------------|
-| Name              | James Howard, Count of Krigsvold               |
-| Email             | count@krigsvold.org                            |
-| Website           | [https://krigsvold.org](https://krigsvold.org) |
-
+[Read Sheherazade's Fellow profile](/fellows/sheherazade/) or see the award in
+the [Annual Record](/record/). Current program information is available on the
+[Fellowship page](/fellowship/).
 

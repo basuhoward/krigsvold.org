@@ -2,6 +2,7 @@
 id: applications-open-for-2026-count-of-krigsvold-fellowship
 title: Applications Open for 2026 Count of Krigsvold Fellowship
 date: 2026-03-01
+last_modified_at: 2026-09-02
 author: k3jph
 layout: post
 permalink: /2026/03/01/applications-open-for-2026-count-of-krigsvold-fellowship
@@ -14,37 +15,31 @@ tags:
  - graduate fellowship
 ---
 
-**FOR IMMEDIATE RELEASE**
+> **Update, May 8, 2026:** The 2026 application cycle is closed. Ria Raut was
+> selected as the 2026 Count of Krigsvold Fellow. [Read the award
+> announcement](/2026/05/08/ria-raut-named-recipient-of-2026-count-of-krigsvold-fellowship/)
+> or [meet Ria](/fellows/ria-raut/).
 
-**Applications Open for 2026 Count of Krigsvold Fellowship**
+Applications opened on March 1 for the 2026 **Count of Krigsvold Fellowship**,
+an annual $1,000 award supporting graduate research in climate change,
+environmental protection, and global conservation.
 
-Peter I Island, Westarctica--The Count of Krigsvold, in collaboration with the
-Grand Duchy of Westarctica, announces the opening of applications for the 2026
-Count of Krigsvold Fellowship. The program provides a \$1,000 award to support
-graduate-level research focused on climate change, environmental protection, and
-global conservation.
+## The award
 
-The Fellowship is open to Master's and doctoral students from any country.
-It is intended to encourage rigorous, forward-looking research that contributes
-to the preservation of natural systems and the development of sustainable
-approaches to environmental challenges.
+The Fellowship is open to master's and doctoral students from any country. It
+supports research that can improve understanding of natural systems or inform
+practical responses to environmental change.
 
-Applications will be accepted beginning March 1, 2026, with all materials due by
-April 10, 2026. Applicants should submit a cover letter, a one-page research
-proposal, and a curriculum vitae. The selected Fellow will be announced on May 1,
-and funding will be available for the upcoming academic year.
+For the 2026 cycle, applicants submitted a cover letter, a one-page research
+proposal, and a curriculum vitae by April 10. Funding was designated for the
+following academic year.
 
-The Count of Krigsvold, [James Howard](https://jameshoward.us), is a mathematician
-and data scientist whose work spans computational science, public policy, and
-public health. He sponsors the Fellowship as part of an ongoing effort to support
-scholarship that addresses complex environmental problems with analytical and
-practical rigor.
+James Howard, Count of Krigsvold, sponsors the Fellowship, and the Grand Duchy
+of Westarctica administers the application and selection process. The program
+turns the title's Antarctic association into direct support for environmental
+scholarship.
 
-Additional details and application instructions are available at:
-[https://www.westarctica.org/conservation-scholarship](https://www.westarctica.org/conservation-scholarship)
-
-| **Media Contact** |                                                |
-|:------------------|:-----------------------------------------------|
-| Name              | James Howard, Count of Krigsvold               |
-| Email             | count@krigsvold.org                            |
-| Website           | [https://krigsvold.org](https://krigsvold.org) |
+Future application dates and requirements will be posted on the [Fellowship
+page](/fellowship/) and the official [Westarctica conservation scholarship
+page](https://www.westarctica.org/conservation-scholarship). Past awards appear
+in the [Annual Record](/record/).
