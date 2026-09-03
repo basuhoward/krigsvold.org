@@ -315,6 +315,22 @@ article figure { margin: 1.5rem 0; padding: 0; }
   .pull-right { float: none; margin-left: 0; }
   .site-footer__base { display: block; }
 }
+@media (max-width: 575.98px) {
+  .site-navbar { padding: .5rem; }
+  .site-navbar .navbar-brand {
+    gap: .5rem;
+    margin-right: .5rem;
+    font-size: clamp(.875rem, 4vw, 1rem);
+  }
+  .site-navbar .navbar-brand img { width: 32px; height: 32px; flex: 0 0 32px; }
+  .site-navbar .navbar-toggler {
+    flex: 0 0 auto;
+    min-width: 44px;
+    min-height: 44px;
+    margin-left: auto;
+    padding: .25rem .45rem;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
