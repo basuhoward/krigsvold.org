@@ -297,9 +297,60 @@ article figure { margin: 1.5rem 0; padding: 0; }
 @media (max-width: 991.98px) {
   .nav-shell { padding: .75rem 0; }
   .site-navbar { background: rgba(6,19,37,.96); }
+  .site-navbar .navbar-toggler {
+    display: grid;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    place-items: center;
+  }
+  .site-navbar .navbar-toggler-icon {
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+  }
+  .site-navbar .navbar-toggler .navbar-toggler-bar {
+    position: absolute;
+    top: calc(50% - .5px);
+    left: 0;
+    width: 22px;
+    margin: 0 !important;
+    transform-origin: center;
+  }
+  .site-navbar .navbar-toggler .bar1 { transform: translateY(-7px); }
+  .site-navbar .navbar-toggler .bar2 { transform: translateY(0); }
+  .site-navbar .navbar-toggler .bar3 { transform: translateY(7px); }
+  .site-navbar .navbar-toggler[aria-expanded="true"] .bar1 { transform: rotate(45deg); transform-origin: center; }
+  .site-navbar .navbar-toggler[aria-expanded="true"] .bar2 { opacity: 0; }
+  .site-navbar .navbar-toggler[aria-expanded="true"] .bar3 { transform: rotate(-45deg); transform-origin: center; }
   .site-navbar .navbar-collapse { padding: 1rem 0 .4rem; }
   .site-navbar .nav-link, .site-navbar button.nav-link { width: 100%; padding: .7rem .4rem; text-align: left; }
-  .site-navbar .dropdown-menu { box-shadow: none; }
+  .site-navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu {
+    position: static !important;
+    inset: auto !important;
+    width: 100%;
+    min-width: 0;
+    margin: 0 !important;
+    padding: .1rem 0 .45rem .8rem;
+    overflow: visible;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    transform: none !important;
+  }
+  .site-navbar .navbar-collapse .dropdown-menu::before { display: none; }
+  .site-navbar .navbar-collapse .dropdown-item {
+    padding: .38rem .45rem;
+    color: rgba(255,255,255,.76);
+    font-size: .86rem;
+    white-space: normal;
+  }
+  .site-navbar .navbar-collapse .dropdown-item:hover,
+  .site-navbar .navbar-collapse .dropdown-item:focus {
+    background: rgba(158,213,230,.1);
+    color: var(--ice-200);
+  }
   .site-search { margin: .8rem 0 0; padding: .8rem 0 0; border-top: 1px solid rgba(255,255,255,.2); border-left: 0; }
   .home-hero { min-height: 700px; }
   .fellow-feature__image { min-height: 380px; }
@@ -325,10 +376,7 @@ article figure { margin: 1.5rem 0; padding: 0; }
   .site-navbar .navbar-brand img { width: 32px; height: 32px; flex: 0 0 32px; }
   .site-navbar .navbar-toggler {
     flex: 0 0 auto;
-    min-width: 44px;
-    min-height: 44px;
     margin-left: auto;
-    padding: .25rem .45rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {
