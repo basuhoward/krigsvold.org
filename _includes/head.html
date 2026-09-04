@@ -43,7 +43,79 @@
   <link href="{{ '/assets/css/gdpr-cookie.css' | relative_url }}" rel="stylesheet">
   <link rel="me" href="https://mastodon.social/@krigsvold">
 
-  {% if page.layout == "post" %}
+  {% if page.layout == "fellow" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "@id": "{{ canonical_url }}#profilepage",
+    "url": "{{ canonical_url }}",
+    "name": {{ full_title | jsonify }},
+    "description": {{ desc | jsonify }},
+    "inLanguage": "en-US",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "{{ canonical_url }}#person",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | default: page.summary | jsonify }},
+      "url": "{{ canonical_url }}",
+      "award": {{ page.year | append: " Count of Krigsvold Fellowship" | jsonify }},
+      "affiliation": {
+        "@type": "Organization",
+        "name": {{ page.institution | jsonify }}
+      }{% if page.featured_image %},
+      "image": "{{ image_url }}"{% endif %}{% if page.external_url %},
+      "sameAs": "{{ page.external_url }}"{% endif %}
+    }
+  }
+  </script>
+  {% elsif page.layout == "home" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": {{ site.title | jsonify }},
+        "description": {{ site.description | strip_html | strip_newlines | jsonify }},
+        "publisher": {"@id": "{{ site.url }}/#organization"},
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "{{ canonical_url }}#profilepage",
+        "url": "{{ canonical_url }}",
+        "name": {{ full_title | jsonify }},
+        "description": {{ desc | jsonify }},
+        "isPartOf": {"@id": "{{ site.url }}/#website"},
+        "mainEntity": {"@id": "{{ site.url }}/#organization"},
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization",
+        "name": "Office of the Count of Krigsvold",
+        "alternateName": "The Count of Krigsvold",
+        "url": "{{ site.url }}/",
+        "description": {{ site.description | strip_html | strip_newlines | jsonify }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ '/assets/img/identity/favicon.svg' | absolute_url }}"
+        },
+        "email": "mailto:{{ site.email }}",
+        "sameAs": [
+          "https://www.facebook.com/CountKrigsvoldWestarctica",
+          "https://bsky.app/profile/krigsvold.org",
+          "https://mastodon.social/@krigsvold",
+          "https://pinterest.com/countofkrigsvold"
+        ]
+      }
+    ]
+  }
+  </script>
+  {% elsif page.layout == "post" %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -60,6 +132,7 @@
     "author": {"@type": "Person", "name": "James P. Howard, II, Count of Krigsvold"},
     "publisher": {
       "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
       "name": "Office of the Count of Krigsvold",
       "url": "{{ site.url }}",
       "logo": {"@type": "ImageObject", "url": "{{ '/assets/img/identity/favicon.svg' | absolute_url }}"}
