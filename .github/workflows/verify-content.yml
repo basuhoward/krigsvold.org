@@ -1,0 +1,140 @@
+name: Verify content before publication
+
+on:
+  pull_request:
+    branches: [main]
+
+# This workflow never deploys or writes repository contents.
+permissions:
+  contents: read
+
+concurrency:
+  group: content-check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      JEKYLL_ENV: production
+      BASE_SHA: ${{ github.event.pull_request.base.sha }}
+    steps:
+      - name: Check out proposed changes and base history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install image-processing dependencies
+        run: sudo apt-get update && sudo apt-get install -y libvips-dev
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.2'
+          bundler-cache: true
+      - name: Check patch whitespace
+        run: git diff --check "$BASE_SHA" HEAD
+      - name: Build the existing site as a regression baseline
+        shell: bash
+        run: |
+          set -euo pipefail
+          git worktree add --detach "$RUNNER_TEMP/krigsvold-base" "$BASE_SHA"
+          bundle exec jekyll build \
+            --source "$RUNNER_TEMP/krigsvold-base" \
+            --config "$RUNNER_TEMP/krigsvold-base/_config.yml" \
+            --destination "$RUNNER_TEMP/krigsvold-base-site"
+      - name: Build the proposed site using the production command
+        run: bundle exec rake build
+      - name: Check internal-link, anchor, and asset regressions
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from collections import defaultdict
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import unquote, urljoin, urlsplit
+          import os
+          import sys
+
+          ORIGIN = 'https://krigsvold.org'
+          HOSTS = {'krigsvold.org', 'www.krigsvold.org'}
+
+          class Page(HTMLParser):
+              def __init__(self, text):
+                  super().__init__(convert_charrefs=True)
+                  self.links = []
+                  self.anchors = set()
+                  self.feed(text)
+                  self.close()
+
+              def handle_starttag(self, tag, pairs):
+                  attrs = dict(pairs)
+                  if attrs.get('id'):
+                      self.anchors.add(attrs['id'])
+                  if tag == 'a' and attrs.get('name'):
+                      self.anchors.add(attrs['name'])
+                  for key in ('href', 'src', 'poster'):
+                      if attrs.get(key):
+                          self.links.append(attrs[key])
+                  value = attrs.get('srcset', '')
+                  if value and not value.lstrip().startswith('data:'):
+                      self.links.extend(part.strip().split()[0]
+                                        for part in value.split(',') if part.strip())
+
+              handle_startendtag = handle_starttag
+
+          def check(root):
+              root = root.resolve()
+              assert (root / 'index.html').is_file(), f'Missing homepage: {root}'
+              pages = {p: Page(p.read_text(encoding='utf-8'))
+                       for p in root.rglob('*.html')}
+              problems = defaultdict(set)
+              for page, parsed in pages.items():
+                  rel = page.relative_to(root).as_posix()
+                  page_url = '/' + rel
+                  if page_url.endswith('/index.html'):
+                      page_url = page_url[:-10]
+                  for raw in parsed.links:
+                      target = urlsplit(urljoin(ORIGIN + page_url, raw))
+                      if target.scheme not in ('http', 'https') or target.hostname not in HOSTS:
+                          continue
+                      path = unquote(target.path)
+                      candidate = (root / path.lstrip('/')).resolve()
+                      if not candidate.is_relative_to(root):
+                          problems[('outside-site', path, '')].add(rel)
+                          continue
+                      choices = [candidate, candidate / 'index.html']
+                      if not candidate.suffix:
+                          choices.append(candidate.with_suffix('.html'))
+                      found = next((p for p in choices if p.is_file()), None)
+                      fragment = unquote(target.fragment)
+                      if found is None:
+                          problems[('missing-target', path, '')].add(rel)
+                      elif fragment and not fragment.startswith(':~:text=') and found.suffix == '.html':
+                          if found not in pages:
+                              pages[found] = Page(found.read_text(encoding='utf-8'))
+                          if fragment not in pages[found].anchors:
+                              problems[('missing-anchor', path, fragment)].add(rel)
+              return problems, len(pages)
+
+          before, before_count = check(Path(os.environ['RUNNER_TEMP']) / 'krigsvold-base-site')
+          after, after_count = check(Path('_site'))
+          introduced = set(after) - set(before)
+          print(f'Checked {before_count} baseline and {after_count} proposed HTML pages.')
+          print(f'Baseline unresolved targets/anchors: {len(before)}; proposed: {len(after)}.')
+          for key in sorted(introduced):
+              print('NEW:', key, 'referenced by', ', '.join(sorted(after[key])))
+          if introduced:
+              sys.exit(1)
+          print('No new broken internal targets, anchors, or assets.')
+          if after:
+              print('Pre-existing unresolved references are reported, not silently treated as repaired:')
+              for key in sorted(after)[:20]:
+                  print('EXISTING:', key)
+          PY
+      - name: Save the built site for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: verified-site
+          path: _site/
+          retention-days: 7

@@ -25,6 +25,14 @@ as the recipient in May. This site was subsequently rebuilt around a clearer
 distinction between the symbolic title and the practical work conducted under
 it.
 
+### Science update — October 13, 2026
+
+Three existing briefings were updated with the 2026 sea-ice seasonal record,
+conservation assessments and penguin research, and an NSIDC analysis-continuity
+case study. The [dated update note](/news/2026/10/13/october-antarctic-science-update/)
+links to the revised sections. These are updates to existing briefings, not
+three additional publications or a new formal position.
+
 ## 2025
 
 | Measure | Record |

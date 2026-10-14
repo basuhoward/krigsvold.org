@@ -5,12 +5,12 @@
   source_url: https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets/
   verified: 2026-09-02
 
-- value: "2.58 million km²"
-  label: Antarctic sea ice at the 2026 summer minimum
-  context: The minimum ranked sixteenth lowest in the satellite record, 260,000 square kilometres below the 1981–2010 average.
-  source_name: National Snow and Ice Data Center
-  source_url: https://nsidc.org/news-analyses/news-stories/antarctic-sea-ice-extent-arrives-near-average-minimum
-  verified: 2026-09-02
+- value: "17.59 million km²"
+  label: Antarctic sea ice at the 2026 winter maximum
+  context: Estimated extent on September 14, 2026—the third-lowest annual maximum in the satellite record. The Warming and Circulation briefing also retains February's summer minimum.
+  source_name: NASA and NSIDC
+  source_url: https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/
+  verified: 2026-10-13
 
 - value: "~26%"
   label: Increase in surface-ocean acidity

@@ -4,7 +4,7 @@ title: Research and Response
 eyebrow: Antarctica briefing
 description: This briefing explains the observing systems behind Antarctic climate knowledge, its limits, and the responses the evidence supports.
 featured_image: /assets/img/research-response-banner.webp
-last_reviewed: 2026-09-02
+last_reviewed: 2026-10-13
 ---
 
 Antarctic science is an exercise in assembling partial views. Satellites can
@@ -28,6 +28,36 @@ modelling to study one of West Antarctica's most consequential glacier
 systems. Its seven-year programme also shows why observation must continue:
 seawater intrusion at grounding zones and highly uneven melting beneath ice
 shelves are now known to matter, but are not yet fully represented in forecasts.
+
+## When the measurements continue but the explanation pauses {#nsidc-analysis-continuity}
+
+A working satellite does not guarantee a working public information service.
+NSIDC's [account of its analysis programmes](https://nsidc.org/news-analyses/about-our-analyses)
+records that monthly *Sea Ice Today* analyses were paused from October 2025
+through August 2026 after NASA funding ended. They resumed in September 2026
+with support from the Climate Science and Communication Fund, administered
+by Surge Climate Talent.
+
+The [August 19 restart announcement](https://nsidc.org/sea-ice-today/analyses/nsidcs-analysis-site-sea-ice-today-returns)
+makes the limits clear. Sea-ice maps and charts had continued during the
+commentary pause. Monthly analysis was returning, but the additional
+mid-month summer posts were not. As of this October 13 review, NSIDC still
+described *Ice Sheets Today* as suspended; occasional ice-sheet discussion
+within *Sea Ice Today* was not a full restoration of that separate service.
+
+This is **not evidence that the underlying satellite observations stopped**.
+It is evidence that different parts of the information system can lose support
+at different times. Collecting a measurement, preserving its provenance,
+interpreting it, and explaining its significance to people making decisions
+are distinct jobs. Keeping one does not automatically keep the others.
+
+The case gives a practical example of Krigsvold's position that
+[Antarctic observation is global public infrastructure](/positions/antarctic-observation-is-global-public-infrastructure/).
+The relevant question is not simply whether an instrument still works. It is
+whether the people and services needed to make its record useful can continue
+their work. This assessment describes the services documented on October 13,
+2026; it is not a claim about every NSIDC programme or a prediction of future
+funding.
 
 ## Models are not crystal balls
 
@@ -74,5 +104,7 @@ larger body of evidence.
 - [NASA: Ice Sheets Earth Indicator](https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets/)
 - [International Thwaites Glacier Collaboration: Key Research Findings 2025](https://thwaitesglacier.org/findings)
 - [Morlighem et al.: The West Antarctic Ice Sheet may not be vulnerable to marine ice cliff instability during the 21st century](https://doi.org/10.1126/sciadv.ado7794)
+- [NSIDC: About Our Analyses — programme status reviewed October 13, 2026](https://nsidc.org/news-analyses/about-our-analyses)
+- [NSIDC: Sea Ice Today restart announcement, August 19, 2026](https://nsidc.org/sea-ice-today/analyses/nsidcs-analysis-site-sea-ice-today-returns)
 - [Scientific Committee on Antarctic Research](https://scar.org/)
 - [IPCC Sixth Assessment Report, Working Group I](https://www.ipcc.ch/report/ar6/wg1/)

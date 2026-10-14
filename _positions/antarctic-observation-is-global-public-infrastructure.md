@@ -98,10 +98,20 @@ tests explanations, and makes consequences more visible. Governments and
 communities must still make judgments about risk, cost, responsibility, and
 action.
 
+## Evidence update — October 13, 2026
+
+A new [NSIDC case study in Research and Response](/research-response/#nsidc-analysis-continuity)
+examines an interruption to public analysis rather than a loss of satellite
+measurements. It illustrates the fifth commitment above: continuity is needed
+across the whole information system. The case study contains the dated service
+history and primary sources; the original proposition and recommendations
+remain unchanged.
+
 ## Publication and review
 
-Published **September 2, 2026**. Evidence and links last reviewed **September 2,
-2026**.
+Published **September 2, 2026**. The original statement's evidence and links
+were reviewed **September 2, 2026**; the separately dated case-study link was
+added **October 13, 2026**.
 
 This statement is based principally on the WMO's work on the Global Climate
 Observing System, the Southern Ocean Observing System's mission, Article III of
