@@ -45,7 +45,7 @@ try{
     await page.screenshot({path:'artifacts/qa/navigation-and-hero.png'});
     await fellows.hover();
     await page.waitForFunction(()=>getComputedStyle(document.querySelector('.home-hero .btn-outline-light')).color==='rgb(6, 19, 37)');
-    assert.equal(await fellows.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(217, 238, 244)');
+    await page.waitForFunction(()=>/^rgba?\(217, 238, 244(?:, 1)?\)$/.test(getComputedStyle(document.querySelector('.home-hero .btn-outline-light')).backgroundColor));
     await page.mouse.move(0,900);await page.keyboard.press('Tab');await fellows.focus();
     assert.equal(await fellows.evaluate(e=>e===document.activeElement),true);
   });
