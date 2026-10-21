@@ -62,7 +62,7 @@ img { max-width: 100%; }
 }
 .site-navbar .nav-link:hover,
 .site-navbar .nav-link:focus { color: var(--ice-400); }
-.site-navbar .nav-caret { margin-left: .15rem; font-size: 1rem; vertical-align: -.18rem; }
+.site-navbar .nav-caret { display: inline-block; width: 1rem; height: 1rem; margin-left: .15rem; vertical-align: -.18rem; }
 .site-navbar .navbar-toggler { border-color: rgba(255,255,255,.5); }
 .site-navbar .navbar-toggler .navbar-toggler-bar { background: white; }
 .site-navbar .dropdown-menu {
@@ -104,6 +104,9 @@ img { max-width: 100%; }
 }
 .site-search input {
   width: 8rem;
+  min-block-size: 0;
+  padding: 1px 2px;
+  border-radius: 0;
   border: 0;
   border-bottom: 1px solid rgba(255,255,255,.5);
   outline: 0;
@@ -113,7 +116,8 @@ img { max-width: 100%; }
 }
 .site-search input::placeholder { color: rgba(255,255,255,.75); }
 .site-search input:focus { border-bottom-color: var(--ice-400); }
-.site-search button { border: 0; background: transparent; color: white; padding: .25rem; }
+.site-search button { display: inline-flex; align-items: center; justify-content: center; height: 40px; border: 0; background: transparent; color: white; padding: .25rem; }
+.site-search button svg { width: 24px; height: 24px; flex: 0 0 24px; }
 
 .eyebrow {
   margin-bottom: .75rem;
@@ -179,6 +183,11 @@ img { max-width: 100%; }
 .btn-ice:hover { background: white; color: var(--navy-950); }
 .btn-dark-blue { background: var(--navy-900); color: white; }
 .btn-dark-blue:hover { background: var(--blue-600); color: white; }
+
+/* Keep the hero action legible over the photograph and the shared link styles. */
+.home-hero .btn-outline-light { color: #fff; border: 1px solid #fff; background: transparent; box-shadow: none; }
+.home-hero .btn-outline-light:hover,
+.home-hero .btn-outline-light:focus-visible { color: var(--navy-950); border-color: var(--ice-200); background: var(--ice-200); }
 
 .status-note { padding: 4rem 0; border-bottom: 1px solid var(--rule); background: white; }
 .status-note .lead { color: #35404a; font-family: var(--serif); font-size: 1.18rem; }
