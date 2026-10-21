@@ -1,0 +1,9 @@
+---
+import Page from '../layouts/Page.astro';
+import { documents } from '../lib/content.mjs';
+export function getStaticPaths() {
+  return documents.filter(p=>p.route!=='/404.html').map(page=>({params:{slug:page.route==='/'?undefined:page.route.replace(/^\/|\/$/g,'')},props:{page}}));
+}
+const { page } = Astro.props;
+---
+<Page page={page} />

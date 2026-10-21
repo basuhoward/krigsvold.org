@@ -2,7 +2,7 @@
   "name": "krigsvold-org",
   "compatibility_date": "2026-10-19",
   "assets": {
-    "directory": "./_site"
+    "directory": "./dist"
   },
   "previews": {}
 }
