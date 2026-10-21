@@ -5,9 +5,9 @@ import { readFile, mkdir } from 'node:fs/promises';
 import { resolve, extname, sep } from 'node:path';
 const root=resolve('dist'),types={'.html':'text/html','.js':'application/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 const server=createServer(async(req,res)=>{
-  const path=resolve(root,'.'+decodeURIComponent(new URL(req.url,'http://localhost').pathname));
+  const url=new URL(req.url,'http://localhost'),path=resolve(root,'.'+decodeURIComponent(url.pathname));
   if(path!==root&&!path.startsWith(root+sep))return res.writeHead(403).end();
-  for(const file of [path,path+'/index.html',path+'.html'])try{const data=await readFile(file);return res.writeHead(200,{'Content-Type':types[extname(file)]||'application/octet-stream'}).end(data);}catch{}
+  for(const file of [path,path+'/index.html',path+'.html'])try{const data=await readFile(file);if(file===path+'/index.html'&&!url.pathname.endsWith('/'))return res.writeHead(301,{Location:url.pathname+'/'+url.search}).end();return res.writeHead(200,{'Content-Type':types[extname(file)]||'application/octet-stream'}).end(data);}catch{}
   res.writeHead(404).end();
 });
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
