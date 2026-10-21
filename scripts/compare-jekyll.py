@@ -6,15 +6,9 @@ import json,sys,re,unicodedata
 
 class Page(HTMLParser):
     def __init__(self,text):
-        super().__init__(convert_charrefs=True);self.stack=[];self.list_markers=[];self.main=[];self.title=[];self.canonical=None;self.description=None;self.redirect=None;self.links=[];self.anchors=set();self.feed(text)
+        super().__init__(convert_charrefs=True);self.stack=[];self.main=[];self.title=[];self.canonical=None;self.description=None;self.redirect=None;self.links=[];self.anchors=set();self.feed(text)
     def handle_starttag(self,tag,pairs):
         a=dict(pairs)
-        # Kramdown can turn a year at a soft line break into an ordered-list
-        # marker. That visible year is part of the prose comparison too.
-        if tag=='ol':self.list_markers.append(int(a['start']) if a.get('start','1')!='1' else None)
-        if tag=='li' and self.stack and self.stack[-1][0]=='ol' and self.list_markers and self.list_markers[-1] is not None:
-            if any(t=='main' for t,_ in self.stack):self.main.append(str(self.list_markers[-1])+'.')
-            self.list_markers[-1]+=1
         if a.get('id'):self.anchors.add(a['id'])
         for key in ['href','src','poster']:
             if a.get(key):self.links.append(a[key])
@@ -23,7 +17,6 @@ class Page(HTMLParser):
         if tag=='meta' and a.get('http-equiv','').lower()=='refresh':self.redirect=a.get('content','').split('url=',1)[-1]
         if tag not in ['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']:self.stack.append((tag,a.get('aria-hidden')=='true'))
     def handle_endtag(self,tag):
-        if tag=='ol' and self.list_markers:self.list_markers.pop()
         for i in range(len(self.stack)-1,-1,-1):
             if self.stack[i][0]==tag:self.stack=self.stack[:i];break
     def handle_data(self,data):
@@ -36,7 +29,15 @@ def normalize(parts):
     s=s.translate(str.maketrans({'“':'"','”':'"','‘':"'",'’':"'",'–':'-','—':'-','…':'...'}))
     return re.sub(r'\s+',' ',s).strip()
 
-before,after=map(Path,sys.argv[1:3]);errors=[]
+before,after=map(Path,sys.argv[1:3]);errors=[];repairs=[]
+# Jekyll discarded these authored years by parsing them as list markers without
+# a start attribute. Astro keeps the original prose. Verify only these two
+# source-backed repairs; all other text must match the independent baseline.
+YEAR_REPAIRS={
+    'endangered-ecosystems/index.html':('endangered-ecosystems.md','before\n2022. Researchers','identified before Researchers','identified before 2022. Researchers'),
+    'warming-continents/index.html':('warming-continents.md','since\n2016. The','lows since The relatively','lows since 2016. The relatively'),
+}
+
 def find(root,path):
     p=root/unquote(path).lstrip('/')
     return next((x for x in [p,p/'index.html',p.with_suffix('.html') if not p.suffix else p] if x.is_file()),None)
@@ -63,11 +64,18 @@ for old in sorted(before.rglob('*.html')):
     original=load(old);proposed=follow(new,after)
     if original.redirect:continue
     checked+=1
-    for key,a,b in [('main',normalize(original.main),normalize(proposed.main)),('title',normalize(original.title),normalize(proposed.title)),('canonical',original.canonical,proposed.canonical),('description',original.description,proposed.description)]:
+    original_main=normalize(original.main)
+    if rel in YEAR_REPAIRS:
+        source,authored,broken,corrected=YEAR_REPAIRS[rel]
+        if authored not in Path(source).read_text() or original_main.count(broken)!=1:
+            errors.append('Unexpected source or baseline for documented year repair: '+rel)
+        else:
+            original_main=original_main.replace(broken,corrected)
+            repairs.append(rel)
+    for key,a,b in [('main',original_main,normalize(proposed.main)),('title',normalize(original.title),normalize(proposed.title)),('canonical',original.canonical,proposed.canonical),('description',original.description,proposed.description)]:
         if a!=b:
             errors.append(f'{key} changed: /{rel}')
             if key=='main':
-                print('Legacy ordered lists:', re.findall(r'<ol[^>]*>[\s\S]*?</ol>',old.read_text()))
                 import difflib
                 print('\n'.join(difflib.unified_diff(a.split(),b.split(),fromfile='Jekyll '+rel,tofile='Astro '+rel,n=2))[:6000])
     for ref in original.links:
@@ -79,5 +87,5 @@ for old in sorted(before.rglob('*.html')):
         if not new_target:errors.append('Lost linked target: '+ref+' from '+rel)
         elif url.fragment and old_target.suffix=='.html' and unquote(url.fragment) in load(old_target).anchors:
             if unquote(url.fragment) not in follow(new_target,after).anchors:errors.append('Lost anchor: '+ref+' from '+rel)
-print(json.dumps({'legacy_html_files':len(list(before.rglob('*.html'))),'content_pages_compared':checked,'errors':errors},indent=2))
+print(json.dumps({'legacy_html_files':len(list(before.rglob('*.html'))),'content_pages_compared':checked,'documented_year_repairs':repairs,'errors':errors},indent=2))
 if errors:sys.exit(1)

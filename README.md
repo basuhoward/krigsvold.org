@@ -48,3 +48,9 @@ For the migration PR, CI independently builds the original Jekyll revision and
 compares every legacy HTML route, main text, title, description, canonical URL,
 and previously working local reference against Astro. Screenshots and the route
 inventory are attached to the workflow run for review.
+
+Two documented rendering repairs preserve years already present in the source:
+Jekyll misparsed “2022. Researchers” in Polar Ecosystems and “2016. The” in
+Warming and Circulation as numbered-list markers, discarding the years from
+the prose. Astro renders both as authored. The comparison verifies these exact
+source-backed repairs and requires all remaining main text to match.

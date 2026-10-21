@@ -36,7 +36,7 @@ try{
   await scenario('published fonts, navigation, FAQ and bundled search',async({page})=>{
     await page.locator('[data-cookie-reject]').click();await page.evaluate(()=>document.fonts.ready);
     assert.match(await page.locator('h1').evaluate(e=>getComputedStyle(e).fontFamily),/Roboto Slab/);assert.match(await page.locator('body').evaluate(e=>getComputedStyle(e).fontFamily),/Roboto/);
-    assert.ok(await page.evaluate(()=>document.fonts.check('16px "Roboto Mono"')));
+    assert.ok(await page.evaluate(async()=>{const faces=await document.fonts.load('16px "Roboto Mono"');return faces.length>0&&document.fonts.check('16px "Roboto Mono"');}));
     await page.locator('#nav-krigsvold').click();await page.getByRole('link',{name:'What Is Krigsvold?',exact:true}).click();await page.waitForURL('**/what-is-krigsvold/**');
     await page.goto(base+'/faq/');const item=page.locator('details').first();await item.locator('summary').click();assert.equal(await item.getAttribute('open'),'');
     await page.goto(base+'/search/?q=Ria');await page.locator('.search-results a[href="/fellows/ria-raut/"]').waitFor();
