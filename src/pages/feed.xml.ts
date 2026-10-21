@@ -1,0 +1,5 @@
+import { posts, site, escape } from '../lib/content.mjs';
+export function GET() {
+  const entries=posts.slice(0,10).map(p=>{const url=new URL(p.url,site.url).href;return `<entry><title>${escape(p.title)}</title><link href="${escape(url)}"/><id>${escape(url)}</id><published>${new Date(p.date).toISOString()}</published><updated>${new Date(p.last_modified_at||p.date).toISOString()}</updated><summary>${escape(p.description||p.title)}</summary><content type="html">${escape(p.html)}</content><author><name>James P. Howard, II</name></author></entry>`;}).join('');
+  return new Response(`<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>${escape(site.title)}</title><subtitle>${escape(site.description)}</subtitle><link href="${site.url}/feed.xml" rel="self"/><link href="${site.url}/"/><id>${site.url}/</id><updated>${new Date(posts[0]?.date||'2026-01-01').toISOString()}</updated>${entries}</feed>`,{headers:{'Content-Type':'application/atom+xml; charset=utf-8'}});
+}

@@ -1,0 +1,6 @@
+---
+import Page from '../layouts/Page.astro';
+import { documents } from '../lib/content.mjs';
+const page=documents.find(p=>p.route==='/404.html');
+---
+<Page page={page} />
