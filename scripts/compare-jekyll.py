@@ -6,9 +6,15 @@ import json,sys,re,unicodedata
 
 class Page(HTMLParser):
     def __init__(self,text):
-        super().__init__(convert_charrefs=True);self.stack=[];self.main=[];self.title=[];self.canonical=None;self.description=None;self.redirect=None;self.links=[];self.anchors=set();self.feed(text)
+        super().__init__(convert_charrefs=True);self.stack=[];self.list_markers=[];self.main=[];self.title=[];self.canonical=None;self.description=None;self.redirect=None;self.links=[];self.anchors=set();self.feed(text)
     def handle_starttag(self,tag,pairs):
         a=dict(pairs)
+        # Kramdown can turn a year at a soft line break into an ordered-list
+        # marker. That visible year is part of the prose comparison too.
+        if tag=='ol':self.list_markers.append(int(a['start']) if a.get('start','1')!='1' else None)
+        if tag=='li' and self.stack and self.stack[-1][0]=='ol' and self.list_markers and self.list_markers[-1] is not None:
+            if any(t=='main' for t,_ in self.stack):self.main.append(str(self.list_markers[-1])+'.')
+            self.list_markers[-1]+=1
         if a.get('id'):self.anchors.add(a['id'])
         for key in ['href','src','poster']:
             if a.get(key):self.links.append(a[key])
@@ -17,6 +23,7 @@ class Page(HTMLParser):
         if tag=='meta' and a.get('http-equiv','').lower()=='refresh':self.redirect=a.get('content','').split('url=',1)[-1]
         if tag not in ['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']:self.stack.append((tag,a.get('aria-hidden')=='true'))
     def handle_endtag(self,tag):
+        if tag=='ol' and self.list_markers:self.list_markers.pop()
         for i in range(len(self.stack)-1,-1,-1):
             if self.stack[i][0]==tag:self.stack=self.stack[:i];break
     def handle_data(self,data):
