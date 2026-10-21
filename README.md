@@ -14,12 +14,18 @@ npm run validate
 npm run test:browser # first install Chromium: npx playwright install chromium
 ```
 
-Production output is `dist/`. GitHub Pages builds with Node, and Cloudflare's
-Wrangler configuration serves that directory. The old `bundle exec rake build`
-command remains a compatibility adapter for existing hosting settings: it runs
-npm and Astro and mirrors the output to `_site/`. It does not render Jekyll.
-Ruby dependencies and the former templates are retained as migration references;
-new hosting configurations should use `npm run build` directly.
+Production output is `dist/`. Both GitHub Pages and Cloudflare build with
+Node and npm; Ruby, Bundler, and Jekyll are not required. Cloudflare settings:
+
+- Build command: `npm ci && npm run build`
+- Deploy command: `npx wrangler deploy`
+- Root directory: `/`
+- Node version: `24`
+- Assets directory: `dist` (set in `wrangler.jsonc`)
+
+Do not restore a root `Gemfile` or Ruby build adapter: Cloudflare detects the
+manifest and attempts to install its dependencies before the build command.
+The former Jekyll build setup remains available in Git history.
 
 ## Editing content
 
@@ -44,10 +50,12 @@ checks exercise responsive pages, navigation, search, native FAQ controls,
 consent, withdrawal, Global Privacy Control, and use without JavaScript. They
 stub Google Analytics so test traffic never reaches the service.
 
-For the migration PR, CI independently builds the original Jekyll revision and
-compares every legacy HTML route, main text, title, description, canonical URL,
-and previously working local reference against Astro. Screenshots and the route
-inventory are attached to the workflow run for review.
+The completed migration PR independently built the original Jekyll revision and
+compared every legacy HTML route, main text, title, description, canonical URL,
+and previously working local reference against Astro. That one-time Ruby-based
+comparison has been retired from active CI. Current CI uses the Node validation
+and browser checks above; screenshots and the route inventory are attached to
+the workflow run for review.
 
 Two documented rendering repairs preserve years already present in the source:
 Jekyll misparsed “2022. Researchers” in Polar Ecosystems and “2016. The” in

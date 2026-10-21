@@ -1,4 +1,4 @@
-name: Verify Astro migration and content
+name: Verify Astro content
 on:
   pull_request:
     branches: [main]
@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
-      JEKYLL_ENV: production
       BASE_SHA: ${{ github.event.pull_request.base.sha }}
     steps:
       - uses: actions/checkout@v4
@@ -28,20 +27,6 @@ jobs:
       - run: npm ci
       - run: npm run validate
         id: validation
-      - name: Build independent Jekyll migration baseline
-        if: github.event.pull_request.base.sha == 'e92e989b6e850b3a9cd8fbb565edb7eba6d3a6f7'
-        run: sudo apt-get update && sudo apt-get install -y libvips-dev
-      - uses: ruby/setup-ruby@v1
-        if: github.event.pull_request.base.sha == 'e92e989b6e850b3a9cd8fbb565edb7eba6d3a6f7'
-        with:
-          ruby-version: '3.4.2'
-          bundler-cache: true
-      - name: Compare every legacy page and working reference
-        if: github.event.pull_request.base.sha == 'e92e989b6e850b3a9cd8fbb565edb7eba6d3a6f7'
-        run: |
-          git worktree add --detach "$RUNNER_TEMP/krigsvold-base" "$BASE_SHA"
-          bundle exec jekyll build --source "$RUNNER_TEMP/krigsvold-base" --config "$RUNNER_TEMP/krigsvold-base/_config.yml" --destination "$RUNNER_TEMP/krigsvold-base-site"
-          python3 scripts/compare-jekyll.py "$RUNNER_TEMP/krigsvold-base-site" dist
       - run: npx playwright install --with-deps chromium
         if: ${{ !cancelled() && steps.validation.outcome == 'success' }}
       - run: npm run test:browser
