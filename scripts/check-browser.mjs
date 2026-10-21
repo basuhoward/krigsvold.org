@@ -33,6 +33,22 @@ try{
     assert.ok((await context.cookies()).some(c=>c.name==='cookieConsent'));
   });
   await scenario('Global Privacy Control prevents analytics',async({page,requests})=>{assert.equal(await page.locator('#gdpr-cookie').isVisible(),false);await page.locator('footer [data-cookie-preferences]').click();await page.locator('[data-cookie-accept]').click();assert.deepEqual(requests,[]);},{gpc:true});
+  await scenario('original navigation proportions and readable hero action',async({page})=>{
+    await page.locator('[data-cookie-reject]').click();await page.evaluate(()=>document.fonts.ready);
+    const nav=await page.locator('.site-navbar').boundingBox();
+    assert.ok(Math.abs(nav.y-20)<1,'Navigation should retain the original inset from the top');
+    assert.ok(Math.abs(nav.height-68)<1,'Search controls must not enlarge the original 68px navbar');
+    assert.deepEqual(await page.locator('.site-search button svg').evaluate(e=>({width:e.getBoundingClientRect().width,height:e.getBoundingClientRect().height})),{width:24,height:24});
+    const fellows=page.locator('.home-hero .btn-outline-light');
+    assert.equal(await fellows.evaluate(e=>getComputedStyle(e).color),'rgb(255, 255, 255)');
+    assert.equal(await fellows.evaluate(e=>getComputedStyle(e).borderTopStyle),'solid');
+    await page.screenshot({path:'artifacts/qa/navigation-and-hero.png'});
+    await fellows.hover();
+    await page.waitForFunction(()=>getComputedStyle(document.querySelector('.home-hero .btn-outline-light')).color==='rgb(6, 19, 37)');
+    assert.equal(await fellows.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(217, 238, 244)');
+    await page.mouse.move(0,900);await page.keyboard.press('Tab');await fellows.focus();
+    assert.equal(await fellows.evaluate(e=>e===document.activeElement),true);
+  });
   await scenario('published fonts, navigation, FAQ and bundled search',async({page})=>{
     await page.locator('[data-cookie-reject]').click();await page.evaluate(()=>document.fonts.ready);
     assert.match(await page.locator('h1').evaluate(e=>getComputedStyle(e).fontFamily),/Roboto Slab/);assert.match(await page.locator('body').evaluate(e=>getComputedStyle(e).fontFamily),/Roboto/);
