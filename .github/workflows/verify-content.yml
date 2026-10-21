@@ -27,6 +27,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run validate
+        id: validation
       - name: Build independent Jekyll migration baseline
         if: github.event.pull_request.base.sha == 'e92e989b6e850b3a9cd8fbb565edb7eba6d3a6f7'
         run: sudo apt-get update && sudo apt-get install -y libvips-dev
@@ -42,7 +43,9 @@ jobs:
           bundle exec jekyll build --source "$RUNNER_TEMP/krigsvold-base" --config "$RUNNER_TEMP/krigsvold-base/_config.yml" --destination "$RUNNER_TEMP/krigsvold-base-site"
           python3 scripts/compare-jekyll.py "$RUNNER_TEMP/krigsvold-base-site" dist
       - run: npx playwright install --with-deps chromium
+        if: ${{ !cancelled() && steps.validation.outcome == 'success' }}
       - run: npm run test:browser
+        if: ${{ !cancelled() && steps.validation.outcome == 'success' }}
       - name: Save review evidence
         if: always()
         uses: actions/upload-artifact@v4

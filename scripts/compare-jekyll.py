@@ -67,6 +67,7 @@ for old in sorted(before.rglob('*.html')):
         if a!=b:
             errors.append(f'{key} changed: /{rel}')
             if key=='main':
+                print('Legacy ordered lists:', re.findall(r'<ol[^>]*>[\s\S]*?</ol>',old.read_text()))
                 import difflib
                 print('\n'.join(difflib.unified_diff(a.split(),b.split(),fromfile='Jekyll '+rel,tofile='Astro '+rel,n=2))[:6000])
     for ref in original.links:
