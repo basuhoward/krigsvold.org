@@ -34,7 +34,7 @@ Review the final diff, run the repository-specific checks below and relevant bro
 
 - Canonical site: https://krigsvold.org/. This site represents the Secretariat of Krigsvold, not the House of Basu-Howard.
 - Astro static site; Node >=24, `@krigsvold/theme` and `@krigsvold/astro`. Do not add a root Gemfile or resurrect Ruby/Jekyll build detection.
-- Cloudflare Worker deploy uses `wrangler.jsonc` and built `dist/`; GitHub Pages workflow may exist as an additional pipeline. Verify active production before hosting changes.
+- Cloudflare Workers is the sole publishing target, configured by `wrangler.jsonc` and built `dist/`; `.github/workflows/verify-content.yml` retains pull-request checks. The retired GitHub Pages deployment workflow must not be restored without authorization. Its previous daily scheduled rebuild has no replacement yet; future-dated content requires a subsequent Cloudflare production build to appear. Verify active production before hosting changes.
 - Canonical sources include root Markdown, `_posts`, `_fellows`, `_positions`, `_data`; `src/lib/content.mjs` handles publishing. `AGENTS.md` has no page front matter and must never be published as a site page.
 - Maintain accurate Antarctic science, climate-impact citations, territorial descriptions, research support, fellowship/position descriptions, and measured claims. Do not conflate symbolism with sovereign authority.
 - Preserve canonical routes, source materials, search, privacy consent, images and accessibility.

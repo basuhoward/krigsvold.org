@@ -14,8 +14,9 @@ npm run validate
 npm run test:browser # first install Chromium: npx playwright install chromium
 ```
 
-Production output is `dist/`. Both GitHub Pages and Cloudflare build with
-Node and npm; Ruby, Bundler, and Jekyll are not required. Cloudflare settings:
+Production output is `dist/`. Cloudflare Workers is the production publisher,
+built with Node and npm; Ruby, Bundler, and Jekyll are not required. GitHub Actions
+continues to validate pull requests but no longer deploys to GitHub Pages. Cloudflare settings:
 
 - Build command: `npm ci && npm run build`
 - Deploy command: `npx wrangler deploy`
