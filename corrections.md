@@ -3,11 +3,22 @@ title: Corrections
 eyebrow: Editorial accountability
 description: Krigsvold records material corrections to its scientific, programmatic, and institutional claims.
 featured_image: /assets/img/south-pole-monitoring-station.webp
-last_reviewed: 2026-09-02
+last_reviewed: 2026-11-14
 ---
 
 Material corrections are recorded here. Quietly fixing a typo is sensible;
 quietly changing what a page claims is not.
+
+## November 14, 2026
+
+- **Maltese grant chronology.** The Heraldry page previously described the
+  February 16, 2024 Gazette entry as publication of the grant. Notice No. 231
+  announced the application and opened a 21-day period for representations.
+  Letters Patent G0102 followed on May 1, 2024. The page now distinguishes the
+  two documents and links to both.
+- **Rubin de la Borbolla blazon.** The published blazon omitted the tincture of
+  the three estoiles. It now specifies Or, matching the existing artwork;
+  the armorial design has not changed.
 
 ## September 2, 2026
 

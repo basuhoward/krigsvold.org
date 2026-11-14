@@ -3,7 +3,7 @@ title: Annual Record
 eyebrow: Accountability
 description: The annual record reports the Count of Krigsvold's fellowship awards, publications, activity, and priorities.
 featured_image: /assets/img/south-pole-monitoring-station.webp
-last_reviewed: 2026-09-02
+last_reviewed: 2026-11-14
 ---
 
 The annual record makes a small institution legible. It reports what Krigsvold
@@ -32,6 +32,20 @@ conservation assessments and penguin research, and an NSIDC analysis-continuity
 case study. The [dated update note](/news/2026/10/13/october-antarctic-science-update/)
 links to the revised sections. These are updates to existing briefings, not
 three additional publications or a new formal position.
+
+### November update — November 14, 2026
+
+[Polar Ecosystems](/endangered-ecosystems/#ccamlr-2026) adds an attributed account
+of the 2026 CCAMLR negotiations, while
+[Research and Response](/research-response/#suomi-npp-2026) documents the end of
+Suomi NPP data delivery and NOAA's designated replacement services. The
+[November update note](/news/2026/11/14/november-antarctic-and-fellowship-update/)
+records these revisions. They update two existing briefings and do not add a
+formal position or change the award totals.
+
+The [Fellowship page](/fellowship/#applications) now carries
+Westarctica's published 2027 schedule, beginning with applications opening on
+February 10. Research-outcome updates remain a priority for the next cycle.
 
 ## 2025
 

@@ -4,7 +4,7 @@ title: The Fellowship
 eyebrow: Graduate research grant
 description: The Count of Krigsvold Fellowship is an annual $1,000 award supporting graduate research in climate change and global conservation.
 featured_image: /assets/img/fellowship-banner.webp
-last_reviewed: 2026-09-02
+last_reviewed: 2026-11-14
 ---
 
 The Count of Krigsvold Fellowship is an annual **$1,000 grant** for graduate
@@ -50,8 +50,20 @@ See [Meet the Fellows](/fellows/) for full profiles and the
 
 ## Applications
 
-Application timing changes from year to year. Consult
-[Westarctica's Fellowship page](https://www.westarctica.org/conservation-scholarship)
-for the next cycle rather than relying on an old announcement. Questions about
-Krigsvold's sponsorship may be sent to
+### 2027 award schedule
+
+Applications are currently closed. Westarctica has published the following
+schedule for the 2027 award:
+
+| Milestone | Date |
+|:--|:--|
+| Applications open | February 10, 2027 |
+| Application deadline | April 10, 2027 |
+| Award notification | May 1, 2027 |
+| Funds disbursed | May 10, 2027 |
+
+These dates were checked against
+[Westarctica's official Fellowship page](https://www.westarctica.org/conservation-scholarship)
+on November 14, 2026. Consult that page for the application procedure and any
+subsequent changes. Questions about Krigsvold's sponsorship may be sent to
 [count@krigsvold.org](mailto:count@krigsvold.org).
