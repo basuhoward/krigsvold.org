@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { documents, posts, fellows, positions, redirects, markdown, plainText } from '../src/lib/content.mjs';
 test('every published source collection has a unique route and rendered content',()=>{
-  assert.equal(posts.length,5);assert.equal(fellows.length,2);assert.equal(positions.length,1);
+  assert.equal(posts.length,6);assert.equal(fellows.length,2);assert.equal(positions.length,1);
   assert.equal(new Set(documents.map(p=>p.route)).size,documents.length);
   for(const p of documents){assert.ok(p.title,p.file);assert.doesNotMatch(p.html,/\{%|\{\{/);if(p.layout!=='home')assert.ok(plainText(p.html).length>10,p.file);}
 });

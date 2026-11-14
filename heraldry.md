@@ -3,7 +3,7 @@ layout: page
 title: Heraldry
 description: This page documents the heraldic arms of the Count of Krigsvold, including personal arms granted by the Chief Herald of Arms of Malta and territorial arms for Krigsvold, Rubin de la Borbolla, and Matikonis.
 featured_image: /assets/img/heraldry.webp
-last_reviewed: 2026-09-02
+last_reviewed: 2026-11-14
 ---
 
 The Count of Krigsvold bears personal arms granted by the Chief Herald of
@@ -23,9 +23,13 @@ cap="Arms of the Count of Krigsvold"
 
 The personal arms of the Count are those of James P. Howard, II, granted under
 Letters Patent numbered G0102 by Count Charles Anthony Gauci, Chief Herald of
-Arms of Malta, on 1 May 2024. The grant was formally published in the *Gazzetta
-tal-Gvern ta' Malta*, issue 21,194, on 16 February 2024, and is registered at
-Fort Saint Elmo, Valletta. The arms have also been entered in the records of the
+Arms of Malta, on 1 May 2024. The earlier [Gazette notice](https://jameshoward.us/assets/docs/malta-government-gazette-20240216.pdf#page=8),
+No. 231 in the *Gazzetta tal-Gvern ta' Malta*, issue 21,194, dated 16 February
+2024, announced the application and opened a 21-day period for representations.
+It preceded the [Letters Patent](https://jameshoward.us/assets/docs/jhoward-malta-letters-patent.pdf),
+which issued on 1 May 2024; it was not publication of an already completed grant.
+The grant is recorded in the Archives of the Office of the Chief Herald of Arms
+of Malta under G0102/2024. The arms have also been entered in the records of the
 Committee on Heraldry of the New England Historic Genealogical Society, the
 American College of Heraldry, and the American Armigers Register.
 
@@ -106,11 +110,12 @@ cap="Arms of the County Rubin de la Borbolla"
 
 ### Rubin de la Borbolla
 
-> Gules, three estoiles of twelve in chief
+> Gules, three estoiles of twelve points Or in chief
 
 The arms of Rubin de la Borbolla are Gules, red, a field that in heraldic
 tradition signifies importance, urgency, and the call to attention. Three
-estoiles of twelve points are placed in chief, toward the top of the shield.
+estoiles Or, gold, each of twelve points, are placed in chief, toward the top
+of the shield.
 An estoile differs from a star in that its points are wavy rather than straight,
 giving it an appearance of radiance or emanation rather than fixed geometry.
 

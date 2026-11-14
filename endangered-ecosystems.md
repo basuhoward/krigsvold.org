@@ -4,7 +4,7 @@ title: Polar Ecosystems
 eyebrow: Antarctica briefing
 description: This briefing explains how changing sea ice, ocean conditions, and food-web timing affect krill, emperor penguins, seals, and other Antarctic life.
 featured_image: /assets/img/endangered-ecosystems-banner.webp
-last_reviewed: 2026-10-13
+last_reviewed: 2026-11-14
 ---
 
 Antarctic life is organized around timing. Sea ice advances and retreats;
@@ -97,6 +97,28 @@ chinstraps. **A proposed reassessment is not an adopted IUCN category.** This
 study does not establish that chinstraps have joined the emperor penguin in
 that category.
 
+## Marine protection after the 2026 CCAMLR meeting {#ccamlr-2026}
+
+The [Antarctic and Southern Ocean Coalition's October 31 account](https://www.asoc.org/news/ccamlr-2026-closing-press-release/)
+reports that the 2026 CCAMLR negotiations ended without agreement on proposed
+Southern Ocean marine protected areas or new precautionary krill-fishery
+measures. ASOC, a conservation coalition, also reports progress in discussions
+of the Antarctic Peninsula proposal and plans for further work between annual
+meetings. That account describes movement in negotiation, but no adopted
+protection from those proposals.
+
+The distinction matters for krill-dependent wildlife. A proposal cannot change
+where vessels fish until it becomes an operative rule. Krigsvold's assessment
+is that marine protection and precautionary fishery management need to advance
+together, with attention to the places and seasons where fishing overlaps with
+predator feeding. This is a policy judgment informed by the food-web pressures
+explained above. It does not imply that CCAMLR has abandoned existing rules or
+that every proposed protected area would prohibit every use.
+
+This section records the outcome reported as of November 14, 2026. ASOC's
+account is identified as a participant conservation perspective; it is not
+presented as the Commission's adopted meeting report.
+
 ## Acidification adds another pressure
 
 The ocean's absorption of carbon dioxide changes seawater chemistry. NOAA's
@@ -123,7 +145,7 @@ missing emperor-penguin groups moved or suffered major mortality, how the
 recent sea-ice extremes will evolve, and how interacting climate, disease,
 and fishing pressures will affect krill-dependent ecosystems.
 
-## Primary sources
+## Sources
 
 - [British Antarctic Survey: emperor-penguin breeding failure in 2022](https://www.bas.ac.uk/media-post/loss-of-sea-ice-causes-catastrophic-breeding-failure-for-emperor-penguins/)
 - [British Antarctic Survey: colony outcomes in 2023](https://www.bas.ac.uk/media-post/emperor-penguin-colonies-in-antarctica-suffer-as-sea-ice-diminishes/)
@@ -134,3 +156,5 @@ and fishing pressures will affect krill-dependent ecosystems.
 - [Ratcliffe et al.: Population declines and changes in community composition at the world's largest penguin colony — BAS abstract and publication record](https://www.bas.ac.uk/data/our-data/publication/population-declines-and-changes-in-community-composition-at-the-worlds-largest-penguin-colony/)
 - [CCAMLR: Krill biology, ecology and fishing](https://www.ccamlr.org/en/science/krill-%E2%80%93-biology-ecology-and-fishing)
 - [NOAA Ocean Acidification Program: What is ocean acidification?](https://oceanacidification.noaa.gov/what-is-ocean-acidification/)
+
+- [ASOC: October 31, 2026 closing account of CCAMLR negotiations — conservation coalition perspective](https://www.asoc.org/news/ccamlr-2026-closing-press-release/)

@@ -4,7 +4,7 @@ title: Research and Response
 eyebrow: Antarctica briefing
 description: This briefing explains the observing systems behind Antarctic climate knowledge, its limits, and the responses the evidence supports.
 featured_image: /assets/img/research-response-banner.webp
-last_reviewed: 2026-10-13
+last_reviewed: 2026-11-14
 ---
 
 Antarctic science is an exercise in assembling partial views. Satellites can
@@ -59,6 +59,27 @@ their work. This assessment describes the services documented on October 13,
 2026; it is not a claim about every NSIDC programme or a prediction of future
 funding.
 
+## Suomi NPP retires; the observing system must continue {#suomi-npp-2026}
+
+NOAA's [November 2 status notice](https://www.nesdis.noaa.gov/news/update-4-cessation-of-suomi-national-polar-orbiting-partnership-s-npp-data-users-november-02-2026-1540-utc-and-decommissioning-issued-november-2-2026-1800-utc)
+confirms that distribution of Suomi National Polar-orbiting Partnership
+(Suomi NPP) data ended that day at 15:40 UTC, when its High Rate Data
+transmission was also disabled. The notice directs users to NOAA-21 as the
+primary service and NOAA-20 as the secondary service, with complementary
+science products from similar instruments. It schedules deorbit activity for
+December; that future operation is separate from the completed end of data
+delivery.
+
+This is a transition between observing platforms, with replacements identified.
+For climate research, the practical question is how well successive instruments
+and products preserve a usable record. Users must check coverage, calibration,
+and processing differences when moving a workflow to another satellite.
+Krigsvold's infrastructure position therefore extends beyond keeping a
+particular spacecraft operating: continuity also requires documented transitions
+and support for the people who use the measurements. The retirement notice
+alone does not establish a gap in all polar observations or prove that every
+Suomi NPP product has an identical replacement.
+
 ## Models are not crystal balls
 
 A climate or ice-sheet model is an explicit set of physical relationships,
@@ -108,3 +129,5 @@ larger body of evidence.
 - [NSIDC: Sea Ice Today restart announcement, August 19, 2026](https://nsidc.org/sea-ice-today/analyses/nsidcs-analysis-site-sea-ice-today-returns)
 - [Scientific Committee on Antarctic Research](https://scar.org/)
 - [IPCC Sixth Assessment Report, Working Group I](https://www.ipcc.ch/report/ar6/wg1/)
+
+- [NOAA NESDIS: November 2, 2026 confirmation of Suomi NPP data-delivery cessation and replacement services](https://www.nesdis.noaa.gov/news/update-4-cessation-of-suomi-national-polar-orbiting-partnership-s-npp-data-users-november-02-2026-1540-utc-and-decommissioning-issued-november-2-2026-1800-utc)
